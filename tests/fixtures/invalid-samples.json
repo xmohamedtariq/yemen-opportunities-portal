@@ -1,0 +1,78 @@
+{
+  "schemaVersion": "1.0.0",
+  "lastUpdated": "2026-10-13",
+  "opportunities": [
+    {
+      "id": "invalid-fixture-001",
+      "type": "scholarship",
+      "title": {
+        "ar": "عنوان تجريبي غير صالح",
+        "en": "Invalid Sample 1"
+      },
+      "organization": {
+        "ar": "جهة مانحة",
+        "en": "Donor Org"
+      },
+      "country": {
+        "code": "ZZ",
+        "name": {
+          "ar": "دولة وهمية",
+          "en": "Fake Country"
+        }
+      },
+      "categories": [
+        "technology"
+      ],
+      "educationLevels": [
+        "bachelor"
+      ],
+      "fundingType": "fully-funded",
+      "deliveryMode": "in-person",
+      "languages": [
+        "ar"
+      ],
+      "applicationStatus": "open",
+      "deadline": {
+        "type": "fixed",
+        "date": "2026-11-30",
+        "notes": null
+      },
+      "shortDescription": null,
+      "eligibilityNote": null,
+      "officialSourceUrl": "http://insecure.example.org/scholarship",
+      "applicationUrl": null,
+      "verificationDate": "2026-12-31"
+    },
+    {
+      "id": "invalid-fixture-001",
+      "type": "scholarship",
+      "title": {
+        "ar": "English only text in Arabic title field",
+        "en": "Invalid Sample 2 (Duplicate ID and Bad Date)"
+      },
+      "organization": {
+        "ar": "جهة مانحة أخرى",
+        "en": "Another Org"
+      },
+      "country": null,
+      "categories": [
+        "astrology"
+      ],
+      "educationLevels": null,
+      "fundingType": null,
+      "deliveryMode": null,
+      "languages": null,
+      "applicationStatus": null,
+      "deadline": {
+        "type": "fixed",
+        "date": "2026-02-31",
+        "notes": null
+      },
+      "shortDescription": null,
+      "eligibilityNote": null,
+      "officialSourceUrl": "https://example.org/scholarship-2",
+      "applicationUrl": null,
+      "verificationDate": "2026-10-10"
+    }
+  ]
+}

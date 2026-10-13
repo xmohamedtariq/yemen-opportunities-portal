@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "1.0.0",
+  "lastUpdated": "2026-10-13",
+  "opportunities": [
+    {
+      "id": "sample-warning-001",
+      "type": "fellowship",
+      "title": {
+        "ar": "برنامج زمالة تجريبي لاختبار التحذيرات",
+        "en": "Sample Warning Fixture: Old Verification Date"
+      },
+      "organization": {
+        "ar": "مؤسسة اختبارية",
+        "en": "Testing Foundation"
+      },
+      "country": {
+        "code": "DE",
+        "name": {
+          "ar": "ألمانيا",
+          "en": "Germany"
+        }
+      },
+      "categories": [
+        "humanities"
+      ],
+      "educationLevels": [
+        "master",
+        "phd"
+      ],
+      "fundingType": "fully-funded",
+      "deliveryMode": "in-person",
+      "languages": [
+        "en"
+      ],
+      "applicationStatus": null,
+      "deadline": {
+        "type": "rolling",
+        "date": null,
+        "notes": null
+      },
+      "shortDescription": null,
+      "eligibilityNote": null,
+      "officialSourceUrl": "https://example.org/fellowship",
+      "applicationUrl": null,
+      "verificationDate": "2026-06-01"
+    },
+    {
+      "id": "sample-warning-002",
+      "type": "course",
+      "title": {
+        "ar": "دورة تجريبية لاختبار تناقض الحالة",
+        "en": "Sample Warning Fixture: Open Status with Passed Deadline"
+      },
+      "organization": {
+        "ar": "أكاديمية اختبارية",
+        "en": "Testing Academy"
+      },
+      "country": null,
+      "categories": [
+        "technology"
+      ],
+      "educationLevels": [
+        "open-to-all"
+      ],
+      "fundingType": "free",
+      "deliveryMode": "online",
+      "languages": [
+        "ar"
+      ],
+      "applicationStatus": "open",
+      "deadline": {
+        "type": "fixed",
+        "date": "2026-09-01",
+        "notes": null
+      },
+      "shortDescription": null,
+      "eligibilityNote": null,
+      "officialSourceUrl": "https://example.org/course",
+      "applicationUrl": null,
+      "verificationDate": "2026-10-10"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "schemaVersion": "1.0.0",
+  "lastUpdated": "2026-10-13",
+  "opportunities": [
+    {
+      "id": "sample-fixture-001",
+      "type": "scholarship",
+      "title": {
+        "ar": "عنوان تجريبي لمنحة دراسية (بيانات وهمية)",
+        "en": "Sample Fixture Scholarship (Test Only)"
+      },
+      "organization": {
+        "ar": "جهة تجريبية مانحة",
+        "en": "Sample Testing Organization"
+      },
+      "country": {
+        "code": "YE",
+        "name": {
+          "ar": "اليمن",
+          "en": "Yemen"
+        }
+      },
+      "categories": [
+        "technology",
+        "engineering"
+      ],
+      "educationLevels": [
+        "bachelor"
+      ],
+      "fundingType": "fully-funded",
+      "deliveryMode": "in-person",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "applicationStatus": "open",
+      "deadline": {
+        "type": "fixed",
+        "date": "2026-11-30",
+        "notes": {
+          "ar": "ملاحظات تجريبية للموعد",
+          "en": "Test deadline notes"
+        }
+      },
+      "shortDescription": {
+        "ar": "وصف تجريبي مخصص لاختبار أداة التحقق فقط ولا يمثل فرصة حقيقية.",
+        "en": "Test placeholder description strictly intended for validator testing."
+      },
+      "eligibilityNote": null,
+      "officialSourceUrl": "https://example.org/test-scholarship-announcement",
+      "applicationUrl": null,
+      "verificationDate": "2026-10-10"
+    }
+  ]
+}

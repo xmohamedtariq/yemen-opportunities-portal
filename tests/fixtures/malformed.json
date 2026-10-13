@@ -1,0 +1,11 @@
+{
+  "schemaVersion": "1.0.0",
+  "lastUpdated": "2026-10-13",
+  "opportunities": [
+    {
+      "id": "malformed-fixture-001",
+      "type": "scholarship"
+      "missing_comma": true
+    }
+  ]
+}
