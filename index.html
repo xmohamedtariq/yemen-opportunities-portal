@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="بوابة فرص اليمن — دليلك الموثوق للمنح الدراسية والدورات والتدريب للشباب اليمني">
+  <title id="pageTitle">بوابة فرص اليمن | فرص تعليمية ومهنية موثوقة</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Skip link for keyboard accessibility -->
+  <a href="#mainContent" class="skip-link" id="skipLink">انتقل إلى المحتوى الرئيسي</a>
+
+  <header class="site-header">
+    <div class="header-container">
+      <div class="header-brand">
+        <h1 id="siteTitle" class="site-title">بوابة فرص اليمن</h1>
+        <p id="siteSubtitle" class="site-subtitle">دليلك الموثوق للمنح الدراسية والدورات والفرص التدريبية والمهنية للشباب اليمني</p>
+      </div>
+      <div class="header-actions">
+        <button type="button" id="langToggle" class="btn btn-lang" aria-label="Switch language to English">
+          English
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="mainContent" class="main-content">
+    <div class="content-container">
+      <!-- Search & Filter Controls -->
+      <section class="controls-section" aria-labelledby="controlsHeading">
+        <div class="search-container">
+          <label for="searchInput" id="searchLabel" class="search-label">البحث عن فرصة</label>
+          <div class="search-input-wrapper">
+            <input
+              type="search"
+              id="searchInput"
+              class="search-input"
+              placeholder="ابحث بالكلمات المفتاحية (العنوان، الجهة، الوصف)..."
+              autocomplete="off"
+              spellcheck="false"
+            >
+            <button type="button" id="clearSearchBtn" class="clear-search-btn" aria-label="مسح البحث" hidden>&times;</button>
+          </div>
+        </div>
+
+        <div class="filters-card">
+          <div class="filters-header">
+            <h2 id="controlsHeading" class="filters-heading">تصفية الفرص</h2>
+            <button type="button" id="resetFiltersBtn" class="btn btn-secondary">إعادة ضبط الفلاتر</button>
+          </div>
+          <div class="filters-grid">
+            <div class="filter-group">
+              <label for="filterType" id="labelFilterType" class="filter-label">نوع الفرصة</label>
+              <select id="filterType" class="filter-select">
+                <option value="all">الكل</option>
+              </select>
+            </div>
+            <div class="filter-group">
+              <label for="filterCategory" id="labelFilterCategory" class="filter-label">المجال / التخصص</label>
+              <select id="filterCategory" class="filter-select">
+                <option value="all">الكل</option>
+              </select>
+            </div>
+            <div class="filter-group">
+              <label for="filterCountry" id="labelFilterCountry" class="filter-label">الدولة / النطاق</label>
+              <select id="filterCountry" class="filter-select">
+                <option value="all">الكل</option>
+              </select>
+            </div>
+            <div class="filter-group">
+              <label for="filterEdu" id="labelFilterEdu" class="filter-label">المستوى التعليمي</label>
+              <select id="filterEdu" class="filter-select">
+                <option value="all">الكل</option>
+              </select>
+            </div>
+            <div class="filter-group">
+              <label for="filterDelivery" id="labelFilterDelivery" class="filter-label">نمط الحضور</label>
+              <select id="filterDelivery" class="filter-select">
+                <option value="all">الكل</option>
+              </select>
+            </div>
+            <div class="filter-group">
+              <label for="filterFunding" id="labelFilterFunding" class="filter-label">نوع التمويل</label>
+              <select id="filterFunding" class="filter-select">
+                <option value="all">الكل</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Results Section -->
+      <section class="results-section" aria-labelledby="resultsHeading">
+        <h2 id="resultsHeading" class="sr-only">قائمة الفرص المتاحة</h2>
+        <div class="results-status-bar">
+          <div id="resultsCount" class="results-count" aria-live="polite">جاري تحميل الفرص...</div>
+        </div>
+
+        <!-- Opportunities Grid -->
+        <div id="opportunitiesContainer" class="opportunities-grid" role="region" aria-label="فرص العمل والتعليم"></div>
+
+        <!-- Empty State -->
+        <div id="emptyState" class="empty-state" hidden>
+          <div class="empty-state-icon" aria-hidden="true">🔍</div>
+          <h3 id="emptyTitle" class="empty-title">لا توجد نتائج مطابقة لخيارات البحث</h3>
+          <p id="emptyMessage" class="empty-message">جرب تعديل الكلمات المفتاحية أو إعادة ضبط الفلاتر للاطلاع على جميع الفرص المتاحة.</p>
+          <button type="button" id="emptyResetBtn" class="btn btn-primary">إعادة ضبط الفلاتر وعرض الكل</button>
+        </div>
+
+        <!-- Error State -->
+        <div id="errorState" class="error-state" hidden>
+          <div class="error-state-icon" aria-hidden="true">⚠️</div>
+          <h3 id="errorTitle" class="error-title">تعذر تحميل بيانات الفرص</h3>
+          <p id="errorMessage" class="error-message">يرجى التأكد من تشغيل الخادم المحلي أو التحقق من الاتصال وإعادة المحاولة.</p>
+          <button type="button" id="retryBtn" class="btn btn-primary">إعادة المحاولة</button>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-container">
+      <p id="footerText" class="footer-text">بوابة فرص اليمن — منصة تعليمية غير ربحية لخدمة الطلاب والشباب اليمني</p>
+    </div>
+  </footer>
+
+  <script src="js/translations.js"></script>
+  <script src="js/list.js"></script>
+</body>
+</html>
