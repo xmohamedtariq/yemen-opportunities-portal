@@ -1,5 +1,2342 @@
 {
   "schemaVersion": "1.0.0",
   "lastUpdated": "2026-10-13",
-  "opportunities": []
+  "opportunities": [
+    {
+      "id": "yop-2027-001",
+      "type": "scholarship",
+      "title": {
+        "ar": "منحة Reach Oxford لعام 2027",
+        "en": "Reach Oxford Scholarship 2027"
+      },
+      "organization": {
+        "ar": "جامعة أكسفورد",
+        "en": "University of Oxford"
+      },
+      "country": {
+        "code": "GB",
+        "name": {
+          "ar": "المملكة المتحدة",
+          "en": "United Kingdom"
+        }
+      },
+      "categories": [
+        "general"
+      ],
+      "educationLevels": [
+        "bachelor"
+      ],
+      "deadline": {
+        "type": "fixed",
+        "date": "2027-01-26",
+        "notes": {
+          "ar": "الموعد الساعة 12 ظهراً بتوقيت المملكة المتحدة؛ تفاصيل طلب منحة 2027 ستتاح في يناير 2027.",
+          "en": "Deadline is 12 noon UK time; 2027 scholarship application details will be published in January 2027."
+        }
+      },
+      "officialSourceUrl": "https://www.ox.ac.uk/admissions/undergraduate/fees-and-funding/oxford-bursaries-and-scholarships/reach-oxford",
+      "verificationDate": "2026-10-13",
+      "fundingType": "fully-funded",
+      "deliveryMode": "in-person",
+      "languages": null,
+      "applicationStatus": "upcoming",
+      "shortDescription": {
+        "ar": "منحة بكالوريوس للطلاب من الدول منخفضة الدخل، وتشمل رسوم الدراسة ومنحة للمعيشة وتذكرة سفر عودة سنوية.",
+        "en": "Undergraduate scholarship for students from low-income countries, covering course fees, a living grant, and one return airfare per year."
+      },
+      "applicationUrl": null,
+      "eligibilityNote": {
+        "ar": "اليمن مدرج صراحة ضمن الدول المؤهلة. يجب التقديم أولاً للقبول في أكسفورد واستيفاء معايير المنحة.",
+        "en": "Yemen is explicitly listed as eligible. Applicants must first apply for undergraduate admission to Oxford and meet the scholarship criteria."
+      }
+    },
+    {
+      "id": "yop-2027-002",
+      "type": "scholarship",
+      "title": {
+        "ar": "برنامج UBC للطلاب الدوليين المتميزين 2027",
+        "en": "UBC International Scholars Program 2027"
+      },
+      "organization": {
+        "ar": "جامعة كولومبيا البريطانية",
+        "en": "University of British Columbia"
+      },
+      "country": {
+        "code": "CA",
+        "name": {
+          "ar": "كندا",
+          "en": "Canada"
+        }
+      },
+      "categories": [
+        "general"
+      ],
+      "educationLevels": [
+        "bachelor"
+      ],
+      "deadline": {
+        "type": "fixed",
+        "date": "2026-11-15",
+        "notes": {
+          "ar": "تقديم طلب UBC وطلب الجائزة بحلول 15 نوفمبر 2026؛ صفحة المواعيد تحدد 11:59 مساءً PST.",
+          "en": "UBC admission and award application due November 15, 2026; the dates page specifies 11:59 p.m. PST."
+        }
+      },
+      "officialSourceUrl": "https://you.ubc.ca/financial-planning/scholarships-awards-international-students/international-scholars/",
+      "verificationDate": "2026-10-13",
+      "fundingType": null,
+      "deliveryMode": "in-person",
+      "languages": null,
+      "applicationStatus": "open",
+      "shortDescription": {
+        "ar": "برنامج منح قائم على التفوق والحاجة المالية للطلاب الدوليين المتقدمين لأول درجة بكالوريوس في UBC.",
+        "en": "Need-and-merit based award program for international students entering their first undergraduate degree at UBC."
+      },
+      "applicationUrl": null,
+      "eligibilityNote": {
+        "ar": "طالب دولي يدخل UBC مباشرة من مدرسة ثانوية معتمدة، لأول درجة بكالوريوس، مع تفوق أكاديمي وقيادة وحاجة مالية كبيرة.",
+        "en": "International student entering UBC directly from an accredited secondary school for a first undergraduate degree, with strong academics, leadership, and significant financial need."
+      }
+    },
+    {
+      "id": "yop-2027-003",
+      "type": "fellowship",
+      "title": {
+        "ar": "زمالة أكاديمية ينتشنغ 2027",
+        "en": "Yenching Academy Fellowship 2027"
+      },
+      "organization": {
+        "ar": "أكاديمية ينتشنغ بجامعة بكين",
+        "en": "Yenching Academy of Peking University"
+      },
+      "country": {
+        "code": "CN",
+        "name": {
+          "ar": "الصين",
+          "en": "China"
+        }
+      },
+      "categories": [
+        "humanities"
+      ],
+      "educationLevels": [
+        "master"
+      ],
+      "deadline": {
+        "type": "fixed",
+        "date": "2026-11-30",
+        "notes": {
+          "ar": "30 نوفمبر 2026 الساعة 09:00 صباحاً بتوقيت بكين.",
+          "en": "November 30, 2026 at 09:00 Beijing time."
+        }
+      },
+      "officialSourceUrl": "https://yenchingacademy.pku.edu.cn/ADMISSIONS.htm",
+      "verificationDate": "2026-10-13",
+      "fundingType": "fully-funded",
+      "deliveryMode": "in-person",
+      "languages": [
+        "en"
+      ],
+      "applicationStatus": "open",
+      "shortDescription": {
+        "ar": "زمالة ماجستير في دراسات الصين بجامعة بكين مع تغطية الرسوم والسكن ومخصص شهري وسفر ذهاب وعودة وتكاليف الدراسة الميدانية.",
+        "en": "Master’s fellowship in China Studies at Peking University covering tuition, accommodation, a monthly stipend, one round-trip fare, and field study costs."
+      },
+      "applicationUrl": null,
+      "eligibilityNote": {
+        "ar": "للمتقدمين الدوليين غير الصينيين؛ طلاب وخريجو الجامعات الشريكة يمرون أولاً بعملية الترشيح الداخلية لجامعتهم.",
+        "en": "For international non-Chinese citizens; students and alumni of partner universities must first complete their home university pre-selection process."
+      }
+    },
+    {
+      "id": "yop-2027-004",
+      "type": "scholarship",
+      "title": {
+        "ar": "قبول كاوست لخريف 2027 مع زمالة KAUST",
+        "en": "KAUST Fall 2027 Graduate Admission with KAUST Fellowship"
+      },
+      "organization": {
+        "ar": "جامعة الملك عبدالله للعلوم والتقنية (كاوست)",
+        "en": "King Abdullah University of Science and Technology (KAUST)"
+      },
+      "country": {
+        "code": "SA",
+        "name": {
+          "ar": "المملكة العربية السعودية",
+          "en": "Saudi Arabia"
+        }
+      },
+      "categories": [
+        "technology",
+        "engineering",
+        "health"
+      ],
+      "educationLevels": [
+        "master",
+        "phd"
+      ],
+      "deadline": {
+        "type": "fixed",
+        "date": "2027-01-03",
+        "notes": {
+          "ar": "موعد الجولة الثانية لخريف 2027: 3 يناير 2027.",
+          "en": "Fall 2027 Round 2 application deadline: January 3, 2027."
+        }
+      },
+      "officialSourceUrl": "https://admissions.kaust.edu.sa/how-to-apply/admission-timelines",
+      "verificationDate": "2026-10-13",
+      "fundingType": "fully-funded",
+      "deliveryMode": "in-person",
+      "languages": null,
+      "applicationStatus": "open",
+      "shortDescription": {
+        "ar": "قبول الدراسات العليا لخريف 2027 في كاوست لبرامج MS وMS/PhD وPhD، مع زمالة ممولة بالكامل للطلاب المقبولين وفق شروط الجامعة.",
+        "en": "Fall 2027 graduate admission for MS, MS/PhD and PhD programs at KAUST, with a fully funded KAUST Fellowship for admitted students subject to the university’s funding conditions."
+      },
+      "applicationUrl": null,
+      "eligibilityNote": {
+        "ar": "متاح للمتقدمين الدوليين المستوفين متطلبات برامج الدراسات العليا في كاوست؛ بعض حالات الرعاية الخارجية قد تؤثر على أهلية الزمالة.",
+        "en": "Open to international applicants meeting KAUST graduate admission requirements; some externally sponsored students may not be eligible for the fellowship."
+      }
+    },
+    {
+      "id": "yop-2027-005",
+      "type": "scholarship",
+      "title": {
+        "ar": "منحة أكسفورد–الشيخ محمد بن راشد آل مكتوم للدراسات العليا",
+        "en": "Oxford–Sheikh Mohammed bin Rashid Al Maktoum (MBRF) Graduate Scholarship"
+      },
+      "organization": {
+        "ar": "جامعة أكسفورد",
+        "en": "University of Oxford"
+      },
+      "country": {
+        "code": "GB",
+        "name": {
+          "ar": "المملكة المتحدة",
+          "en": "United Kingdom"
+        }
+      },
+      "categories": [
+        "general"
+      ],
+      "educationLevels": [
+        "master",
+        "phd"
+      ],
+      "deadline": {
+        "type": "unspecified",
+        "date": null,
+        "notes": {
+          "ar": "الموعد يعتمد على الموعد التمويلي لشهر ديسمبر/يناير للبرنامج الأكاديمي المختار؛ لا يوجد تاريخ واحد موحد في صفحة المنحة.",
+          "en": "Deadline follows the relevant December/January funding deadline for the chosen Oxford course; no single universal scholarship date is stated."
+        }
+      },
+      "officialSourceUrl": "https://www.ox.ac.uk/admissions/graduate/fees-and-funding/fees-funding-and-scholarship-search/scholarships-a-z-listing",
+      "verificationDate": "2026-10-13",
+      "fundingType": "fully-funded",
+      "deliveryMode": "in-person",
+      "languages": null,
+      "applicationStatus": null,
+      "shortDescription": {
+        "ar": "منحة دراسات عليا في أكسفورد لمواطني ومقيمي مجموعة من الدول العربية ومنها اليمن، لبرامج الماجستير والدكتوراه الكاملة باستثناء MBA.",
+        "en": "Oxford graduate scholarship for nationals and ordinary residents of selected Arab countries, including Yemen, for full-time Master’s and DPhil courses except the MBA."
+      },
+      "applicationUrl": null,
+      "eligibilityNote": {
+        "ar": "اليمن مذكور صراحة. يجب أن يكون المتقدم مواطناً ومقيماً عادةً في دولة مؤهلة وأن ينوي العودة إليها بعد الدراسة.",
+        "en": "Yemen is explicitly listed. Applicants must be nationals of and ordinarily resident in an eligible country and intend to return after study."
+      }
+    },
+    {
+      "id": "yop-2027-006",
+      "type": "scholarship",
+      "title": {
+        "ar": "منح مركز أكسفورد للدراسات الإسلامية (OCIS) 2027",
+        "en": "Oxford Centre for Islamic Studies (OCIS) Scholarships 2027"
+      },
+      "organization": {
+        "ar": "جامعة أكسفورد",
+        "en": "University of Oxford"
+      },
+      "country": {
+        "code": "GB",
+        "name": {
+          "ar": "المملكة المتحدة",
+          "en": "United Kingdom"
+        }
+      },
+      "categories": [
+        "general"
+      ],
+      "educationLevels": [
+        "master",
+        "phd"
+      ],
+      "deadline": {
+        "type": "unspecified",
+        "date": null,
+        "notes": {
+          "ar": "الموعد هو موعد ديسمبر/يناير ذي الصلة بالبرنامج المختار في أكسفورد.",
+          "en": "Deadline is the relevant December/January deadline for the chosen Oxford course."
+        }
+      },
+      "officialSourceUrl": "https://www.ox.ac.uk/admissions/graduate/fees-and-funding/fees-funding-and-scholarship-search/oxford-centre-islamic-studies-ocis-scholarships",
+      "verificationDate": "2026-10-13",
+      "fundingType": "fully-funded",
+      "deliveryMode": "in-person",
+      "languages": null,
+      "applicationStatus": null,
+      "shortDescription": {
+        "ar": "منح ماجستير ودكتوراه كاملة في أكسفورد تغطي 100% من رسوم الدراسة ومنحة للمعيشة، ومتاحة لمواطني ومقيمي دول مؤهلة تشمل اليمن.",
+        "en": "Full-time Oxford Master’s and DPhil scholarships covering 100% of course fees plus a living-cost grant, available to eligible countries including Yemen."
+      },
+      "applicationUrl": null,
+      "eligibilityNote": {
+        "ar": "يجب أن يكون المتقدم مواطناً ومقيماً عادةً في دولة مؤهلة مثل اليمن، وأن يتقدم لبرنامج ماجستير أو DPhil كامل وأن ينوي العودة لبلد الإقامة.",
+        "en": "Applicant must be a national of and ordinarily resident in an eligible country such as Yemen, apply for a new full-time Master’s or DPhil, and intend to return to the country of residence."
+      }
+    },
+    {
+      "id": "yop-2027-007",
+      "type": "scholarship",
+      "title": {
+        "ar": "منحة/مساعدات Mundus MAPP للدفعة 2027–2029",
+        "en": "Mundus MAPP Financial Aid 2027–2029"
+      },
+      "organization": {
+        "ar": "اتحاد Mundus MAPP",
+        "en": "Mundus MAPP Consortium"
+      },
+      "country": null,
+      "categories": [
+        "business",
+        "humanities"
+      ],
+      "educationLevels": [
+        "master"
+      ],
+      "deadline": {
+        "type": "fixed",
+        "date": "2026-12-01",
+        "notes": {
+          "ar": "1 ديسمبر 2026 الساعة 23:59 بتوقيت وسط أوروبا (CET).",
+          "en": "December 1, 2026 at 23:59 Central European Time (CET)."
+        }
+      },
+      "officialSourceUrl": "https://www.mundusmapp.org/admissions-calendar/",
+      "verificationDate": "2026-10-13",
+      "fundingType": null,
+      "deliveryMode": "in-person",
+      "languages": null,
+      "applicationStatus": "open",
+      "shortDescription": {
+        "ar": "برنامج ماجستير دولي في السياسات العامة يتيح التقديم للمساعدات المالية ومنحة Erasmus Mundus وفق الجدارة.",
+        "en": "International public policy master’s programme offering financial-aid consideration, including Erasmus Mundus scholarship selection based on merit."
+      },
+      "applicationUrl": null,
+      "eligibilityNote": {
+        "ar": "يجب استيفاء شروط القبول في Mundus MAPP وإرسال الطلب بحلول موعد المساعدات المالية.",
+        "en": "Applicants must meet Mundus MAPP admission criteria and submit by the financial-aid deadline."
+      }
+    },
+    {
+      "id": "yop-2027-008",
+      "type": "scholarship",
+      "title": {
+        "ar": "برنامج EMMIR إصدار 14 (2027–2029)",
+        "en": "EMMIR Edition 14 (2027–2029) Scholarship Application"
+      },
+      "organization": {
+        "ar": "اتحاد EMMIR",
+        "en": "EMMIR Consortium"
+      },
+      "country": null,
+      "categories": [
+        "humanities"
+      ],
+      "educationLevels": [
+        "master"
+      ],
+      "deadline": {
+        "type": "fixed",
+        "date": "2026-12-20",
+        "notes": {
+          "ar": "20 ديسمبر 2026 الساعة 23:59 CET للمتقدمين للمنحة والأماكن غير المدفوعة الرسوم.",
+          "en": "December 20, 2026 at 23:59 CET for scholarship and non-fee-paying applicants."
+        }
+      },
+      "officialSourceUrl": "https://www.emmir.org/application-procedures",
+      "verificationDate": "2026-10-13",
+      "fundingType": null,
+      "deliveryMode": "in-person",
+      "languages": [
+        "en"
+      ],
+      "applicationStatus": "open",
+      "shortDescription": {
+        "ar": "ماجستير أوروبي في الهجرة والعلاقات بين الثقافات؛ التقديم للمنح والأماكن غير المدفوعة الرسوم مفتوح للدفعة 2027–2029.",
+        "en": "European master’s in Migration and Intercultural Relations; scholarship and non-fee-paying applications are open for the 2027–2029 cohort."
+      },
+      "applicationUrl": null,
+      "eligibilityNote": {
+        "ar": "يتطلب درجة أولى ذات صلة مثل العلوم الاجتماعية أو التاريخ أو القانون أو الاقتصاد أو دراسات التنمية أو الصحافة، إضافة إلى متطلبات البرنامج.",
+        "en": "Requires a relevant first degree such as social sciences, history, law, economics, development studies or journalism, plus the programme’s other entry requirements."
+      }
+    },
+    {
+      "id": "yop-2027-009",
+      "type": "scholarship",
+      "title": {
+        "ar": "منحة Erasmus Mundus للصحافة والإعلام والعولمة 2027–2029",
+        "en": "Mundus Journalism Erasmus Mundus Scholarship 2027–2029"
+      },
+      "organization": {
+        "ar": "اتحاد Mundus Journalism",
+        "en": "Mundus Journalism Consortium"
+      },
+      "country": null,
+      "categories": [
+        "humanities"
+      ],
+      "educationLevels": [
+        "master"
+      ],
+      "deadline": {
+        "type": "fixed",
+        "date": "2027-01-10",
+        "notes": {
+          "ar": "يفتح التقديم 1 نوفمبر 2026 ويغلق 10 يناير 2027 الساعة 13:00 CET.",
+          "en": "Application opens November 1, 2026 and closes January 10, 2027 at 13:00 CET."
+        }
+      },
+      "officialSourceUrl": "https://mundusjournalism.com/admissions/application-process",
+      "verificationDate": "2026-10-13",
+      "fundingType": "fully-funded",
+      "deliveryMode": "in-person",
+      "languages": null,
+      "applicationStatus": "upcoming",
+      "shortDescription": {
+        "ar": "ماجستير Erasmus Mundus في الصحافة والإعلام والعولمة، مع 10–15 منحة متوقعة تغطي الرسوم وتكاليف المعيشة للبرنامج الكامل.",
+        "en": "Erasmus Mundus master’s in Journalism, Media and Globalisation, with 10–15 expected scholarships covering tuition and living costs for the full programme."
+      },
+      "applicationUrl": null,
+      "eligibilityNote": {
+        "ar": "مفتوح للمتقدمين من جميع الجنسيات ممن سيكملون درجة البكالوريوس قبل بدء البرنامج ويستوفون شروط القبول.",
+        "en": "Open to applicants of all nationalities who will complete a bachelor’s degree before the programme starts and meet admission requirements."
+      }
+    },
+    {
+      "id": "yop-2027-010",
+      "type": "scholarship",
+      "title": {
+        "ar": "منحة Erasmus Mundus لبرنامج Europubhealth+ 2027–2029",
+        "en": "Europubhealth+ Erasmus Mundus Scholarship 2027–2029"
+      },
+      "organization": {
+        "ar": "اتحاد Europubhealth+",
+        "en": "Europubhealth+ Consortium"
+      },
+      "country": null,
+      "categories": [
+        "health"
+      ],
+      "educationLevels": [
+        "master"
+      ],
+      "deadline": {
+        "type": "fixed",
+        "date": "2027-01-08",
+        "notes": {
+          "ar": "8 يناير 2027 الساعة 13:00 CET للمتقدمين لمنحة Erasmus Mundus.",
+          "en": "January 8, 2027 at 13:00 CET for Erasmus Mundus scholarship applicants."
+        }
+      },
+      "officialSourceUrl": "https://www.europubhealth.org/application-procedure/",
+      "verificationDate": "2026-10-13",
+      "fundingType": null,
+      "deliveryMode": "in-person",
+      "languages": null,
+      "applicationStatus": "open",
+      "shortDescription": {
+        "ar": "برنامج ماجستير أوروبي في الصحة العامة؛ فُتح التقديم لدفعة 2027 مع موعد منفصل للمتقدمين لمنحة Erasmus Mundus.",
+        "en": "European public health master’s programme; applications for the 2027 intake are open with a dedicated Erasmus Mundus scholarship deadline."
+      },
+      "applicationUrl": null,
+      "eligibilityNote": {
+        "ar": "يجب استيفاء شروط القبول واللغة الخاصة بمسار Europubhealth+ المختار.",
+        "en": "Applicants must meet the admission and language requirements of their selected Europubhealth+ pathway."
+      }
+    },
+    {
+      "id": "yop-2027-011",
+      "type": "scholarship",
+      "title": {
+        "ar": "منحة Euroculture Erasmus Mundus 2027–2029",
+        "en": "Euroculture Erasmus Mundus Scholarship 2027–2029"
+      },
+      "organization": {
+        "ar": "اتحاد Euroculture EMJM",
+        "en": "Euroculture EMJM Consortium"
+      },
+      "country": null,
+      "categories": [
+        "humanities"
+      ],
+      "educationLevels": [
+        "master"
+      ],
+      "deadline": {
+        "type": "fixed",
+        "date": "2027-01-15",
+        "notes": {
+          "ar": "تفتح دفعة 2027–2029 في 15 أكتوبر 2026؛ موعد المنحة 15 يناير 2027.",
+          "en": "The 2027–2029 intake opens October 15, 2026; scholarship deadline is January 15, 2027."
+        }
+      },
+      "officialSourceUrl": "https://www.euroculturemaster.eu/online-application-tool",
+      "verificationDate": "2026-10-13",
+      "fundingType": null,
+      "deliveryMode": "in-person",
+      "languages": null,
+      "applicationStatus": "upcoming",
+      "shortDescription": {
+        "ar": "برنامج ماجستير Erasmus Mundus متعدد الجامعات في الثقافة والمجتمع الأوروبي، مع عودة منح Erasmus Mundus لدفعة 2027–2029.",
+        "en": "Multi-university Erasmus Mundus master’s in European culture and society, with Erasmus Mundus scholarships offered again for the 2027–2029 intake."
+      },
+      "applicationUrl": null,
+      "eligibilityNote": {
+        "ar": "يجب استيفاء شروط القبول في Euroculture وتقديم الملف الكامل بحلول موعد المنحة.",
+        "en": "Applicants must meet Euroculture admission requirements and submit a complete dossier by the scholarship deadline."
+      }
+    },
+    {
+      "id": "yop-2027-012",
+      "type": "scholarship",
+      "title": {
+        "ar": "برنامج GrEnFIn Erasmus Mundus 2027–2028",
+        "en": "GrEnFIn Erasmus Mundus 2027–2028"
+      },
+      "organization": {
+        "ar": "اتحاد GrEnFIn EMJM",
+        "en": "GrEnFIn EMJM Consortium"
+      },
+      "country": null,
+      "categories": [
+        "engineering",
+        "business"
+      ],
+      "educationLevels": [
+        "master"
+      ],
+      "deadline": {
+        "type": "fixed",
+        "date": "2027-01-07",
+        "notes": {
+          "ar": "يفتح 14 أكتوبر 2026 الساعة 11:00 CET ويغلق 7 يناير 2027 الساعة 11:00 CET.",
+          "en": "Opens October 14, 2026 at 11:00 CET and closes January 7, 2027 at 11:00 CET."
+        }
+      },
+      "officialSourceUrl": "https://greening-energy-market-finance-emjm.eu/application",
+      "verificationDate": "2026-10-13",
+      "fundingType": null,
+      "deliveryMode": "in-person",
+      "languages": [
+        "en"
+      ],
+      "applicationStatus": "upcoming",
+      "shortDescription": {
+        "ar": "ماجستير Erasmus Mundus حول تخضير أسواق الطاقة والتمويل، متاح لمتقدمي الاتحاد الأوروبي وخارجه.",
+        "en": "Erasmus Mundus master’s focused on greening energy markets and finance, open to EU and non-EU candidates."
+      },
+      "applicationUrl": null,
+      "eligibilityNote": {
+        "ar": "يتطلب خلفية أكاديمية مؤهلة وفق إشعار القبول، مع متطلبات اللغة الإنجليزية والمستندات المحددة.",
+        "en": "Applicants need an eligible academic background under the admission notice, together with the specified English-language and document requirements."
+      }
+    },
+    {
+      "id": "yop-2027-013",
+      "type": "scholarship",
+      "title": {
+        "ar": "منحة Erasmus Mundus لماجستير القانون الدولي للأمن والسلام والتنمية المستدامة",
+        "en": "ILSPSD Erasmus Mundus Scholarship 2027–2029"
+      },
+      "organization": {
+        "ar": "اتحاد ILSPSD Erasmus Mundus",
+        "en": "ILSPSD Erasmus Mundus Consortium"
+      },
+      "country": null,
+      "categories": [
+        "humanities"
+      ],
+      "educationLevels": [
+        "master"
+      ],
+      "deadline": {
+        "type": "fixed",
+        "date": "2027-01-04",
+        "notes": {
+          "ar": "4 يناير 2027 الساعة 23:59 CET للمنحة.",
+          "en": "January 4, 2027 at 23:59 CET for scholarship applications."
+        }
+      },
+      "officialSourceUrl": "https://master-international-law-erasmusmundus.eu/",
+      "verificationDate": "2026-10-13",
+      "fundingType": null,
+      "deliveryMode": "in-person",
+      "languages": [
+        "en"
+      ],
+      "applicationStatus": "open",
+      "shortDescription": {
+        "ar": "ماجستير مشترك في القانون الدولي للأمن والسلام والتنمية المستدامة؛ منصة منحة EMJM مفتوحة للدفعة 2027–2029.",
+        "en": "Joint master’s in International Law of Security, Peace and Sustainable Development; EMJM scholarship applications are open for the 2027–2029 intake."
+      },
+      "applicationUrl": null,
+      "eligibilityNote": {
+        "ar": "يجب استيفاء متطلبات المسار الأكاديمي وإثبات اللغة الإنجليزية؛ بعض المسارات تتطلب الفرنسية أيضاً.",
+        "en": "Applicants must meet academic track requirements and English proficiency requirements; some tracks also require French."
+      }
+    },
+    {
+      "id": "yop-2027-014",
+      "type": "scholarship",
+      "title": {
+        "ar": "منحة NOHA Erasmus Mundus للعمل الإنساني 2027–2029",
+        "en": "NOHA Erasmus Mundus Scholarship 2027–2029"
+      },
+      "organization": {
+        "ar": "شبكة NOHA للعمل الإنساني",
+        "en": "NOHA Network on Humanitarian Action"
+      },
+      "country": null,
+      "categories": [
+        "humanities"
+      ],
+      "educationLevels": [
+        "master"
+      ],
+      "deadline": {
+        "type": "fixed",
+        "date": "2026-12-15",
+        "notes": {
+          "ar": "15 ديسمبر 2026 الساعة 23:59 GMT لطلبات منحة Erasmus Mundus.",
+          "en": "December 15, 2026 at 23:59 GMT for Erasmus Mundus grant applications."
+        }
+      },
+      "officialSourceUrl": "https://www.nohanet.org/en/masters",
+      "verificationDate": "2026-10-13",
+      "fundingType": null,
+      "deliveryMode": "in-person",
+      "languages": null,
+      "applicationStatus": "open",
+      "shortDescription": {
+        "ar": "ماجستير دولي في العمل الإنساني من شبكة NOHA، مع منحة Erasmus Mundus للدفعة 2027–2029.",
+        "en": "International Master in Humanitarian Action offered by the NOHA network, with Erasmus Mundus scholarship applications for the 2027–2029 cohort."
+      },
+      "applicationUrl": null,
+      "eligibilityNote": {
+        "ar": "لطلب المنحة يجب إكمال درجة البكالوريوس قبل 15 ديسمبر 2026 واستيفاء متطلبات القبول واللغة والمسار.",
+        "en": "For the scholarship, applicants must have completed their bachelor’s degree by December 15, 2026 and meet the programme’s admission and language requirements."
+      }
+    },
+    {
+      "id": "yop-2027-015",
+      "type": "scholarship",
+      "title": {
+        "ar": "منحة Neurasmus Erasmus Mundus في علوم الأعصاب 2027–2029",
+        "en": "Neurasmus Erasmus Mundus Scholarship 2027–2029"
+      },
+      "organization": {
+        "ar": "اتحاد Neurasmus بجامعة بوردو وشركائها",
+        "en": "Neurasmus Consortium (University of Bordeaux and partners)"
+      },
+      "country": null,
+      "categories": [
+        "health"
+      ],
+      "educationLevels": [
+        "master"
+      ],
+      "deadline": {
+        "type": "fixed",
+        "date": "2026-12-01",
+        "notes": {
+          "ar": "يفتح 1 سبتمبر 2026 الساعة 08:00 ويغلق 1 ديسمبر 2026 الساعة 12:00 بتوقيت أوروبا/باريس.",
+          "en": "Opens September 1, 2026 at 08:00 and closes December 1, 2026 at 12:00 Europe/Paris time."
+        }
+      },
+      "officialSourceUrl": "https://www.neurasmus.u-bordeaux.fr/admission/key-dates-admission/",
+      "verificationDate": "2026-10-13",
+      "fundingType": null,
+      "deliveryMode": "in-person",
+      "languages": [
+        "en"
+      ],
+      "applicationStatus": "open",
+      "shortDescription": {
+        "ar": "ماجستير Erasmus Mundus أوروبي في علوم الأعصاب، ومنح EMJM متاحة للدفعة 2027–2029.",
+        "en": "European Erasmus Mundus master’s in neuroscience with EMJM scholarships for the 2027–2029 cohort."
+      },
+      "applicationUrl": null,
+      "eligibilityNote": {
+        "ar": "المنح مفتوحة لطلاب التعليم العالي من جميع أنحاء العالم؛ يجب استيفاء الخلفية الأكاديمية ومتطلبات البرنامج.",
+        "en": "Scholarships are open to higher-education students worldwide; applicants must meet the programme’s academic requirements."
+      }
+    },
+    {
+      "id": "yop-2027-016",
+      "type": "scholarship",
+      "title": {
+        "ar": "منحة MIPDaL Erasmus Mundus للملكية الفكرية وقانون البيانات 2027/2028",
+        "en": "MIPDaL Erasmus Mundus Scholarship 2027/2028"
+      },
+      "organization": {
+        "ar": "اتحاد MIPDaL",
+        "en": "MIPDaL Consortium"
+      },
+      "country": null,
+      "categories": [
+        "humanities",
+        "technology"
+      ],
+      "educationLevels": [
+        "master"
+      ],
+      "deadline": {
+        "type": "fixed",
+        "date": "2027-01-15",
+        "notes": {
+          "ar": "صفحة القبول تحدد 15 يناير 2027 لحاملي المنح والمتقدمين المبكرين.",
+          "en": "The admission page sets January 15, 2027 for scholarship holders and early-bird applicants."
+        }
+      },
+      "officialSourceUrl": "https://mipdal.eu/admission/",
+      "verificationDate": "2026-10-13",
+      "fundingType": null,
+      "deliveryMode": "in-person",
+      "languages": null,
+      "applicationStatus": "open",
+      "shortDescription": {
+        "ar": "ماجستير دولي في الملكية الفكرية وقانون البيانات؛ الموعد المبكر المعلن لحاملي المنح هو 15 يناير 2027.",
+        "en": "International master’s in Intellectual Property and Data Law; the published scholarship-holder/early-bird deadline is January 15, 2027."
+      },
+      "applicationUrl": null,
+      "eligibilityNote": {
+        "ar": "يتطلب عادةً مؤهلاً يعادل 240 ECTS في القانون أو مجال قانوني ذي صلة، مع متطلبات لغة ومسار محددة.",
+        "en": "Generally requires a qualifying 240-ECTS degree in law or a law-related field, plus the specified language and track requirements."
+      }
+    },
+    {
+      "id": "yop-2026-017",
+      "type": "internship",
+      "title": {
+        "ar": "تدريب - الدوائر/قاعدة بيانات السوابق القضائية",
+        "en": "Internship - Chambers/Case Law Database"
+      },
+      "organization": {
+        "ar": "المحكمة الجنائية الدولية",
+        "en": "International Criminal Court"
+      },
+      "country": {
+        "code": "NL",
+        "name": {
+          "ar": "هولندا",
+          "en": "Netherlands"
+        }
+      },
+      "categories": [
+        "humanities",
+        "technology"
+      ],
+      "educationLevels": [
+        "bachelor",
+        "master",
+        "fresh-graduate"
+      ],
+      "deadline": {
+        "type": "fixed",
+        "date": "2026-12-31",
+        "notes": {
+          "ar": "31 ديسمبر 2026؛ المحكمة توضح أن إغلاق التقديم يُحسب بتوقيت لاهاي.",
+          "en": "December 31, 2026; the Court states that application closing time is determined by The Hague time."
+        }
+      },
+      "officialSourceUrl": "https://www.icc-cpi.int/jobs/internships-and-visiting-professionals",
+      "verificationDate": "2026-10-13",
+      "fundingType": null,
+      "deliveryMode": "in-person",
+      "languages": null,
+      "applicationStatus": "open",
+      "shortDescription": {
+        "ar": "فرصة تدريب لدى المحكمة الجنائية الدولية في لاهاي ضمن الدوائر/قاعدة بيانات السوابق القضائية.",
+        "en": "Internship opportunity at the International Criminal Court in The Hague within Chambers/Case Law Database."
+      },
+      "applicationUrl": null,
+      "eligibilityNote": {
+        "ar": "برنامج التدريب موجه لطلاب السنة الجامعية النهائية أو طلاب الدراسات العليا أو الخريجين الجدد، مع أقل من ثلاث سنوات من الخبرة المهنية ذات الصلة. المتقدمون من دول غير أطراف مؤهلون ما لم تنص الوظيفة على خلاف ذلك.",
+        "en": "Internship programme targets final-year undergraduate students, graduate students or recent graduates with less than three years of relevant professional experience. Candidates from non-State Parties are eligible unless the vacancy states otherwise."
+      }
+    },
+    {
+      "id": "yop-2026-018",
+      "type": "internship",
+      "title": {
+        "ar": "تدريب - الدوائر",
+        "en": "Internship - Chambers"
+      },
+      "organization": {
+        "ar": "المحكمة الجنائية الدولية",
+        "en": "International Criminal Court"
+      },
+      "country": {
+        "code": "NL",
+        "name": {
+          "ar": "هولندا",
+          "en": "Netherlands"
+        }
+      },
+      "categories": [
+        "humanities"
+      ],
+      "educationLevels": [
+        "bachelor",
+        "master",
+        "fresh-graduate"
+      ],
+      "deadline": {
+        "type": "fixed",
+        "date": "2026-12-31",
+        "notes": {
+          "ar": "31 ديسمبر 2026؛ المحكمة توضح أن إغلاق التقديم يُحسب بتوقيت لاهاي.",
+          "en": "December 31, 2026; the Court states that application closing time is determined by The Hague time."
+        }
+      },
+      "officialSourceUrl": "https://www.icc-cpi.int/jobs/internships-and-visiting-professionals",
+      "verificationDate": "2026-10-13",
+      "fundingType": null,
+      "deliveryMode": "in-person",
+      "languages": null,
+      "applicationStatus": "open",
+      "shortDescription": {
+        "ar": "فرصة تدريب لدى المحكمة الجنائية الدولية في لاهاي ضمن الدوائر.",
+        "en": "Internship opportunity at the International Criminal Court in The Hague within Chambers."
+      },
+      "applicationUrl": null,
+      "eligibilityNote": {
+        "ar": "برنامج التدريب موجه لطلاب السنة الجامعية النهائية أو طلاب الدراسات العليا أو الخريجين الجدد، مع أقل من ثلاث سنوات من الخبرة المهنية ذات الصلة. المتقدمون من دول غير أطراف مؤهلون ما لم تنص الوظيفة على خلاف ذلك.",
+        "en": "Internship programme targets final-year undergraduate students, graduate students or recent graduates with less than three years of relevant professional experience. Candidates from non-State Parties are eligible unless the vacancy states otherwise."
+      }
+    },
+    {
+      "id": "yop-2026-019",
+      "type": "internship",
+      "title": {
+        "ar": "تدريب - الأرشيف والإرث المؤسسي",
+        "en": "Internship - Archives and Legacy"
+      },
+      "organization": {
+        "ar": "المحكمة الجنائية الدولية",
+        "en": "International Criminal Court"
+      },
+      "country": {
+        "code": "NL",
+        "name": {
+          "ar": "هولندا",
+          "en": "Netherlands"
+        }
+      },
+      "categories": [
+        "humanities"
+      ],
+      "educationLevels": [
+        "bachelor",
+        "master",
+        "fresh-graduate"
+      ],
+      "deadline": {
+        "type": "fixed",
+        "date": "2026-12-31",
+        "notes": {
+          "ar": "31 ديسمبر 2026؛ المحكمة توضح أن إغلاق التقديم يُحسب بتوقيت لاهاي.",
+          "en": "December 31, 2026; the Court states that application closing time is determined by The Hague time."
+        }
+      },
+      "officialSourceUrl": "https://www.icc-cpi.int/jobs/internships-and-visiting-professionals",
+      "verificationDate": "2026-10-13",
+      "fundingType": null,
+      "deliveryMode": "in-person",
+      "languages": null,
+      "applicationStatus": "open",
+      "shortDescription": {
+        "ar": "فرصة تدريب لدى المحكمة الجنائية الدولية في لاهاي ضمن الأرشيف والإرث المؤسسي.",
+        "en": "Internship opportunity at the International Criminal Court in The Hague within Archives and Legacy."
+      },
+      "applicationUrl": null,
+      "eligibilityNote": {
+        "ar": "برنامج التدريب موجه لطلاب السنة الجامعية النهائية أو طلاب الدراسات العليا أو الخريجين الجدد، مع أقل من ثلاث سنوات من الخبرة المهنية ذات الصلة. المتقدمون من دول غير أطراف مؤهلون ما لم تنص الوظيفة على خلاف ذلك.",
+        "en": "Internship programme targets final-year undergraduate students, graduate students or recent graduates with less than three years of relevant professional experience. Candidates from non-State Parties are eligible unless the vacancy states otherwise."
+      }
+    },
+    {
+      "id": "yop-2026-020",
+      "type": "internship",
+      "title": {
+        "ar": "تدريب - مكتب إدارة المعلومات - مشروع الترحيل",
+        "en": "Internship - Information Management Office - Migration Project"
+      },
+      "organization": {
+        "ar": "المحكمة الجنائية الدولية",
+        "en": "International Criminal Court"
+      },
+      "country": {
+        "code": "NL",
+        "name": {
+          "ar": "هولندا",
+          "en": "Netherlands"
+        }
+      },
+      "categories": [
+        "technology"
+      ],
+      "educationLevels": [
+        "bachelor",
+        "master",
+        "fresh-graduate"
+      ],
+      "deadline": {
+        "type": "fixed",
+        "date": "2026-12-31",
+        "notes": {
+          "ar": "31 ديسمبر 2026؛ المحكمة توضح أن إغلاق التقديم يُحسب بتوقيت لاهاي.",
+          "en": "December 31, 2026; the Court states that application closing time is determined by The Hague time."
+        }
+      },
+      "officialSourceUrl": "https://www.icc-cpi.int/jobs/internships-and-visiting-professionals",
+      "verificationDate": "2026-10-13",
+      "fundingType": null,
+      "deliveryMode": "in-person",
+      "languages": null,
+      "applicationStatus": "open",
+      "shortDescription": {
+        "ar": "فرصة تدريب لدى المحكمة الجنائية الدولية في لاهاي ضمن مكتب إدارة المعلومات - مشروع الترحيل.",
+        "en": "Internship opportunity at the International Criminal Court in The Hague within Information Management Office - Migration Project."
+      },
+      "applicationUrl": null,
+      "eligibilityNote": {
+        "ar": "برنامج التدريب موجه لطلاب السنة الجامعية النهائية أو طلاب الدراسات العليا أو الخريجين الجدد، مع أقل من ثلاث سنوات من الخبرة المهنية ذات الصلة. المتقدمون من دول غير أطراف مؤهلون ما لم تنص الوظيفة على خلاف ذلك.",
+        "en": "Internship programme targets final-year undergraduate students, graduate students or recent graduates with less than three years of relevant professional experience. Candidates from non-State Parties are eligible unless the vacancy states otherwise."
+      }
+    },
+    {
+      "id": "yop-2026-021",
+      "type": "internship",
+      "title": {
+        "ar": "تدريب - الموارد البشرية - التخطيط الاستراتيجي للقوى العاملة وتحليلات الموارد البشرية",
+        "en": "Internship - Human Resources - Strategic Workforce Planning and HR Analytics"
+      },
+      "organization": {
+        "ar": "المحكمة الجنائية الدولية",
+        "en": "International Criminal Court"
+      },
+      "country": {
+        "code": "NL",
+        "name": {
+          "ar": "هولندا",
+          "en": "Netherlands"
+        }
+      },
+      "categories": [
+        "business",
+        "technology"
+      ],
+      "educationLevels": [
+        "bachelor",
+        "master",
+        "fresh-graduate"
+      ],
+      "deadline": {
+        "type": "fixed",
+        "date": "2026-12-31",
+        "notes": {
+          "ar": "31 ديسمبر 2026؛ المحكمة توضح أن إغلاق التقديم يُحسب بتوقيت لاهاي.",
+          "en": "December 31, 2026; the Court states that application closing time is determined by The Hague time."
+        }
+      },
+      "officialSourceUrl": "https://www.icc-cpi.int/jobs/internships-and-visiting-professionals",
+      "verificationDate": "2026-10-13",
+      "fundingType": null,
+      "deliveryMode": "in-person",
+      "languages": null,
+      "applicationStatus": "open",
+      "shortDescription": {
+        "ar": "فرصة تدريب لدى المحكمة الجنائية الدولية في لاهاي ضمن الموارد البشرية - التخطيط الاستراتيجي للقوى العاملة وتحليلات الموارد البشرية.",
+        "en": "Internship opportunity at the International Criminal Court in The Hague within Human Resources - Strategic Workforce Planning and HR Analytics."
+      },
+      "applicationUrl": null,
+      "eligibilityNote": {
+        "ar": "برنامج التدريب موجه لطلاب السنة الجامعية النهائية أو طلاب الدراسات العليا أو الخريجين الجدد، مع أقل من ثلاث سنوات من الخبرة المهنية ذات الصلة. المتقدمون من دول غير أطراف مؤهلون ما لم تنص الوظيفة على خلاف ذلك.",
+        "en": "Internship programme targets final-year undergraduate students, graduate students or recent graduates with less than three years of relevant professional experience. Candidates from non-State Parties are eligible unless the vacancy states otherwise."
+      }
+    },
+    {
+      "id": "yop-2026-022",
+      "type": "internship",
+      "title": {
+        "ar": "تدريب - الرئاسة - العلاقات الخارجية",
+        "en": "Internship - Presidency - External Relations"
+      },
+      "organization": {
+        "ar": "المحكمة الجنائية الدولية",
+        "en": "International Criminal Court"
+      },
+      "country": {
+        "code": "NL",
+        "name": {
+          "ar": "هولندا",
+          "en": "Netherlands"
+        }
+      },
+      "categories": [
+        "humanities"
+      ],
+      "educationLevels": [
+        "bachelor",
+        "master",
+        "fresh-graduate"
+      ],
+      "deadline": {
+        "type": "fixed",
+        "date": "2026-12-31",
+        "notes": {
+          "ar": "31 ديسمبر 2026؛ المحكمة توضح أن إغلاق التقديم يُحسب بتوقيت لاهاي.",
+          "en": "December 31, 2026; the Court states that application closing time is determined by The Hague time."
+        }
+      },
+      "officialSourceUrl": "https://www.icc-cpi.int/jobs/internships-and-visiting-professionals",
+      "verificationDate": "2026-10-13",
+      "fundingType": null,
+      "deliveryMode": "in-person",
+      "languages": null,
+      "applicationStatus": "open",
+      "shortDescription": {
+        "ar": "فرصة تدريب لدى المحكمة الجنائية الدولية في لاهاي ضمن الرئاسة - العلاقات الخارجية.",
+        "en": "Internship opportunity at the International Criminal Court in The Hague within Presidency - External Relations."
+      },
+      "applicationUrl": null,
+      "eligibilityNote": {
+        "ar": "برنامج التدريب موجه لطلاب السنة الجامعية النهائية أو طلاب الدراسات العليا أو الخريجين الجدد، مع أقل من ثلاث سنوات من الخبرة المهنية ذات الصلة. المتقدمون من دول غير أطراف مؤهلون ما لم تنص الوظيفة على خلاف ذلك.",
+        "en": "Internship programme targets final-year undergraduate students, graduate students or recent graduates with less than three years of relevant professional experience. Candidates from non-State Parties are eligible unless the vacancy states otherwise."
+      }
+    },
+    {
+      "id": "yop-2026-023",
+      "type": "internship",
+      "title": {
+        "ar": "تدريب - المكتب القانوني",
+        "en": "Internship - Legal Office"
+      },
+      "organization": {
+        "ar": "المحكمة الجنائية الدولية",
+        "en": "International Criminal Court"
+      },
+      "country": {
+        "code": "NL",
+        "name": {
+          "ar": "هولندا",
+          "en": "Netherlands"
+        }
+      },
+      "categories": [
+        "humanities"
+      ],
+      "educationLevels": [
+        "bachelor",
+        "master",
+        "fresh-graduate"
+      ],
+      "deadline": {
+        "type": "fixed",
+        "date": "2026-12-31",
+        "notes": {
+          "ar": "31 ديسمبر 2026؛ المحكمة توضح أن إغلاق التقديم يُحسب بتوقيت لاهاي.",
+          "en": "December 31, 2026; the Court states that application closing time is determined by The Hague time."
+        }
+      },
+      "officialSourceUrl": "https://www.icc-cpi.int/jobs/internships-and-visiting-professionals",
+      "verificationDate": "2026-10-13",
+      "fundingType": null,
+      "deliveryMode": "in-person",
+      "languages": null,
+      "applicationStatus": "open",
+      "shortDescription": {
+        "ar": "فرصة تدريب لدى المحكمة الجنائية الدولية في لاهاي ضمن المكتب القانوني.",
+        "en": "Internship opportunity at the International Criminal Court in The Hague within Legal Office."
+      },
+      "applicationUrl": null,
+      "eligibilityNote": {
+        "ar": "برنامج التدريب موجه لطلاب السنة الجامعية النهائية أو طلاب الدراسات العليا أو الخريجين الجدد، مع أقل من ثلاث سنوات من الخبرة المهنية ذات الصلة. المتقدمون من دول غير أطراف مؤهلون ما لم تنص الوظيفة على خلاف ذلك.",
+        "en": "Internship programme targets final-year undergraduate students, graduate students or recent graduates with less than three years of relevant professional experience. Candidates from non-State Parties are eligible unless the vacancy states otherwise."
+      }
+    },
+    {
+      "id": "yop-2026-024",
+      "type": "internship",
+      "title": {
+        "ar": "تدريب - قسم دعم المحامين",
+        "en": "Internship - Counsel Support Section"
+      },
+      "organization": {
+        "ar": "المحكمة الجنائية الدولية",
+        "en": "International Criminal Court"
+      },
+      "country": {
+        "code": "NL",
+        "name": {
+          "ar": "هولندا",
+          "en": "Netherlands"
+        }
+      },
+      "categories": [
+        "humanities"
+      ],
+      "educationLevels": [
+        "bachelor",
+        "master",
+        "fresh-graduate"
+      ],
+      "deadline": {
+        "type": "fixed",
+        "date": "2026-12-31",
+        "notes": {
+          "ar": "31 ديسمبر 2026؛ المحكمة توضح أن إغلاق التقديم يُحسب بتوقيت لاهاي.",
+          "en": "December 31, 2026; the Court states that application closing time is determined by The Hague time."
+        }
+      },
+      "officialSourceUrl": "https://www.icc-cpi.int/jobs/internships-and-visiting-professionals",
+      "verificationDate": "2026-10-13",
+      "fundingType": null,
+      "deliveryMode": "in-person",
+      "languages": null,
+      "applicationStatus": "open",
+      "shortDescription": {
+        "ar": "فرصة تدريب لدى المحكمة الجنائية الدولية في لاهاي ضمن قسم دعم المحامين.",
+        "en": "Internship opportunity at the International Criminal Court in The Hague within Counsel Support Section."
+      },
+      "applicationUrl": null,
+      "eligibilityNote": {
+        "ar": "برنامج التدريب موجه لطلاب السنة الجامعية النهائية أو طلاب الدراسات العليا أو الخريجين الجدد، مع أقل من ثلاث سنوات من الخبرة المهنية ذات الصلة. المتقدمون من دول غير أطراف مؤهلون ما لم تنص الوظيفة على خلاف ذلك.",
+        "en": "Internship programme targets final-year undergraduate students, graduate students or recent graduates with less than three years of relevant professional experience. Candidates from non-State Parties are eligible unless the vacancy states otherwise."
+      }
+    },
+    {
+      "id": "yop-2026-025",
+      "type": "internship",
+      "title": {
+        "ar": "برنامج كاوست للطلاب الزائرين للبحث (VSRP)",
+        "en": "KAUST Visiting Student Research Program (VSRP)"
+      },
+      "organization": {
+        "ar": "جامعة الملك عبدالله للعلوم والتقنية (كاوست)",
+        "en": "King Abdullah University of Science and Technology (KAUST)"
+      },
+      "country": {
+        "code": "SA",
+        "name": {
+          "ar": "المملكة العربية السعودية",
+          "en": "Saudi Arabia"
+        }
+      },
+      "categories": [
+        "technology",
+        "engineering",
+        "health"
+      ],
+      "educationLevels": [
+        "bachelor",
+        "master"
+      ],
+      "deadline": {
+        "type": "rolling",
+        "date": null,
+        "notes": {
+          "ar": "تقديم مستمر؛ يمكن اختيار تواريخ البدء والانتهاء على مدار العام بحسب المشروع.",
+          "en": "Rolling/year-round: start and end dates are flexible depending on the research project."
+        }
+      },
+      "officialSourceUrl": "https://admissions.kaust.edu.sa/study/internships",
+      "verificationDate": "2026-10-13",
+      "fundingType": "fully-funded",
+      "deliveryMode": "in-person",
+      "languages": null,
+      "applicationStatus": "open",
+      "shortDescription": {
+        "ar": "برنامج تدريب بحثي ممول بالكامل لطلاب السنة الثالثة والرابعة من البكالوريوس وطلاب الماجستير في مجالات STEM، لمدة 2–6 أشهر وبمواعيد مرنة طوال العام.",
+        "en": "Fully funded research internship for 3rd/4th-year bachelor’s and master’s STEM students, lasting 2–6 months with flexible year-round dates."
+      },
+      "applicationUrl": null,
+      "eligibilityNote": {
+        "ar": "لطلاب السنة الثالثة أو الرابعة في البكالوريوس وطلاب الماجستير في العلوم والتقنية والهندسة والرياضيات، مع متطلبات وثائق ولغة وفق صفحة البرنامج.",
+        "en": "For 3rd/4th-year bachelor’s and master’s students in STEM, subject to the programme’s document and language requirements."
+      }
+    },
+    {
+      "id": "yop-2026-026",
+      "type": "course",
+      "title": {
+        "ar": "مساق مفتوح حول الاقتصاد الاجتماعي والتضامني",
+        "en": "MOOC on the Social and Solidarity Economy"
+      },
+      "organization": {
+        "ar": "مركز التدريب الدولي لمنظمة العمل الدولية",
+        "en": "International Training Centre of the ILO (ITCILO)"
+      },
+      "country": null,
+      "categories": [
+        "business",
+        "humanities"
+      ],
+      "educationLevels": [
+        "professional"
+      ],
+      "deadline": {
+        "type": "rolling",
+        "date": null,
+        "notes": {
+          "ar": "دورة ذاتية/مستمرة؛ الصفحة الرسمية لا تعرض موعد إغلاق تقويمي ثابت.",
+          "en": "Self-guided/on-going course; the official page does not state a fixed calendar closing date."
+        }
+      },
+      "officialSourceUrl": "https://www.itcilo.org/courses/mooc-social-and-solidarity-economy",
+      "verificationDate": "2026-10-13",
+      "fundingType": "free",
+      "deliveryMode": "online",
+      "languages": [
+        "en",
+        "fr",
+        "es",
+        "pt",
+        "ar",
+        "ru"
+      ],
+      "applicationStatus": "open",
+      "shortDescription": {
+        "ar": "دورة مجانية ذاتية التعلّم حول الاقتصاد الاجتماعي والتضامني والعمل اللائق والتنمية المستدامة.",
+        "en": "Free self-guided course on the social and solidarity economy, decent work and sustainable development."
+      },
+      "applicationUrl": null,
+      "eligibilityNote": {
+        "ar": "لصناع القرار والشركاء الاجتماعيين والممارسين والأكاديميين والباحثين المهتمين بالموضوع.",
+        "en": "For policymakers, social partners, practitioners, academics and researchers interested in the topic."
+      }
+    },
+    {
+      "id": "yop-2026-027",
+      "type": "training",
+      "title": {
+        "ar": "تطوير وتنفيذ اتفاقيات هجرة العمل الثنائية",
+        "en": "Developing and implementing bilateral labour migration agreements"
+      },
+      "organization": {
+        "ar": "مركز التدريب الدولي لمنظمة العمل الدولية",
+        "en": "International Training Centre of the ILO (ITCILO)"
+      },
+      "country": null,
+      "categories": [
+        "humanities",
+        "business"
+      ],
+      "educationLevels": [
+        "professional"
+      ],
+      "deadline": {
+        "type": "rolling",
+        "date": null,
+        "notes": {
+          "ar": "دورة ذاتية/مستمرة؛ الصفحة الرسمية لا تعرض موعد إغلاق تقويمي ثابت.",
+          "en": "Self-guided/on-going course; the official page does not state a fixed calendar closing date."
+        }
+      },
+      "officialSourceUrl": "https://www.itcilo.org/courses/developing-and-implementing-bilateral-labour-migration-agreements",
+      "verificationDate": "2026-10-13",
+      "fundingType": "free",
+      "deliveryMode": "online",
+      "languages": [
+        "en",
+        "fr",
+        "pt",
+        "ar"
+      ],
+      "applicationStatus": "open",
+      "shortDescription": {
+        "ar": "حزمة تدريب مجانية ذاتية التعلّم حول تصميم اتفاقيات هجرة العمل الثنائية وتنفيذها ومتابعتها.",
+        "en": "Free self-guided training toolkit on designing, implementing and monitoring bilateral labour migration agreements."
+      },
+      "applicationUrl": null,
+      "eligibilityNote": {
+        "ar": "موجهة للمسؤولين وصناع السياسات وممثلي أصحاب العمل والعمال والمنظمات الدولية والمجتمع المدني العاملين في قضايا الهجرة.",
+        "en": "For officials, policymakers, employer/worker representatives, international organizations and civil-society practitioners working on migration."
+      }
+    },
+    {
+      "id": "yop-2026-028",
+      "type": "course",
+      "title": {
+        "ar": "التعليم المالي الإلكتروني - دورة ذاتية التعلّم",
+        "en": "E-Learning Financial Education: (Self guided course)"
+      },
+      "organization": {
+        "ar": "مركز التدريب الدولي لمنظمة العمل الدولية",
+        "en": "International Training Centre of the ILO (ITCILO)"
+      },
+      "country": null,
+      "categories": [
+        "business"
+      ],
+      "educationLevels": [
+        "open-to-all"
+      ],
+      "deadline": {
+        "type": "rolling",
+        "date": null,
+        "notes": {
+          "ar": "دورة ذاتية/مستمرة؛ الصفحة الرسمية لا تعرض موعد إغلاق تقويمي ثابت.",
+          "en": "Self-guided/on-going course; the official page does not state a fixed calendar closing date."
+        }
+      },
+      "officialSourceUrl": "https://www.itcilo.org/courses/e-learning-financial-education-self-guided-course",
+      "verificationDate": "2026-10-13",
+      "fundingType": "free",
+      "deliveryMode": "online",
+      "languages": [
+        "en",
+        "ky",
+        "fr",
+        "ar",
+        "ru"
+      ],
+      "applicationStatus": "open",
+      "shortDescription": {
+        "ar": "دورة مجانية لتطوير المعرفة والمهارات الأساسية لإدارة التمويل الشخصي.",
+        "en": "Free course developing essential knowledge and skills for managing personal finance."
+      },
+      "applicationUrl": null,
+      "eligibilityNote": {
+        "ar": "متاحة للأفراد الراغبين في تحسين إدارة أموالهم، ومفيدة أيضاً لموظفي منظمات العمال وأصحاب العمل ومقدمي الخدمات والجهات الحكومية.",
+        "en": "Open to individuals wanting to improve personal financial management and useful to staff of worker/employer organizations, service providers and government institutions."
+      }
+    },
+    {
+      "id": "yop-2026-029",
+      "type": "course",
+      "title": {
+        "ar": "العمل بحرية: دورة ذاتية حول الدروس المستفادة",
+        "en": "Work in Freedom: self-guided course on lessons learned"
+      },
+      "organization": {
+        "ar": "مركز التدريب الدولي لمنظمة العمل الدولية",
+        "en": "International Training Centre of the ILO (ITCILO)"
+      },
+      "country": null,
+      "categories": [
+        "humanities"
+      ],
+      "educationLevels": [
+        "open-to-all"
+      ],
+      "deadline": {
+        "type": "rolling",
+        "date": null,
+        "notes": {
+          "ar": "دورة ذاتية/مستمرة؛ الصفحة الرسمية لا تعرض موعد إغلاق تقويمي ثابت.",
+          "en": "Self-guided/on-going course; the official page does not state a fixed calendar closing date."
+        }
+      },
+      "officialSourceUrl": "https://www.itcilo.org/courses/work-freedom-self-guided-course-lessons-learned",
+      "verificationDate": "2026-10-13",
+      "fundingType": "free",
+      "deliveryMode": "online",
+      "languages": [
+        "en"
+      ],
+      "applicationStatus": "open",
+      "shortDescription": {
+        "ar": "دورة مجانية عن الدروس المستفادة في التمكين والتوظيف العادل والهجرة الآمنة والعمل اللائق ومنع الاتجار بالبشر.",
+        "en": "Free course on lessons learned in empowerment, fair recruitment, safe migration, decent work and prevention of trafficking."
+      },
+      "applicationUrl": null,
+      "eligibilityNote": {
+        "ar": "مقدمة عامة للأشخاص المهتمين بالدروس المستفادة من برنامج Work in Freedom.",
+        "en": "General introduction for people interested in lessons from the Work in Freedom programme."
+      }
+    },
+    {
+      "id": "yop-2026-030",
+      "type": "training",
+      "title": {
+        "ar": "حزمة تدريب حول إنشاء عمليات توظيف عادلة",
+        "en": "Training Toolkit on Establishing Fair Recruitment Processes"
+      },
+      "organization": {
+        "ar": "مركز التدريب الدولي لمنظمة العمل الدولية",
+        "en": "International Training Centre of the ILO (ITCILO)"
+      },
+      "country": null,
+      "categories": [
+        "humanities",
+        "business"
+      ],
+      "educationLevels": [
+        "professional"
+      ],
+      "deadline": {
+        "type": "rolling",
+        "date": null,
+        "notes": {
+          "ar": "دورة ذاتية/مستمرة؛ الصفحة الرسمية لا تعرض موعد إغلاق تقويمي ثابت.",
+          "en": "Self-guided/on-going course; the official page does not state a fixed calendar closing date."
+        }
+      },
+      "officialSourceUrl": "https://www.itcilo.org/courses/training-toolkit-establishing-fair-recruitment-processes",
+      "verificationDate": "2026-10-13",
+      "fundingType": "free",
+      "deliveryMode": "online",
+      "languages": [
+        "en",
+        "fr",
+        "es",
+        "ar"
+      ],
+      "applicationStatus": "open",
+      "shortDescription": {
+        "ar": "تدريب مجاني كامل عبر الإنترنت حول ممارسات التوظيف العادل وحماية العمال والمهاجرين من الممارسات الاحتيالية والمسيئة.",
+        "en": "Free fully online training on fair recruitment practices and protection of workers and migrants from abusive or fraudulent practices."
+      },
+      "applicationUrl": null,
+      "eligibilityNote": {
+        "ar": "مفيد للجهات الحكومية وأصحاب العمل والعمال والمهنيين ومنظمات المجتمع المدني المعنية بالتوظيف والعمل والهجرة.",
+        "en": "Relevant to government, employers, workers, professionals and civil-society actors working on recruitment, labour and migration."
+      }
+    },
+    {
+      "id": "yop-2026-031",
+      "type": "course",
+      "title": {
+        "ar": "الانتقال من الاقتصاد غير المنظم إلى الاقتصاد المنظم",
+        "en": "Transition from informality to formality"
+      },
+      "organization": {
+        "ar": "مركز التدريب الدولي لمنظمة العمل الدولية",
+        "en": "International Training Centre of the ILO (ITCILO)"
+      },
+      "country": null,
+      "categories": [
+        "business",
+        "humanities"
+      ],
+      "educationLevels": [
+        "open-to-all"
+      ],
+      "deadline": {
+        "type": "rolling",
+        "date": null,
+        "notes": {
+          "ar": "دورة ذاتية/مستمرة؛ الصفحة الرسمية لا تعرض موعد إغلاق تقويمي ثابت.",
+          "en": "Self-guided/on-going course; the official page does not state a fixed calendar closing date."
+        }
+      },
+      "officialSourceUrl": "https://www.itcilo.org/it/courses/formalisation-informal-economy",
+      "verificationDate": "2026-10-13",
+      "fundingType": "free",
+      "deliveryMode": "online",
+      "languages": [
+        "en",
+        "fr",
+        "es",
+        "pt",
+        "ar",
+        "ru"
+      ],
+      "applicationStatus": "open",
+      "shortDescription": {
+        "ar": "دورة تمهيدية مجانية مدتها نحو ساعة حول الاقتصاد غير المنظم وممارسات الانتقال إلى العمل المنظم واللائق.",
+        "en": "Free introductory course of about one hour on the informal economy and good practices for transition to formality and decent work."
+      },
+      "applicationUrl": null,
+      "eligibilityNote": {
+        "ar": "تعلم ذاتي مفتوح؛ الصفحة الرسمية تتيح الالتحاق الذاتي بالدورة.",
+        "en": "Self-paced and openly self-enrolled through the official course page."
+      }
+    },
+    {
+      "id": "yop-2026-032",
+      "type": "course",
+      "title": {
+        "ar": "فهم الهشاشة",
+        "en": "Understanding Fragility"
+      },
+      "organization": {
+        "ar": "مركز التدريب الدولي لمنظمة العمل الدولية",
+        "en": "International Training Centre of the ILO (ITCILO)"
+      },
+      "country": null,
+      "categories": [
+        "humanities"
+      ],
+      "educationLevels": [
+        "professional"
+      ],
+      "deadline": {
+        "type": "rolling",
+        "date": null,
+        "notes": {
+          "ar": "دورة ذاتية/مستمرة؛ الصفحة الرسمية لا تعرض موعد إغلاق تقويمي ثابت.",
+          "en": "Self-guided/on-going course; the official page does not state a fixed calendar closing date."
+        }
+      },
+      "officialSourceUrl": "https://www.itcilo.org/courses/understanding-fragility",
+      "verificationDate": "2026-10-13",
+      "fundingType": "free",
+      "deliveryMode": "online",
+      "languages": [
+        "en",
+        "fr",
+        "es",
+        "pt",
+        "ar"
+      ],
+      "applicationStatus": "open",
+      "shortDescription": {
+        "ar": "دورة مجانية ذاتية لفهم الهشاشة من منظور التشغيل والعمل اللائق وتصميم التدخلات في البيئات الهشة والمتأثرة بالنزاع.",
+        "en": "Free self-guided course on understanding fragility through employment and decent-work perspectives and designing interventions in fragile/conflict settings."
+      },
+      "applicationUrl": null,
+      "eligibilityNote": {
+        "ar": "موجهة لممارسي التنمية العاملين في السياقات الهشة والمتأثرة بالنزاعات والطوارئ.",
+        "en": "For development practitioners working in fragile, conflict-affected and emergency contexts."
+      }
+    },
+    {
+      "id": "yop-2026-033",
+      "type": "course",
+      "title": {
+        "ar": "جمع البيانات والبحث حول عمل الأطفال والعمل الجبري",
+        "en": "Data collection and research on child labour and forced labour"
+      },
+      "organization": {
+        "ar": "مركز التدريب الدولي لمنظمة العمل الدولية",
+        "en": "International Training Centre of the ILO (ITCILO)"
+      },
+      "country": null,
+      "categories": [
+        "humanities",
+        "education"
+      ],
+      "educationLevels": [
+        "bachelor",
+        "master",
+        "professional"
+      ],
+      "deadline": {
+        "type": "rolling",
+        "date": null,
+        "notes": {
+          "ar": "دورة ذاتية/مستمرة؛ الصفحة الرسمية لا تعرض موعد إغلاق تقويمي ثابت.",
+          "en": "Self-guided/on-going course; the official page does not state a fixed calendar closing date."
+        }
+      },
+      "officialSourceUrl": "https://www.itcilo.org/courses/data-collection-and-research-child-labour-and-forced-labour",
+      "verificationDate": "2026-10-13",
+      "fundingType": "free",
+      "deliveryMode": "online",
+      "languages": [
+        "en"
+      ],
+      "applicationStatus": "open",
+      "shortDescription": {
+        "ar": "مسار مجاني ذاتي لتعلّم أساسيات البحث وجمع البيانات حول عمل الأطفال والعمل الجبري والاتجار بالبشر.",
+        "en": "Free self-paced curriculum on research and data collection relating to child labour, forced labour and human trafficking."
+      },
+      "applicationUrl": null,
+      "eligibilityNote": {
+        "ar": "للباحثين وطلاب الجامعات وأي شخص مهتم بإجراء البحوث في هذه المجالات؛ المعرفة الأساسية بالإحصاء مفيدة.",
+        "en": "For researchers, university students and anyone interested in conducting research in these areas; basic statistics knowledge is useful."
+      }
+    },
+    {
+      "id": "yop-2026-034",
+      "type": "course",
+      "title": {
+        "ar": "مقدمة إلى معايير العمل الدولية",
+        "en": "Introduction to International Labour Standards"
+      },
+      "organization": {
+        "ar": "مركز التدريب الدولي لمنظمة العمل الدولية",
+        "en": "International Training Centre of the ILO (ITCILO)"
+      },
+      "country": null,
+      "categories": [
+        "humanities"
+      ],
+      "educationLevels": [
+        "open-to-all"
+      ],
+      "deadline": {
+        "type": "rolling",
+        "date": null,
+        "notes": {
+          "ar": "دورة ذاتية/مستمرة؛ الصفحة الرسمية لا تعرض موعد إغلاق تقويمي ثابت.",
+          "en": "Self-guided/on-going course; the official page does not state a fixed calendar closing date."
+        }
+      },
+      "officialSourceUrl": "https://www.itcilo.org/courses/introduction-international-labour-standards",
+      "verificationDate": "2026-10-13",
+      "fundingType": "free",
+      "deliveryMode": "online",
+      "languages": [
+        "en",
+        "fr",
+        "es",
+        "pt"
+      ],
+      "applicationStatus": "open",
+      "shortDescription": {
+        "ar": "دورة مجانية ذاتية للجمهور غير المتخصص حول نظام معايير العمل الدولية وآليات اعتمادها والإشراف عليها.",
+        "en": "Free self-guided course for non-specialists on the international labour standards system and how standards are adopted, promoted and supervised."
+      },
+      "applicationUrl": null,
+      "eligibilityNote": {
+        "ar": "موجهة لمكونات منظمة العمل الدولية وموظفي الأمم المتحدة والجمهور الأوسع.",
+        "en": "For ILO constituents, UN staff and the broader public."
+      }
+    },
+    {
+      "id": "yop-2026-035",
+      "type": "course",
+      "title": {
+        "ar": "مساق BuildProc المفتوح حول مشتريات المشاريع",
+        "en": "BuildProc MOOC"
+      },
+      "organization": {
+        "ar": "مركز التدريب الدولي لمنظمة العمل الدولية",
+        "en": "International Training Centre of the ILO (ITCILO)"
+      },
+      "country": null,
+      "categories": [
+        "business"
+      ],
+      "educationLevels": [
+        "professional",
+        "open-to-all"
+      ],
+      "deadline": {
+        "type": "rolling",
+        "date": null,
+        "notes": {
+          "ar": "دورة ذاتية/مستمرة؛ الصفحة الرسمية لا تعرض موعد إغلاق تقويمي ثابت.",
+          "en": "Self-guided/on-going course; the official page does not state a fixed calendar closing date."
+        }
+      },
+      "officialSourceUrl": "https://www.itcilo.org/it/courses/buildproc-mooc",
+      "verificationDate": "2026-10-13",
+      "fundingType": "free",
+      "deliveryMode": "online",
+      "languages": [
+        "en",
+        "fr",
+        "es",
+        "pt",
+        "ar"
+      ],
+      "applicationStatus": "open",
+      "shortDescription": {
+        "ar": "مساق مجاني ذاتي يقدم أساسيات مشتريات المشاريع في التنمية الزراعية والريفية، بما في ذلك الاستدامة وإدارة العقود.",
+        "en": "Free self-guided MOOC introducing project procurement for agricultural and rural development, including sustainability and contract management."
+      },
+      "applicationUrl": null,
+      "eligibilityNote": {
+        "ar": "للمهنيين المهتمين بالمشتريات في مشاريع IFAD أو المؤسسات المانحة، وكذلك لأي شخص يريد فهماً عاماً لأساسيات مشتريات المشاريع.",
+        "en": "For professionals interested in procurement in IFAD/donor projects and anyone seeking an overview of project-procurement basics."
+      }
+    },
+    {
+      "id": "yop-2026-036",
+      "type": "course",
+      "title": {
+        "ar": "التمييز والعنف والتحرش: تعلم ذاتي حول اتفاقيتي منظمة العمل الدولية 111 و190",
+        "en": "Discrimination, violence and harassment: self-guided learning on ILO conventions No. 111 and No. 190"
+      },
+      "organization": {
+        "ar": "مركز التدريب الدولي لمنظمة العمل الدولية",
+        "en": "International Training Centre of the ILO (ITCILO)"
+      },
+      "country": null,
+      "categories": [
+        "humanities"
+      ],
+      "educationLevels": [
+        "professional"
+      ],
+      "deadline": {
+        "type": "rolling",
+        "date": null,
+        "notes": {
+          "ar": "دورة ذاتية/مستمرة؛ الصفحة الرسمية لا تعرض موعد إغلاق تقويمي ثابت.",
+          "en": "Self-guided/on-going course; the official page does not state a fixed calendar closing date."
+        }
+      },
+      "officialSourceUrl": "https://www.itcilo.org/courses/discrimination-violence-and-harassment-self-guided-learning-ilo-conventions-no-111-and-no-0",
+      "verificationDate": "2026-10-13",
+      "fundingType": "free",
+      "deliveryMode": "online",
+      "languages": [
+        "en"
+      ],
+      "applicationStatus": "open",
+      "shortDescription": {
+        "ar": "دورة مجانية عن التمييز والعنف والتحرش في عالم العمل من منظور معايير العمل الدولية.",
+        "en": "Free course on discrimination, violence and harassment in the world of work through key international labour standards."
+      },
+      "applicationUrl": null,
+      "eligibilityNote": {
+        "ar": "للحكومات والعمال وأصحاب العمل ومهنيي الموارد البشرية والمسؤولية الاجتماعية ومنظمات المجتمع المدني وممارسي المساواة.",
+        "en": "For governments, workers, employers, HR/CSR professionals, civil society and equality practitioners."
+      }
+    },
+    {
+      "id": "yop-2026-037",
+      "type": "course",
+      "title": {
+        "ar": "سياسة التشغيل: تعلم ذاتي حول اتفاقية منظمة العمل الدولية رقم 122",
+        "en": "EMPLOYMENT POLICY: Self-guided learning on ILO convention NO.122"
+      },
+      "organization": {
+        "ar": "مركز التدريب الدولي لمنظمة العمل الدولية",
+        "en": "International Training Centre of the ILO (ITCILO)"
+      },
+      "country": null,
+      "categories": [
+        "business",
+        "humanities"
+      ],
+      "educationLevels": [
+        "professional"
+      ],
+      "deadline": {
+        "type": "rolling",
+        "date": null,
+        "notes": {
+          "ar": "دورة ذاتية/مستمرة؛ الصفحة الرسمية لا تعرض موعد إغلاق تقويمي ثابت.",
+          "en": "Self-guided/on-going course; the official page does not state a fixed calendar closing date."
+        }
+      },
+      "officialSourceUrl": "https://www.itcilo.org/it/courses/employment-policy-mooc-ilo-convention-no122",
+      "verificationDate": "2026-10-13",
+      "fundingType": "free",
+      "deliveryMode": "online",
+      "languages": [
+        "en",
+        "fr",
+        "es",
+        "pt",
+        "ar"
+      ],
+      "applicationStatus": "open",
+      "shortDescription": {
+        "ar": "دورة مجانية لفهم المبادئ الأساسية لاتفاقية منظمة العمل الدولية رقم 122 وسياسات التشغيل الكامل والمنتج والمختار بحرية.",
+        "en": "Free course on the core principles of ILO Convention No. 122 and policies for full, productive and freely chosen employment."
+      },
+      "applicationUrl": null,
+      "eligibilityNote": {
+        "ar": "لصناع السياسات والممارسين وممثلي الحكومات وأصحاب العمل والعمال ومنظمات المجتمع المدني المعنية بالتشغيل.",
+        "en": "For policymakers, practitioners, government/employer/worker representatives and civil society working on employment."
+      }
+    },
+    {
+      "id": "yop-2026-038",
+      "type": "course",
+      "title": {
+        "ar": "مساق المعايير المناخية والبيئية والاجتماعية - Sustain 2",
+        "en": "Climate, Environmental and Social Standards MOOC – Sustain 2"
+      },
+      "organization": {
+        "ar": "مركز التدريب الدولي لمنظمة العمل الدولية",
+        "en": "International Training Centre of the ILO (ITCILO)"
+      },
+      "country": null,
+      "categories": [
+        "engineering",
+        "business",
+        "general"
+      ],
+      "educationLevels": [
+        "professional"
+      ],
+      "deadline": {
+        "type": "rolling",
+        "date": null,
+        "notes": {
+          "ar": "دورة ذاتية/مستمرة؛ الصفحة الرسمية لا تعرض موعد إغلاق تقويمي ثابت.",
+          "en": "Self-guided/on-going course; the official page does not state a fixed calendar closing date."
+        }
+      },
+      "officialSourceUrl": "https://www.itcilo.org/it/courses/massive-open-online-course-social-environmental-and-climate-standards-sustain-2",
+      "verificationDate": "2026-10-13",
+      "fundingType": "free",
+      "deliveryMode": "online",
+      "languages": [
+        "en",
+        "fr",
+        "es",
+        "ar"
+      ],
+      "applicationStatus": "open",
+      "shortDescription": {
+        "ar": "مساق مجاني عن إجراءات IFAD للتقييم الاجتماعي والبيئي والمناخي وتصميم المشاريع المستدامة وإدارة المخاطر.",
+        "en": "Free MOOC on IFAD social, environmental and climate assessment procedures, sustainable project design and risk management."
+      },
+      "applicationUrl": null,
+      "eligibilityNote": {
+        "ar": "مناسب للعاملين أو المهتمين بتصميم المشاريع والتنمية الريفية والاستدامة وإدارة المخاطر البيئية والاجتماعية.",
+        "en": "Relevant to practitioners and learners interested in project design, rural development, sustainability and environmental/social risk management."
+      }
+    },
+    {
+      "id": "yop-2026-039",
+      "type": "training",
+      "title": {
+        "ar": "التيسير الرقمي في الفعاليات المتزامنة",
+        "en": "Digital Facilitation in Synchronous Events"
+      },
+      "organization": {
+        "ar": "مركز التدريب الدولي لمنظمة العمل الدولية",
+        "en": "International Training Centre of the ILO (ITCILO)"
+      },
+      "country": null,
+      "categories": [
+        "education",
+        "technology"
+      ],
+      "educationLevels": [
+        "professional"
+      ],
+      "deadline": {
+        "type": "rolling",
+        "date": null,
+        "notes": {
+          "ar": "دورة ذاتية/مستمرة؛ الصفحة الرسمية لا تعرض موعد إغلاق تقويمي ثابت.",
+          "en": "Self-guided/on-going course; the official page does not state a fixed calendar closing date."
+        }
+      },
+      "officialSourceUrl": "https://www.itcilo.org/courses/digital-facilitation-synchronous-events",
+      "verificationDate": "2026-10-13",
+      "fundingType": "free",
+      "deliveryMode": "online",
+      "languages": [
+        "en"
+      ],
+      "applicationStatus": "open",
+      "shortDescription": {
+        "ar": "دورة مجانية ذاتية لتطوير مهارات تصميم وتيسير الفعاليات والاجتماعات والتدريب عبر الإنترنت.",
+        "en": "Free self-guided course on designing and facilitating synchronous online events, meetings and learning sessions."
+      },
+      "applicationUrl": null,
+      "eligibilityNote": {
+        "ar": "لمصممي التعليم والمعلمين والمدربين ومهنيي بناء القدرات وفرق الفعاليات والاجتماعات الرقمية.",
+        "en": "For instructional designers, teachers, trainers, capacity-building professionals and staff designing online events/meetings."
+      }
+    },
+    {
+      "id": "yop-2026-040",
+      "type": "course",
+      "title": {
+        "ar": "الذكاء الاصطناعي المتمحور حول الإنسان للمؤسسات الصغيرة والمتوسطة",
+        "en": "Human-centred AI for SMEs"
+      },
+      "organization": {
+        "ar": "مركز التدريب الدولي لمنظمة العمل الدولية",
+        "en": "International Training Centre of the ILO (ITCILO)"
+      },
+      "country": null,
+      "categories": [
+        "technology",
+        "business"
+      ],
+      "educationLevels": [
+        "professional"
+      ],
+      "deadline": {
+        "type": "rolling",
+        "date": null,
+        "notes": {
+          "ar": "دورة ذاتية/مستمرة؛ الصفحة الرسمية لا تعرض موعد إغلاق تقويمي ثابت.",
+          "en": "Self-guided/on-going course; the official page does not state a fixed calendar closing date."
+        }
+      },
+      "officialSourceUrl": "https://www.itcilo.org/courses/human-centred-ai-smes",
+      "verificationDate": "2026-10-13",
+      "fundingType": "free",
+      "deliveryMode": "online",
+      "languages": [
+        "en"
+      ],
+      "applicationStatus": "open",
+      "shortDescription": {
+        "ar": "دورة مجانية ذاتية للمدربين حول أساسيات الذكاء الاصطناعي والتحول الرقمي للمؤسسات الصغيرة والمتوسطة مع نهج يركز على الإنسان والعمل اللائق.",
+        "en": "Free self-paced course for trainers on AI fundamentals and SME digital transformation using a human-centred, decent-work approach."
+      },
+      "applicationUrl": null,
+      "eligibilityNote": {
+        "ar": "موجهة أساساً للمدربين المشاركين أو العاملين على دعم رقمنة المؤسسات الصغيرة والمتوسطة والإنتاجية والعمل اللائق.",
+        "en": "Primarily for trainers supporting SME digitalisation, productivity and decent-work initiatives."
+      }
+    },
+    {
+      "id": "yop-2026-041",
+      "type": "course",
+      "title": {
+        "ar": "سلسلة النزاع 1: ما هو النزاع؟ - PTP.2026.01",
+        "en": "Conflict series: 1. What is conflict? - PTP.2026.01"
+      },
+      "organization": {
+        "ar": "معهد الأمم المتحدة للتدريب والبحث (UNITAR)",
+        "en": "United Nations Institute for Training and Research (UNITAR)"
+      },
+      "country": null,
+      "categories": [
+        "humanities"
+      ],
+      "educationLevels": [
+        "open-to-all"
+      ],
+      "deadline": {
+        "type": "rolling",
+        "date": null,
+        "notes": {
+          "ar": "تسجيل مفتوح/تعلم ذاتي مستمر؛ لا تعرض الصفحة موعد إغلاق تقويمي ثابت.",
+          "en": "Open-registration/self-paced; the page does not state a fixed calendar closing date."
+        }
+      },
+      "officialSourceUrl": "https://event.unitar.org/full-catalog/conflict-series-1-what-conflict-ptp202601-0",
+      "verificationDate": "2026-10-13",
+      "fundingType": "free",
+      "deliveryMode": "online",
+      "languages": [
+        "en"
+      ],
+      "applicationStatus": "open",
+      "shortDescription": {
+        "ar": "دورة UNITAR مجانية ومفتوحة وذاتية التعلّم تقدم مدخلاً أساسياً لمفهوم النزاع ومصادره وتعقيده والجهات الفاعلة فيه.",
+        "en": "Free open-registration UNITAR self-paced course introducing conflict, its sources, complexity and actors."
+      },
+      "applicationUrl": null,
+      "eligibilityNote": {
+        "ar": "مفتوحة لأي شخص لديه اهتمام أو فضول بدراسات النزاع.",
+        "en": "Open to anyone interested in conflict studies."
+      }
+    },
+    {
+      "id": "yop-2026-042",
+      "type": "course",
+      "title": {
+        "ar": "سلسلة النزاع 2: تحليل النزاع - PTP.2026.02",
+        "en": "Conflict series: 2. Conflict analysis - PTP.2026.02"
+      },
+      "organization": {
+        "ar": "معهد الأمم المتحدة للتدريب والبحث (UNITAR)",
+        "en": "United Nations Institute for Training and Research (UNITAR)"
+      },
+      "country": null,
+      "categories": [
+        "humanities"
+      ],
+      "educationLevels": [
+        "open-to-all"
+      ],
+      "deadline": {
+        "type": "rolling",
+        "date": null,
+        "notes": {
+          "ar": "تسجيل مفتوح/تعلم ذاتي مستمر؛ لا تعرض الصفحة موعد إغلاق تقويمي ثابت.",
+          "en": "Open-registration/self-paced; the page does not state a fixed calendar closing date."
+        }
+      },
+      "officialSourceUrl": "https://event.unitar.org/full-catalog/conflict-series-2-conflict-analysis-ptp202602-1",
+      "verificationDate": "2026-10-13",
+      "fundingType": "free",
+      "deliveryMode": "online",
+      "languages": [
+        "en"
+      ],
+      "applicationStatus": "open",
+      "shortDescription": {
+        "ar": "دورة مجانية ذاتية تشرح أهمية تحليل النزاع ومستوياته وأسبابه وأدواته الأساسية.",
+        "en": "Free self-paced course on the importance, levels, causes and basic tools of conflict analysis."
+      },
+      "applicationUrl": null,
+      "eligibilityNote": {
+        "ar": "مفتوحة للراغبين في بناء أساس معرفي في تحليل النزاعات.",
+        "en": "Open to learners seeking foundational knowledge in conflict analysis."
+      }
+    },
+    {
+      "id": "yop-2026-043",
+      "type": "course",
+      "title": {
+        "ar": "سلسلة النزاع 3: من النزاع إلى السلام - PTP.2026.03",
+        "en": "Conflict series: 3. From Conflict to Peace - PTP.2026.03"
+      },
+      "organization": {
+        "ar": "معهد الأمم المتحدة للتدريب والبحث (UNITAR)",
+        "en": "United Nations Institute for Training and Research (UNITAR)"
+      },
+      "country": null,
+      "categories": [
+        "humanities"
+      ],
+      "educationLevels": [
+        "open-to-all"
+      ],
+      "deadline": {
+        "type": "rolling",
+        "date": null,
+        "notes": {
+          "ar": "تسجيل مفتوح/تعلم ذاتي مستمر؛ لا تعرض الصفحة موعد إغلاق تقويمي ثابت.",
+          "en": "Open-registration/self-paced; the page does not state a fixed calendar closing date."
+        }
+      },
+      "officialSourceUrl": "https://event.unitar.org/full-catalog/conflict-series-3-conflict-peace-ptp202603-1",
+      "verificationDate": "2026-10-13",
+      "fundingType": "free",
+      "deliveryMode": "online",
+      "languages": [
+        "en"
+      ],
+      "applicationStatus": "open",
+      "shortDescription": {
+        "ar": "دورة مجانية ذاتية حول نظريات الانتقال من النزاع إلى السلام وأساليب التفاوض والوساطة والتفاوض الإنساني.",
+        "en": "Free self-paced course on theories of transition from conflict to peace and methods including negotiation, mediation and humanitarian negotiation."
+      },
+      "applicationUrl": null,
+      "eligibilityNote": {
+        "ar": "مفتوحة لأي شخص مهتم بدراسات النزاع وبناء السلام.",
+        "en": "Open to anyone interested in conflict studies and peacebuilding."
+      }
+    },
+    {
+      "id": "yop-2026-044",
+      "type": "course",
+      "title": {
+        "ar": "الشباب وبناء السلام - PTP.2026.22",
+        "en": "Youth and Peacebuilding - PTP.2026.22"
+      },
+      "organization": {
+        "ar": "معهد الأمم المتحدة للتدريب والبحث (UNITAR)",
+        "en": "United Nations Institute for Training and Research (UNITAR)"
+      },
+      "country": null,
+      "categories": [
+        "humanities"
+      ],
+      "educationLevels": [
+        "open-to-all",
+        "professional"
+      ],
+      "deadline": {
+        "type": "rolling",
+        "date": null,
+        "notes": {
+          "ar": "تسجيل مفتوح/تعلم ذاتي مستمر؛ لا تعرض الصفحة موعد إغلاق تقويمي ثابت.",
+          "en": "Open-registration/self-paced; the page does not state a fixed calendar closing date."
+        }
+      },
+      "officialSourceUrl": "https://event.unitar.org/full-catalog/youth-and-peacebuilding-ptp202622",
+      "verificationDate": "2026-10-13",
+      "fundingType": "free",
+      "deliveryMode": "online",
+      "languages": [
+        "en"
+      ],
+      "applicationStatus": "open",
+      "shortDescription": {
+        "ar": "دورة مجانية مدتها نحو 16 ساعة تساعد الشباب وشركاء الشباب على فهم المشاركة في بناء السلام وتصميم مبادرات شبابية.",
+        "en": "Free approximately 16-hour course helping young people and youth partners understand participation in peacebuilding and design youth-led initiatives."
+      },
+      "applicationUrl": null,
+      "eligibilityNote": {
+        "ar": "للشباب المهتمين ببناء السلام، وكذلك للمهنيين وصناع السياسات وقادة المجتمع والمنظمات العاملة مع الشباب.",
+        "en": "For young people interested in peacebuilding and for professionals, policymakers, community leaders and organizations working with youth."
+      }
+    },
+    {
+      "id": "yop-2026-045",
+      "type": "course",
+      "title": {
+        "ar": "مقدمة إلى إصلاح قطاع الأمن - PTP.2026.09",
+        "en": "Introduction to Security Sector Reform - PTP.2026.09"
+      },
+      "organization": {
+        "ar": "معهد الأمم المتحدة للتدريب والبحث (UNITAR)",
+        "en": "United Nations Institute for Training and Research (UNITAR)"
+      },
+      "country": null,
+      "categories": [
+        "humanities"
+      ],
+      "educationLevels": [
+        "bachelor",
+        "professional"
+      ],
+      "deadline": {
+        "type": "rolling",
+        "date": null,
+        "notes": {
+          "ar": "تسجيل مفتوح/تعلم ذاتي مستمر؛ لا تعرض الصفحة موعد إغلاق تقويمي ثابت.",
+          "en": "Open-registration/self-paced; the page does not state a fixed calendar closing date."
+        }
+      },
+      "officialSourceUrl": "https://event.unitar.org/full-catalog/introduction-security-sector-reform-ptp202609",
+      "verificationDate": "2026-10-13",
+      "fundingType": "free",
+      "deliveryMode": "online",
+      "languages": [
+        "en"
+      ],
+      "applicationStatus": "open",
+      "shortDescription": {
+        "ar": "دورة مجانية إلكترونية حول مفهوم إصلاح قطاع الأمن والجهات الفاعلة فيه وبرامجه وسياقات ما بعد النزاع.",
+        "en": "Free e-learning course on security sector reform, its actors, programme cycle and post-conflict context."
+      },
+      "applicationUrl": null,
+      "eligibilityNote": {
+        "ar": "توصي الصفحة الرسمية بدرجة جامعية ذات صلة أو خبرة مهنية مكافئة 2–4 سنوات، مع إجادة الإنجليزية والحاسوب.",
+        "en": "Official page expects a relevant university degree or equivalent 2–4 years professional experience, plus English and computer literacy."
+      }
+    },
+    {
+      "id": "yop-2026-046",
+      "type": "course",
+      "title": {
+        "ar": "مقدمة إلى البيئة والموارد الطبيعية وعمليات حفظ السلام الأممية - PTP.2026.07",
+        "en": "Introduction to Environment, Natural Resources and UN Peacekeeping Operations - PTP.2026.07"
+      },
+      "organization": {
+        "ar": "معهد الأمم المتحدة للتدريب والبحث (UNITAR)",
+        "en": "United Nations Institute for Training and Research (UNITAR)"
+      },
+      "country": null,
+      "categories": [
+        "engineering",
+        "humanities"
+      ],
+      "educationLevels": [
+        "professional"
+      ],
+      "deadline": {
+        "type": "rolling",
+        "date": null,
+        "notes": {
+          "ar": "تسجيل مفتوح/تعلم ذاتي مستمر؛ لا تعرض الصفحة موعد إغلاق تقويمي ثابت.",
+          "en": "Open-registration/self-paced; the page does not state a fixed calendar closing date."
+        }
+      },
+      "officialSourceUrl": "https://event.unitar.org/full-catalog/introduction-environment-natural-resources-and-un-peacekeeping-operations-ptp202607",
+      "verificationDate": "2026-10-13",
+      "fundingType": "free",
+      "deliveryMode": "online",
+      "languages": [
+        "en"
+      ],
+      "applicationStatus": "open",
+      "shortDescription": {
+        "ar": "دورة مجانية توعوية حول البيئة وإدارة الموارد الطبيعية في سياق عمليات حفظ السلام وما بعد النزاع.",
+        "en": "Free awareness course on environment and natural-resource management in peacekeeping and post-conflict contexts."
+      },
+      "applicationUrl": null,
+      "eligibilityNote": {
+        "ar": "تستهدف بالأساس أفراد حفظ السلام العسكريين والمدنيين والشرطة والمهتمين بالعمليات الأممية.",
+        "en": "Primarily targets military, civilian and police peacekeeping personnel and learners interested in UN operations."
+      }
+    },
+    {
+      "id": "yop-2026-047",
+      "type": "course",
+      "title": {
+        "ar": "البيئة والموارد الطبيعية وحفظ السلام: استعادة حوكمة الموارد الطبيعية - PTP.2026.08",
+        "en": "Environment, Natural Resources and UN Peacekeeping Operations: Restoring Governance of Natural Resources - PTP.2026.08"
+      },
+      "organization": {
+        "ar": "معهد الأمم المتحدة للتدريب والبحث (UNITAR)",
+        "en": "United Nations Institute for Training and Research (UNITAR)"
+      },
+      "country": null,
+      "categories": [
+        "engineering",
+        "humanities"
+      ],
+      "educationLevels": [
+        "professional"
+      ],
+      "deadline": {
+        "type": "rolling",
+        "date": null,
+        "notes": {
+          "ar": "تسجيل مفتوح/تعلم ذاتي مستمر؛ لا تعرض الصفحة موعد إغلاق تقويمي ثابت.",
+          "en": "Open-registration/self-paced; the page does not state a fixed calendar closing date."
+        }
+      },
+      "officialSourceUrl": "https://event.unitar.org/full-catalog/environment-natural-resources-and-un-peacekeeping-operations-restoring-governance-12",
+      "verificationDate": "2026-10-13",
+      "fundingType": "free",
+      "deliveryMode": "online",
+      "languages": [
+        "en"
+      ],
+      "applicationStatus": "open",
+      "shortDescription": {
+        "ar": "دورة UNITAR مجانية ومفتوحة عبر الإنترنت حول حوكمة الموارد الطبيعية في سياقات حفظ السلام وما بعد النزاع.",
+        "en": "Free open UNITAR e-learning course on governance of natural resources in peacekeeping and post-conflict settings."
+      },
+      "applicationUrl": null,
+      "eligibilityNote": {
+        "ar": "مناسبة للعاملين أو المهتمين بحفظ السلام والبيئة والموارد الطبيعية والحوكمة.",
+        "en": "Relevant to practitioners and learners interested in peacekeeping, environment, natural resources and governance."
+      }
+    },
+    {
+      "id": "yop-2026-048",
+      "type": "course",
+      "title": {
+        "ar": "محطات رئيسية في حفظ السلام التابع للأمم المتحدة - PTP.2026.11",
+        "en": "Milestones in UN Peacekeeping - PTP.2026.11"
+      },
+      "organization": {
+        "ar": "معهد الأمم المتحدة للتدريب والبحث (UNITAR)",
+        "en": "United Nations Institute for Training and Research (UNITAR)"
+      },
+      "country": null,
+      "categories": [
+        "humanities"
+      ],
+      "educationLevels": [
+        "bachelor",
+        "professional"
+      ],
+      "deadline": {
+        "type": "rolling",
+        "date": null,
+        "notes": {
+          "ar": "تسجيل مفتوح/تعلم ذاتي مستمر؛ لا تعرض الصفحة موعد إغلاق تقويمي ثابت.",
+          "en": "Open-registration/self-paced; the page does not state a fixed calendar closing date."
+        }
+      },
+      "officialSourceUrl": "https://event.unitar.org/full-catalog/milestones-un-peacekeeping-ptp202611",
+      "verificationDate": "2026-10-13",
+      "fundingType": "free",
+      "deliveryMode": "online",
+      "languages": [
+        "en"
+      ],
+      "applicationStatus": "open",
+      "shortDescription": {
+        "ar": "دورة مجانية ذاتية تقدم نظرة تاريخية شاملة على تطور عمليات حفظ السلام الأممية وأجيالها المختلفة.",
+        "en": "Free self-paced course providing a historical overview of UN peacekeeping and its different generations."
+      },
+      "applicationUrl": null,
+      "eligibilityNote": {
+        "ar": "مناسبة للمهتمين بتاريخ حفظ السلام؛ وللاستخدام الأكاديمي المتقدم تذكر الصفحة درجة جامعية ذات صلة أو خبرة مكافئة وإجادة الإنجليزية.",
+        "en": "For learners interested in peacekeeping history; for advanced/credit use the page notes a relevant degree or equivalent experience and good English."
+      }
+    },
+    {
+      "id": "yop-2026-049",
+      "type": "course",
+      "title": {
+        "ar": "قضايا النوع الاجتماعي - PTP.2026.16",
+        "en": "Gender Matters - PTP.2026.16"
+      },
+      "organization": {
+        "ar": "معهد الأمم المتحدة للتدريب والبحث (UNITAR)",
+        "en": "United Nations Institute for Training and Research (UNITAR)"
+      },
+      "country": null,
+      "categories": [
+        "humanities"
+      ],
+      "educationLevels": [
+        "open-to-all"
+      ],
+      "deadline": {
+        "type": "rolling",
+        "date": null,
+        "notes": {
+          "ar": "تسجيل مفتوح/تعلم ذاتي مستمر؛ لا تعرض الصفحة موعد إغلاق تقويمي ثابت.",
+          "en": "Open-registration/self-paced; the page does not state a fixed calendar closing date."
+        }
+      },
+      "officialSourceUrl": "https://event.unitar.org/full-catalog/gender-matters-ptp202616",
+      "verificationDate": "2026-10-13",
+      "fundingType": "free",
+      "deliveryMode": "online",
+      "languages": [
+        "en"
+      ],
+      "applicationStatus": "open",
+      "shortDescription": {
+        "ar": "دورة مجانية مفتوحة وذاتية حول مفهوم النوع الاجتماعي وعدم المساواة ومقاربات الأمم المتحدة للنوع الاجتماعي.",
+        "en": "Free open self-paced course on gender concepts, inequality and the UN approach to gender."
+      },
+      "applicationUrl": null,
+      "eligibilityNote": {
+        "ar": "مفتوحة لأي شخص مهتم بمفهوم النوع الاجتماعي والمساواة.",
+        "en": "Open to anyone interested in gender and gender equality."
+      }
+    },
+    {
+      "id": "yop-2026-050",
+      "type": "course",
+      "title": {
+        "ar": "دورة مستشار النوع الاجتماعي العسكري [2026]",
+        "en": "Military Gender Advisor Course [2026]"
+      },
+      "organization": {
+        "ar": "معهد الأمم المتحدة للتدريب والبحث (UNITAR)",
+        "en": "United Nations Institute for Training and Research (UNITAR)"
+      },
+      "country": null,
+      "categories": [
+        "humanities"
+      ],
+      "educationLevels": [
+        "professional"
+      ],
+      "deadline": {
+        "type": "rolling",
+        "date": null,
+        "notes": {
+          "ar": "تسجيل مفتوح/تعلم ذاتي مستمر؛ لا تعرض الصفحة موعد إغلاق تقويمي ثابت.",
+          "en": "Open-registration/self-paced; the page does not state a fixed calendar closing date."
+        }
+      },
+      "officialSourceUrl": "https://event.unitar.org/full-catalog/military-gender-advisor-course-2026",
+      "verificationDate": "2026-10-13",
+      "fundingType": "free",
+      "deliveryMode": "online",
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "applicationStatus": "open",
+      "shortDescription": {
+        "ar": "دورة مجانية ذاتية عبر الإنترنت حول دور مستشار النوع الاجتماعي العسكري ونقاط الاتصال في عمليات حفظ السلام الأممية.",
+        "en": "Free self-paced online course on the roles of Military Gender Advisors and focal points in UN peace operations."
+      },
+      "applicationUrl": null,
+      "eligibilityNote": {
+        "ar": "تستهدف مستشاري النوع الاجتماعي العسكريين ونقاط الاتصال، ومفيدة أيضاً للمدنيين والمهنيين في عمليات السلام، ومفتوحة لمن يرغب في التعلم عن إدماج النوع الاجتماعي.",
+        "en": "Targets military gender advisers/focal points and is also relevant to civilians and peace-operations professionals; open to anyone wishing to learn about gender mainstreaming in missions."
+      }
+    }
+  ]
 }
