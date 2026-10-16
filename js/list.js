@@ -133,18 +133,14 @@ function createOpportunityCard(opp, lang) {
     badgeContainer.appendChild(deliveryBadge);
   }
 
-  // 4. Closing soon badge (if fixed deadline within 14 days)
-  if (opp.deadline && opp.deadline.type === 'fixed' && opp.deadline.date) {
-    const today = new Date();
-    today.setHours(0, 0, 0, 0);
-    const deadlineDate = new Date(opp.deadline.date);
-    const daysRemaining = Math.ceil((deadlineDate - today) / (1000 * 60 * 60 * 24));
-    if (daysRemaining >= 0 && daysRemaining <= 14) {
-      const closingBadge = document.createElement('span');
-      closingBadge.className = 'badge badge-closing-soon';
-      closingBadge.textContent = translations[lang].closingSoonBadge;
-      badgeContainer.appendChild(closingBadge);
-    }
+  // 4. Deadline status is derived by the shared date-only utility.
+  const deadlineStatus = window.DeadlineUtils.getDeadlineStatus(opp.deadline);
+
+  if (deadlineStatus.isClosingSoon) {
+    const closingBadge = document.createElement('span');
+    closingBadge.className = 'badge badge-closing-soon';
+    closingBadge.textContent = translations[lang].closingSoonBadge;
+    badgeContainer.appendChild(closingBadge);
   }
 
   card.appendChild(badgeContainer);
@@ -219,6 +215,33 @@ function createOpportunityCard(opp, lang) {
       const bdi = document.createElement('bdi');
       bdi.textContent = opp.deadline.date;
       deadlineValue.appendChild(bdi);
+
+      let statusText = '';
+
+      if (deadlineStatus.kind === 'today') {
+        statusText = translations[lang].deadlineToday;
+      } else if (deadlineStatus.kind === 'expired') {
+        statusText = translations[lang].deadlineExpired;
+      } else if (
+        deadlineStatus.kind === 'future' &&
+        Number.isInteger(deadlineStatus.daysRemaining)
+      ) {
+        statusText = translations[lang].daysRemaining(
+          deadlineStatus.daysRemaining
+        );
+      } else if (deadlineStatus.kind === 'invalid') {
+        statusText = translations[lang].invalidDeadline;
+      }
+
+      if (statusText) {
+        const separator = document.createTextNode(' • ');
+        const status = document.createElement('span');
+        status.className = 'deadline-status-text';
+        status.textContent = statusText;
+
+        deadlineValue.appendChild(separator);
+        deadlineValue.appendChild(status);
+      }
     } else if (opp.deadline.type === 'rolling') {
       deadlineValue.textContent = translations[lang].rollingDeadline;
     } else {
@@ -240,9 +263,55 @@ function createOpportunityCard(opp, lang) {
     card.appendChild(desc);
   }
 
-  // Card Footer with official source link
+  // Card Footer with internal details, favorite control, and official source.
   const footer = document.createElement('div');
   footer.className = 'card-footer';
+
+  const actions = document.createElement('div');
+  actions.className = 'card-actions';
+
+  const detailsLink = document.createElement('a');
+  detailsLink.className = 'btn details-link';
+  detailsLink.href =
+    'detail.html?id=' +
+    encodeURIComponent(opp.id) +
+    '&lang=' +
+    encodeURIComponent(lang);
+  detailsLink.textContent = translations[lang].detailsLink;
+  actions.appendChild(detailsLink);
+
+  const favoriteButton = document.createElement('button');
+  favoriteButton.type = 'button';
+  favoriteButton.className = 'btn favorite-button';
+
+  function syncFavoriteButton() {
+    const favorite = window.FavoritesStore.has(opp.id);
+    const label = favorite
+      ? translations[lang].removeFavorite
+      : translations[lang].saveFavorite;
+
+    favoriteButton.setAttribute(
+      'aria-pressed',
+      favorite ? 'true' : 'false'
+    );
+
+    favoriteButton.setAttribute(
+      'aria-label',
+      label + ': ' + localizedTitle
+    );
+
+    favoriteButton.textContent =
+      (favorite ? '★ ' : '☆ ') + label;
+  }
+
+  favoriteButton.addEventListener('click', () => {
+    window.FavoritesStore.toggle(opp.id);
+    syncFavoriteButton();
+  });
+
+  syncFavoriteButton();
+  actions.appendChild(favoriteButton);
+  footer.appendChild(actions);
 
   if (opp.officialSourceUrl) {
     const sourceLink = document.createElement('a');

@@ -1,0 +1,220 @@
+﻿<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="تفاصيل الفرص التعليمية والمهنية الموثقة في بوابة فرص اليمن">
+  <title id="pageTitle">تفاصيل الفرصة | بوابة فرص اليمن</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="data:,">
+</head>
+<body>
+
+  <a href="#mainContent" class="skip-link" id="skipLink">
+    انتقل إلى المحتوى الرئيسي
+  </a>
+
+  <header class="site-header">
+    <div class="header-container">
+      <div class="header-brand">
+        <h1 id="siteTitle" class="site-title">بوابة فرص اليمن</h1>
+        <p id="siteSubtitle" class="site-subtitle">
+          دليلك الموثوق للمنح الدراسية والدورات والفرص التدريبية والمهنية للشباب اليمني
+        </p>
+      </div>
+
+      <div class="header-actions">
+        <button
+          type="button"
+          id="langToggle"
+          class="btn btn-lang"
+          aria-label="Switch language to English"
+        >
+          English
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="mainContent" class="main-content">
+    <div class="content-container detail-page-container">
+
+      <nav class="detail-navigation" aria-label="العودة إلى قائمة الفرص">
+        <a href="index.html" id="backToList" class="btn btn-secondary">
+          ← العودة إلى الفرص
+        </a>
+      </nav>
+
+      <div id="detailLoading" class="detail-loading" role="status">
+        جاري تحميل تفاصيل الفرصة...
+      </div>
+
+      <article
+        id="detailContent"
+        class="detail-card"
+        aria-labelledby="detailTitle"
+        hidden
+      >
+        <header class="detail-header">
+          <div id="detailBadges" class="card-badges"></div>
+
+          <h2 id="detailTitle" class="detail-title"></h2>
+
+          <p id="detailOrganization" class="detail-organization"></p>
+
+          <button
+            type="button"
+            id="favoriteButton"
+            class="btn favorite-button detail-favorite-button"
+            aria-pressed="false"
+          ></button>
+        </header>
+
+        <section
+          id="descriptionSection"
+          class="detail-section"
+          aria-labelledby="descriptionHeading"
+        >
+          <h3 id="descriptionHeading" class="detail-section-title">
+            نبذة عن الفرصة
+          </h3>
+
+          <p id="detailDescription" class="detail-description"></p>
+        </section>
+
+        <section class="detail-section" aria-labelledby="factsHeading">
+          <h3 id="factsHeading" class="detail-section-title">
+            معلومات الفرصة
+          </h3>
+
+          <dl class="detail-facts">
+            <div class="detail-fact">
+              <dt id="typeLabel">نوع الفرصة</dt>
+              <dd id="detailType"></dd>
+            </div>
+
+            <div class="detail-fact">
+              <dt id="countryLabel">الدولة / النطاق</dt>
+              <dd id="detailCountry"></dd>
+            </div>
+
+            <div class="detail-fact">
+              <dt id="categoriesLabel">المجال / التخصص</dt>
+              <dd id="detailCategories" class="detail-chip-list"></dd>
+            </div>
+
+            <div class="detail-fact">
+              <dt id="educationLabel">المستوى التعليمي</dt>
+              <dd id="detailEducation" class="detail-chip-list"></dd>
+            </div>
+
+            <div class="detail-fact">
+              <dt id="fundingLabel">نوع التمويل</dt>
+              <dd id="detailFunding"></dd>
+            </div>
+
+            <div class="detail-fact">
+              <dt id="deliveryLabel">نمط الحضور</dt>
+              <dd id="detailDelivery"></dd>
+            </div>
+
+            <div class="detail-fact">
+              <dt id="languagesLabel">اللغة</dt>
+              <dd id="detailLanguages"></dd>
+            </div>
+
+            <div class="detail-fact">
+              <dt id="statusLabel">حالة التقديم</dt>
+              <dd id="detailStatus"></dd>
+            </div>
+          </dl>
+        </section>
+
+        <section
+          class="detail-section detail-deadline-section"
+          aria-labelledby="deadlineHeading"
+        >
+          <h3 id="deadlineHeading" class="detail-section-title">
+            الموعد النهائي
+          </h3>
+
+          <div id="detailDeadline" class="detail-deadline-value"></div>
+
+          <div id="deadlineNotesContainer" class="detail-note" hidden>
+            <strong id="deadlineNotesLabel">ملاحظات الموعد:</strong>
+            <p id="detailDeadlineNotes"></p>
+          </div>
+        </section>
+
+        <section
+          id="eligibilitySection"
+          class="detail-section"
+          aria-labelledby="eligibilityHeading"
+          hidden
+        >
+          <h3 id="eligibilityHeading" class="detail-section-title">
+            الأهلية والمتطلبات
+          </h3>
+
+          <p id="detailEligibility"></p>
+        </section>
+
+        <section class="detail-section detail-source-section">
+          <div class="detail-actions">
+            <a
+              id="officialSourceLink"
+              class="btn btn-primary"
+              target="_blank"
+              rel="noopener noreferrer"
+              hidden
+            >
+              المصدر الرسمي ↗
+            </a>
+
+            <a
+              id="applicationLink"
+              class="btn details-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              hidden
+            >
+              التقديم للفرصة ↗
+            </a>
+          </div>
+
+          <p id="verificationText" class="detail-verification"></p>
+        </section>
+      </article>
+
+      <section id="detailError" class="error-state" hidden>
+        <div class="error-state-icon" aria-hidden="true">⚠️</div>
+
+        <h2 id="detailErrorTitle" class="error-title">
+          تعذر العثور على الفرصة
+        </h2>
+
+        <p id="detailErrorMessage" class="error-message"></p>
+
+        <a href="index.html" id="errorBackLink" class="btn btn-primary">
+          العودة إلى قائمة الفرص
+        </a>
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-container">
+      <p id="footerText" class="footer-text">
+        بوابة فرص اليمن — منصة تعليمية غير ربحية لخدمة الطلاب والشباب اليمني
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/translations.js"></script>
+  <script src="js/deadlines.js"></script>
+  <script src="js/favorites.js"></script>
+  <script src="js/detail.js"></script>
+
+</body>
+</html>
