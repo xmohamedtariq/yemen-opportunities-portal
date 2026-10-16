@@ -7,7 +7,7 @@ const translations = {
   ar: {
     siteTitle: 'بوابة فرص اليمن',
     siteSubtitle: 'دليلك الموثوق للمنح الدراسية والدورات والفرص التدريبية والمهنية للشباب اليمني',
-    langToggle: 'English',
+    langToggle: 'الإنجليزية',
     searchLabel: 'البحث عن فرصة',
     searchPlaceholder: 'ابحث بالكلمات المفتاحية (العنوان، الجهة، الوصف)...',
     clearSearch: 'مسح البحث',
@@ -134,7 +134,7 @@ const translations = {
   en: {
     siteTitle: 'Yemen Opportunities Portal',
     siteSubtitle: 'Your verified guide to scholarships, courses, and professional opportunities for Yemeni youth',
-    langToggle: 'العربية',
+    langToggle: 'Arabic',
     searchLabel: 'Search opportunities',
     searchPlaceholder: 'Search by keywords (title, provider, description)...',
     clearSearch: 'Clear search',

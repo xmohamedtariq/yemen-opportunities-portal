@@ -222,7 +222,7 @@ async function run() {
 
     testResults.push({
       name: 'Language switch to English',
-      passed: enLang === 'en' && enDir === 'ltr' && enCountText.includes('50 opportunities') && enBtnText === 'العربية',
+      passed: enLang === 'en' && enDir === 'ltr' && enCountText.includes('50 opportunities') && enBtnText === 'Arabic',
       details: { lang: enLang, dir: enDir, counterText: enCountText, langToggleText: enBtnText, firstCardTitle: enCardTitle }
     });
 

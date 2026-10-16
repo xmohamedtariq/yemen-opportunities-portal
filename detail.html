@@ -24,6 +24,16 @@
       </div>
 
       <div class="header-actions">
+                <a
+          href="about.html?lang=ar"
+          class="btn btn-secondary"
+          data-about-link
+          data-preserve-lang
+          data-base-href="about.html"
+        >
+          عن البوابة
+        </a>
+
         <button
           type="button"
           id="langToggle"
@@ -40,7 +50,10 @@
     <div class="content-container detail-page-container">
 
       <nav class="detail-navigation" aria-label="العودة إلى قائمة الفرص">
-        <a href="index.html" id="backToList" class="btn btn-secondary">
+        <a href="index.html" id="backToList" class="btn btn-secondary"
+          data-preserve-lang
+          data-base-href="index.html"
+        >
           ← العودة إلى الفرص
         </a>
       </nav>
@@ -195,7 +208,10 @@
 
         <p id="detailErrorMessage" class="error-message"></p>
 
-        <a href="index.html" id="errorBackLink" class="btn btn-primary">
+        <a href="index.html" id="errorBackLink" class="btn btn-primary"
+          data-preserve-lang
+          data-base-href="index.html"
+        >
           العودة إلى قائمة الفرص
         </a>
       </section>
@@ -214,6 +230,7 @@
   <script src="js/translations.js"></script>
   <script src="js/deadlines.js"></script>
   <script src="js/favorites.js"></script>
+  <script src="js/navigation.js"></script>
   <script src="js/detail.js"></script>
 
 </body>

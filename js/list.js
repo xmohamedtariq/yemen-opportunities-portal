@@ -8,9 +8,23 @@
 
 'use strict';
 
+/**
+ * Reads the requested interface language from the URL.
+ * Arabic remains the default when the parameter is absent
+ * or unsupported.
+ */
+function getInitialLanguage() {
+  const params =
+    new URLSearchParams(window.location.search);
+
+  return params.get('lang') === 'en'
+    ? 'en'
+    : 'ar';
+}
+
 // Application State
 const state = {
-  lang: 'ar', // 'ar' (primary) or 'en'
+  lang: getInitialLanguage(),
   opportunities: [], // Loaded from data/opportunities.json
   searchQuery: '',
   filters: {
@@ -609,8 +623,31 @@ function updateInterfaceLanguage(newLang) {
  * Toggles language between Arabic and English.
  */
 function toggleLanguage() {
-  const targetLang = state.lang === 'ar' ? 'en' : 'ar';
+  const targetLang =
+    state.lang === 'ar' ? 'en' : 'ar';
+
+  const url =
+    new URL(window.location.href);
+
+  url.searchParams.set(
+    'lang',
+    targetLang
+  );
+
+  window.history.replaceState(
+    null,
+    '',
+    url
+  );
+
   updateInterfaceLanguage(targetLang);
+
+  if (
+    window.PortalNavigation &&
+    typeof window.PortalNavigation.sync === 'function'
+  ) {
+    window.PortalNavigation.sync();
+  }
 }
 
 /**
@@ -712,5 +749,17 @@ function initEvents() {
 // Initial bootstrap
 document.addEventListener('DOMContentLoaded', () => {
   initEvents();
+
+  updateInterfaceLanguage(
+    state.lang
+  );
+
   loadOpportunities();
+
+  if (
+    window.PortalNavigation &&
+    typeof window.PortalNavigation.sync === 'function'
+  ) {
+    window.PortalNavigation.sync();
+  }
 });
