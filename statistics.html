@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+    name="description"
+    content="لوحة إحصاءات بوابة فرص اليمن — نظرة مباشرة على الفرص الموثقة حسب النوع والتخصص والدولة والتمويل"
+    id="pageDescription"
+  >
+  <title>إحصاءات الفرص | بوابة فرص اليمن</title>
+
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/product-polish.css">
+  <link rel="stylesheet" href="css/statistics.css">
+  <link rel="icon" href="data:,">
+</head>
+
+<body class="portal-page statistics-page">
+
+  <a href="#mainContent" class="skip-link" data-i18n="skipLink">
+    انتقل إلى المحتوى الرئيسي
+  </a>
+
+  <header class="site-header">
+    <div class="header-container">
+
+      <a
+        href="index.html?lang=ar"
+        class="statistics-brand"
+        id="homeLink"
+      >
+        <img
+          src="assets/images/yemen-opportunities-logo.png"
+          alt=""
+          class="statistics-brand-logo"
+          width="46"
+          height="46"
+        >
+
+        <span class="statistics-brand-copy">
+          <strong data-i18n="siteTitle">بوابة فرص اليمن</strong>
+          <span data-i18n="siteSubtitle">فرص موثقة. وصول أوضح. للشباب اليمني.</span>
+        </span>
+      </a>
+
+      <nav class="header-actions" aria-label="التنقل الرئيسي" id="mainNav">
+        <a
+          href="index.html?lang=ar"
+          class="btn btn-secondary"
+          id="opportunitiesNav"
+          data-i18n="opportunitiesNav"
+        >
+          الفرص
+        </a>
+
+        <a
+          href="statistics.html?lang=ar"
+          class="btn btn-secondary statistics-nav-current"
+          id="statisticsNav"
+          data-i18n="statisticsNav"
+          aria-current="page"
+        >
+          الإحصاءات
+        </a>
+
+        <a
+          href="about.html?lang=ar"
+          class="btn btn-secondary"
+          id="aboutNav"
+          data-i18n="aboutNav"
+        >
+          عن البوابة
+        </a>
+
+        <button
+          type="button"
+          id="langToggle"
+          class="btn btn-lang"
+          aria-label="Switch language to English"
+        >
+          English
+        </button>
+      </nav>
+
+    </div>
+  </header>
+
+  <main id="mainContent" class="main-content">
+    <div class="content-container statistics-container">
+
+      <section class="statistics-hero" aria-labelledby="statisticsTitle">
+        <p class="statistics-eyebrow" data-i18n="eyebrow">
+          بيانات الفرص الموثقة
+        </p>
+
+        <h1 id="statisticsTitle" data-i18n="heroTitle">
+          صورة أوضح عن الفرص المتاحة
+        </h1>
+
+        <p class="statistics-hero-copy" data-i18n="heroCopy">
+          تُحسب هذه الإحصاءات مباشرة من قاعدة الفرص الموثقة في البوابة، دون أرقام ثابتة أو بيانات مولدة.
+        </p>
+
+        <div class="statistics-trust-note">
+          <span aria-hidden="true">✓</span>
+          <span data-i18n="trustNote">
+            جميع الأرقام مشتقة من البيانات الحالية في opportunities.json
+          </span>
+        </div>
+      </section>
+
+      <div
+        id="statisticsLoading"
+        class="statistics-status"
+        role="status"
+        aria-live="polite"
+      >
+        <span class="statistics-loader" aria-hidden="true"></span>
+        <span data-i18n="loading">جاري تحليل بيانات الفرص...</span>
+      </div>
+
+      <section
+        id="statisticsError"
+        class="statistics-error"
+        role="alert"
+        hidden
+      >
+        <h2 data-i18n="errorTitle">تعذر تحميل الإحصاءات</h2>
+        <p data-i18n="errorCopy">
+          تعذر قراءة بيانات الفرص. تحقق من تشغيل الخادم المحلي ثم أعد المحاولة.
+        </p>
+        <button type="button" id="retryButton" class="btn btn-primary" data-i18n="retry">
+          إعادة المحاولة
+        </button>
+      </section>
+
+      <div id="statisticsContent" hidden>
+
+        <section aria-labelledby="overviewHeading">
+          <div class="statistics-section-heading">
+            <div>
+              <p class="statistics-section-kicker" data-i18n="overviewKicker">
+                نظرة سريعة
+              </p>
+              <h2 id="overviewHeading" data-i18n="overviewTitle">
+                ملخص قاعدة الفرص
+              </h2>
+            </div>
+          </div>
+
+          <div class="statistics-summary-grid">
+            <article class="statistics-summary-card">
+              <span class="statistics-summary-label" data-i18n="totalLabel">
+                إجمالي الفرص
+              </span>
+              <strong id="totalOpportunities" class="statistics-summary-value">0</strong>
+              <span class="statistics-summary-note" data-i18n="totalNote">
+                فرصة موثقة في قاعدة البيانات
+              </span>
+            </article>
+
+            <article class="statistics-summary-card">
+              <span class="statistics-summary-label" data-i18n="countriesLabel">
+                الدول والنطاقات
+              </span>
+              <strong id="countryCount" class="statistics-summary-value">0</strong>
+              <span class="statistics-summary-note" data-i18n="countriesNote">
+                دول أو نطاقات دولية ممثلة
+              </span>
+            </article>
+
+            <article class="statistics-summary-card">
+              <span class="statistics-summary-label" data-i18n="categoriesLabel">
+                التخصصات
+              </span>
+              <strong id="categoryCount" class="statistics-summary-value">0</strong>
+              <span class="statistics-summary-note" data-i18n="categoriesNote">
+                مجالات مختلفة ضمن الفرص
+              </span>
+            </article>
+
+            <article class="statistics-summary-card">
+              <span class="statistics-summary-label" data-i18n="fullyFundedLabel">
+                ممولة بالكامل
+              </span>
+              <strong id="fullyFundedCount" class="statistics-summary-value">0</strong>
+              <span class="statistics-summary-note" data-i18n="fullyFundedNote">
+                بحسب المعلومات الموثقة في المصدر
+              </span>
+            </article>
+          </div>
+        </section>
+
+        <div class="statistics-dashboard-grid">
+
+          <section class="statistics-panel" aria-labelledby="typeHeading">
+            <div class="statistics-panel-heading">
+              <p class="statistics-section-kicker" data-i18n="typeKicker">حسب النوع</p>
+              <h2 id="typeHeading" data-i18n="typeTitle">أنواع الفرص</h2>
+            </div>
+            <div id="typeStatistics" class="statistics-bars"></div>
+          </section>
+
+          <section class="statistics-panel" aria-labelledby="categoryHeading">
+            <div class="statistics-panel-heading">
+              <p class="statistics-section-kicker" data-i18n="categoryKicker">حسب المجال</p>
+              <h2 id="categoryHeading" data-i18n="categoryTitle">التخصصات والمجالات</h2>
+            </div>
+            <div id="categoryStatistics" class="statistics-bars"></div>
+          </section>
+
+          <section class="statistics-panel" aria-labelledby="countryHeading">
+            <div class="statistics-panel-heading">
+              <p class="statistics-section-kicker" data-i18n="countryKicker">حسب الوجهة</p>
+              <h2 id="countryHeading" data-i18n="countryTitle">الدول والنطاق الدولي</h2>
+            </div>
+            <div id="countryStatistics" class="statistics-bars"></div>
+          </section>
+
+          <section class="statistics-panel" aria-labelledby="fundingHeading">
+            <div class="statistics-panel-heading">
+              <p class="statistics-section-kicker" data-i18n="fundingKicker">حسب التمويل</p>
+              <h2 id="fundingHeading" data-i18n="fundingTitle">أنواع التمويل</h2>
+            </div>
+            <div id="fundingStatistics" class="statistics-bars"></div>
+          </section>
+
+        </div>
+
+        <p class="statistics-data-note" data-i18n="dataNote">
+          ملاحظة: الإحصاءات تصف السجلات الحالية فقط، وقد تتغير عند إعادة التحقق من الفرص أو تحديث قاعدة البيانات.
+        </p>
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-container">
+      <p class="footer-text" data-i18n="footer">
+        بوابة فرص اليمن — فرص موثقة ووصول أوضح للشباب اليمني
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/statistics.js"></script>
+</body>
+</html>

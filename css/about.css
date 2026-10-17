@@ -1,4 +1,4 @@
-﻿/* Yemen Opportunities Portal - About Product Page */
+/* Yemen Opportunities Portal - About Product Page */
 
 .yp-about-page {
   background: #ffffff;
@@ -854,3 +854,17 @@
   }
 }
 
+
+
+/* Statistics bilingual navigation */
+.nav-statistics-link .nav-label-en {
+  display: none;
+}
+
+html[lang="en"] .nav-statistics-link .nav-label-ar {
+  display: none;
+}
+
+html[lang="en"] .nav-statistics-link .nav-label-en {
+  display: inline;
+}

@@ -833,3 +833,17 @@ html[lang="en"] .portal-page .lang-en {
     max-width: 100%;
   }
 }
+
+
+/* Statistics bilingual navigation */
+.nav-statistics-link .nav-label-en {
+  display: none;
+}
+
+html[lang="en"] .nav-statistics-link .nav-label-ar {
+  display: none;
+}
+
+html[lang="en"] .nav-statistics-link .nav-label-en {
+  display: inline;
+}
