@@ -110,11 +110,67 @@ No code remediation is required from the confirmed findings of this local review
 No security-fix commit is required at this stage because no Critical, High, Medium, or Low finding was confirmed.
 
 ## Antigravity Security-Agent Evidence
-**Status: Pending**
 
-This report does not claim that an Antigravity security-review agent has been run.
+**Status: Completed — PASS**
 
-If available, a separate read-only Antigravity agent review should be performed and its genuine result appended before final submission.
+**Review date:** 2026-10-17
+
+Antigravity performed a separate read-only security review of the project.
+
+Git verification immediately after the review showed:
+
+- working tree: clean
+- current commit unchanged
+- baseline commit: `99ba126`
+
+Antigravity reported:
+
+| Severity | Count |
+|---|---:|
+| Critical | 0 |
+| High | 0 |
+| Medium | 0 |
+| Low | 0 |
+| Informational | 2 |
+
+**Antigravity final verdict: PASS**
+
+### Informational Recommendation 1 — Deployment Security Headers
+
+Antigravity recommended defense-in-depth HTTP security headers such as Content Security Policy, X-Content-Type-Options, Referrer-Policy, and Permissions-Policy.
+
+This is classified as Informational / deployment-time hardening and not as a confirmed application vulnerability.
+
+### Informational Recommendation 2 — Runtime HTTPS Assertion in Listing
+
+`js/list.js` assigns the already-validated production value `opp.officialSourceUrl` directly to the generated source link.
+
+Production validation currently requires HTTPS and the reviewed dataset contains zero non-HTTPS production URL candidates.
+
+Adding a runtime HTTPS protocol assertion in the listing code remains an optional defense-in-depth improvement.
+
+### Human Verification of Agent Claims
+
+The Antigravity output was not copied blindly into the final evidence.
+
+Three statements were independently checked against the source code and excluded from the authoritative security conclusions because they were not supported by the current implementation:
+
+1. The current Suggest URL helper checks `new URL(v).protocol === "https:"`; it does not additionally check `hostname.includes(".")`.
+2. The current Suggest implementation does not impose a 50-record storage cap.
+3. The current Suggest form does not contain or validate a `category` field.
+
+These discrepancies do not change the security verdict because they were not required to support any Critical, High, Medium, or Low finding.
+
+### Combined Security Verdict
+
+Local read-only review: **PASS**
+
+Antigravity read-only review: **PASS**
+
+**Confirmed application findings: 0 Critical, 0 High, 0 Medium, 0 Low.**
+
+**Defense-in-depth informational recommendations: 2.**
+
 
 ## Local Review Verdict
 **PASS**
