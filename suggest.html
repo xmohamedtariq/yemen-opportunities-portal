@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta id="pageDescription" name="description" content="اقترح فرصة لإضافتها إلى بوابة فرص اليمن بعد المراجعة اليدوية للمصدر الرسمي.">
+  <title>اقترح فرصة | بوابة فرص اليمن</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/product-polish.css">
+  <link rel="stylesheet" href="css/suggest.css">
+  <link rel="icon" href="data:,">
+</head>
+<body class="portal-page suggest-page">
+  <a href="#mainContent" class="skip-link" id="skipLink" data-i18n="skipLink">انتقل إلى المحتوى الرئيسي</a>
+  <header class="site-header">
+    <div class="header-container">
+      <a href="index.html?lang=ar" class="suggest-brand" id="homeLink">
+        <img src="assets/images/yemen-opportunities-logo.png" alt="" class="suggest-brand-logo" width="46" height="46">
+        <span class="suggest-brand-copy">
+          <strong data-i18n="siteTitle">بوابة فرص اليمن</strong>
+          <span data-i18n="siteSubtitle">فرص موثقة. وصول أوضح. للشباب اليمني.</span>
+        </span>
+      </a>
+      <nav class="header-actions" id="mainNav" aria-label="التنقل الرئيسي">
+        <a href="index.html?lang=ar" class="btn btn-secondary" id="opportunitiesNav" data-i18n="opportunitiesNav">الفرص</a>
+        <a href="statistics.html?lang=ar" class="btn btn-secondary" id="statisticsNav" data-i18n="statisticsNav">الإحصاءات</a>
+        <a href="about.html?lang=ar" class="btn btn-secondary" id="aboutNav" data-i18n="aboutNav">عن البوابة</a>
+        <a href="suggest.html?lang=ar" class="btn btn-secondary suggest-nav-current" id="suggestNav" data-i18n="suggestNav" aria-current="page">اقترح فرصة</a>
+        <button type="button" id="langToggle" class="btn btn-lang" aria-label="Switch language to English">English</button>
+      </nav>
+    </div>
+  </header>
+  <main id="mainContent" class="main-content">
+    <div class="content-container suggest-container">
+      <section class="suggest-hero" aria-labelledby="suggestTitle">
+        <p class="suggest-eyebrow" data-i18n="eyebrow">مساهمة مجتمعية آمنة</p>
+        <h1 id="suggestTitle" data-i18n="heroTitle">ساعدنا في اكتشاف فرصة موثوقة</h1>
+        <p class="suggest-hero-copy" data-i18n="heroCopy">أرسل رابط المصدر الرسمي للفرصة. سيُحفظ الاقتراح على هذا الجهاز بحالة بانتظار المراجعة، ولن يُنشر أو يُضاف إلى قاعدة البيانات تلقائيًا.</p>
+        <div class="suggest-rules" role="note">
+          <div><strong data-i18n="pendingRuleTitle">المراجعة اليدوية إلزامية</strong><span data-i18n="pendingRuleCopy">كل اقتراح يبقى Pending حتى يتحقق مالك المشروع من المصدر الرسمي.</span></div>
+          <div><strong data-i18n="privacyRuleTitle">خصوصية بسيطة</strong><span data-i18n="privacyRuleCopy">نطلب الاسم فقط، ولا نطلب البريد أو رقم الهاتف أو أي بيانات حساسة.</span></div>
+        </div>
+      </section>
+      <section class="suggest-layout">
+        <article class="suggest-form-card">
+          <div class="suggest-section-heading">
+            <p class="suggest-section-kicker" data-i18n="formKicker">اقتراح جديد</p>
+            <h2 data-i18n="formTitle">بيانات الفرصة</h2>
+            <p data-i18n="requiredNote">الحقول المعلّمة بنجمة مطلوبة.</p>
+          </div>
+          <form id="suggestForm" novalidate>
+            <div class="suggest-field">
+              <label for="submitterName"><span data-i18n="nameLabel">الاسم</span> <span aria-hidden="true">*</span></label>
+              <input id="submitterName" name="submitterName" type="text" maxlength="80" autocomplete="name" required data-i18n-placeholder="namePlaceholder" placeholder="مثال: محمد">
+              <p class="field-help" data-i18n="nameHelp">يُستخدم الاسم فقط لتعريف صاحب الاقتراح داخل سجل المراجعة المحلي.</p>
+            </div>
+            <div class="suggest-field">
+              <label for="opportunityTitle"><span data-i18n="titleLabel">عنوان الفرصة</span> <span aria-hidden="true">*</span></label>
+              <input id="opportunityTitle" name="opportunityTitle" type="text" maxlength="180" required data-i18n-placeholder="titlePlaceholder" placeholder="اسم المنحة أو الدورة أو التدريب">
+            </div>
+            <div class="suggest-field">
+              <label for="opportunityType"><span data-i18n="typeLabel">نوع الفرصة</span> <span aria-hidden="true">*</span></label>
+              <select id="opportunityType" name="opportunityType" required></select>
+            </div>
+            <div class="suggest-field">
+              <label for="organization"><span data-i18n="organizationLabel">الجهة / المنظمة</span> <span aria-hidden="true">*</span></label>
+              <input id="organization" name="organization" type="text" maxlength="180" required data-i18n-placeholder="organizationPlaceholder" placeholder="اسم الجهة الرسمية">
+            </div>
+            <div class="suggest-field">
+              <label for="officialSourceUrl"><span data-i18n="sourceLabel">رابط المصدر الرسمي HTTPS</span> <span aria-hidden="true">*</span></label>
+              <input id="officialSourceUrl" name="officialSourceUrl" type="url" inputmode="url" maxlength="1000" required placeholder="https://example.org/opportunity" dir="ltr">
+              <p class="field-help" data-i18n="sourceHelp">يجب أن يكون الرابط HTTPS ومن الموقع الرسمي للجهة.</p>
+              <p id="sourceError" class="field-error" role="alert" hidden></p>
+            </div>
+            <div class="suggest-field">
+              <label for="reviewerNote" data-i18n="noteLabel">ملاحظة اختيارية للمراجع</label>
+              <textarea id="reviewerNote" name="reviewerNote" rows="4" maxlength="600" data-i18n-placeholder="notePlaceholder" placeholder="أي ملاحظة تساعد في التحقق من الفرصة"></textarea>
+            </div>
+            <div class="suggest-storage-note">
+              <strong data-i18n="storageTitle">مهم قبل الحفظ</strong>
+              <p data-i18n="storageCopy">الحفظ هنا محلي على هذا الجهاز فقط. لا يعني أن الفرصة نُشرت أو تم التحقق منها.</p>
+            </div>
+            <div class="suggest-actions">
+              <button type="submit" class="btn btn-primary" id="saveSuggestion" data-i18n="saveButton">حفظ الاقتراح كـ Pending</button>
+              <button type="reset" class="btn btn-secondary" id="clearSuggestion" data-i18n="clearButton">مسح الحقول</button>
+            </div>
+          </form>
+        </article>
+        <aside class="suggest-status-card" aria-labelledby="reviewStatusTitle">
+          <p class="suggest-section-kicker" data-i18n="statusKicker">حالة المراجعة</p>
+          <h2 id="reviewStatusTitle" data-i18n="statusTitle">كيف يعمل الاقتراح؟</h2>
+          <ol class="suggest-steps">
+            <li data-i18n="stepOne">ترسل اسمك وبيانات الفرصة ورابط المصدر الرسمي.</li>
+            <li data-i18n="stepTwo">يُحفظ الاقتراح على هذا الجهاز بحالة Pending.</li>
+            <li data-i18n="stepThree">لا يدخل إلى بيانات الإنتاج إلا بعد مراجعة بشرية منفصلة.</li>
+          </ol>
+          <div class="pending-counter"><span data-i18n="pendingCountLabel">الاقتراحات المعلّقة على هذا الجهاز</span><strong id="pendingCount">0</strong></div>
+          <div id="successPanel" class="suggest-success" tabindex="-1" hidden>
+            <span class="pending-badge" data-i18n="pendingBadge">Pending · بانتظار المراجعة</span>
+            <h3 data-i18n="successTitle">تم حفظ الاقراح محليًا</h3>
+            <p id="successMessage"></p>
+            <dl class="suggest-confirmation-list">
+              <div><dt data-i18n="savedNameLabel">صاحب الاقتراح</dt><dd id="savedName"></dd></div>
+              <div><dt data-i18n="savedOpportunityLabel">الفرصة</dt><dd id="savedOpportunity"></dd></div>
+              <div><dt data-i18n="savedStatusLabel">الحالة</dt><dd data-i18n="pendingStatus">Pending — غير منشورة</dd></div>
+            </dl>
+          </div>
+        </aside>
+      </section>
+    </div>
+  </main>
+  <footer class="site-footer"><div class="footer-container"><p class="footer-text" data-i18n="footer">بوابة فرص اليمن — فرص موثقة ووصول أوضح للشباب اليمني</p></div></footer>
+  <script src="js/suggest.js"></script>
+</body>
+</html>

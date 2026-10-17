@@ -847,3 +847,17 @@ html[lang="en"] .nav-statistics-link .nav-label-ar {
 html[lang="en"] .nav-statistics-link .nav-label-en {
   display: inline;
 }
+
+
+/* Suggest bilingual navigation */
+.nav-suggest-link .nav-label-en {
+  display: none;
+}
+
+html[lang="en"] .nav-suggest-link .nav-label-ar {
+  display: none;
+}
+
+html[lang="en"] .nav-suggest-link .nav-label-en {
+  display: inline;
+}

@@ -11,6 +11,7 @@
       opportunitiesNav: 'الفرص',
       statisticsNav: 'الإحصاءات',
       aboutNav: 'عن البوابة',
+      suggestNav: 'اقترح فرصة',
       languageButton: 'English',
       languageAria: 'Switch language to English',
       eyebrow: 'بيانات الفرص الموثقة',
@@ -54,6 +55,7 @@
       opportunitiesNav: 'Opportunities',
       statisticsNav: 'Statistics',
       aboutNav: 'About',
+      suggestNav: 'Suggest',
       languageButton: 'العربية',
       languageAria: 'التبديل إلى اللغة العربية',
       eyebrow: 'Verified opportunity data',
@@ -133,6 +135,7 @@
     opportunitiesNav: document.getElementById('opportunitiesNav'),
     statisticsNav: document.getElementById('statisticsNav'),
     aboutNav: document.getElementById('aboutNav'),
+    suggestNav: document.getElementById('suggestNav'),
     loading: document.getElementById('statisticsLoading'),
     error: document.getElementById('statisticsError'),
     content: document.getElementById('statisticsContent'),
@@ -178,6 +181,7 @@
     dom.opportunitiesNav.href = `index.html${langQuery}`;
     dom.statisticsNav.href = `statistics.html${langQuery}`;
     dom.aboutNav.href = `about.html${langQuery}`;
+    dom.suggestNav.href = `suggest.html${langQuery}`;
   }
 
   function increment(map, key) {
