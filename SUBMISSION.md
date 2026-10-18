@@ -1,59 +1,309 @@
-# Yemen Opportunities Portal - Submission Guide
+# Yemen Opportunities Portal â€” Final Submission Guide
 
-This file is the reviewer-facing index for the graduation project.
+This document is the reviewer-facing index for the graduation project.
 
-## Submission Status
+## Quick Access
 
-- Project: Yemen Opportunities Portal
-- Course: Agentic Programming with Google Antigravity - LLM4Yemen Cohort 1
-- Branch: `main`
-- Live application: **Pending final GitHub Pages publication**
-- GitHub repository: **Pending repository creation / push**
-- Final submission commit: **To be recorded at final release**
-- Final submission tag: **To be created at final release**
+ðŸŒ **[Open Live Application](https://xmohamedtariq.github.io/yemen-opportunities-portal/)**
+
+ðŸ’» **[Open GitHub Repository](https://github.com/xmohamedtariq/yemen-opportunities-portal)**
+
+ðŸ“˜ **[Read Project README](README.md)**
+
+ðŸ“„ **[Read Final Reflection](docs/reflection.md)**
+
+ðŸ”’ **[Read Security Review](docs/security/security-review.md)**
+
+ðŸ§ª **[Open Testing Evidence](docs/testing/final-browser-verification.md)**
+
+---
+
+## Project Information
+
+- **Project:** Yemen Opportunities Portal
+- **Course:** Agentic Programming with Google Antigravity
+- **Program:** LLM4Yemen â€” Cohort 1
+- **Branch:** `main`
+- **Live Application:** [Yemen Opportunities Portal](https://xmohamedtariq.github.io/yemen-opportunities-portal/)
+- **GitHub Repository:** [xmohamedtariq/yemen-opportunities-portal](https://github.com/xmohamedtariq/yemen-opportunities-portal)
+- **Demo Video:** Attached separately in the final submission email as `Yemen_Opportunities_Portal_Final_Demo_Mohammed_Tariq_Al-Saqaf.mp4`
+
+---
 
 ## Required Submission Items
 
-| Requirement | Evidence |
+| Requirement | Interactive Evidence |
 | --- | --- |
-| Published application | Pending final GitHub Pages publication |
-| GitHub repository | Pending final repository publication |
-| Proposal | [`docs/proposal.md`](docs/proposal.md) |
-| Project rules | [`AGENTS.md`](AGENTS.md) |
-| Arabic RTL review skill | [`.agents/skills/arabic-rtl-review/SKILL.md`](.agents/skills/arabic-rtl-review/SKILL.md) |
-| Agent A plan / execution record | [`docs/tasks/opportunities-listing.md`](docs/tasks/opportunities-listing.md) |
-| Agent B plan / execution record | [`docs/tasks/opportunity-details-and-favorites.md`](docs/tasks/opportunity-details-and-favorites.md) |
-| Agent C approved plan | [`docs/tasks/about-and-documentation-plan.md`](docs/tasks/about-and-documentation-plan.md) |
-| Agent C execution evidence | [`docs/tasks/about-and-documentation.md`](docs/tasks/about-and-documentation.md) |
-| Security review | [`docs/security/security-review.md`](docs/security/security-review.md) |
-| Reflection | **Pending final reflection** |
-| Demo video | **Pending final 3-5 minute video** |
+| ðŸŒ Published application | [Open Live Application](https://xmohamedtariq.github.io/yemen-opportunities-portal/) |
+| ðŸ’» GitHub repository | [Open Repository](https://github.com/xmohamedtariq/yemen-opportunities-portal) |
+| ðŸ“‹ Project proposal | [Open Proposal](docs/proposal.md) |
+| ðŸ“ Project rules | [Open AGENTS.md](AGENTS.md) |
+| ðŸŒ Arabic RTL review skill | [Open Arabic RTL Skill](.agents/skills/arabic-rtl-review/SKILL.md) |
+| ðŸ¤– Agent A â€” listing/search/filter | [Open Agent A Evidence](docs/tasks/opportunities-listing.md) |
+| ðŸ¤– Agent B â€” details/favorites | [Open Agent B Evidence](docs/tasks/opportunity-details-and-favorites.md) |
+| ðŸ¤– Agent C â€” approved plan | [Open Agent C Plan](docs/tasks/about-and-documentation-plan.md) |
+| ðŸ¤– Agent C â€” execution | [Open Agent C Evidence](docs/tasks/about-and-documentation.md) |
+| ðŸŽ¨ Design unification | [Open Design Unification Evidence](docs/tasks/design-unification.md) |
+| ðŸ›¡ Safe project setup | [Open Safe Setup Evidence](docs/security/safe-setup-evidence.md) |
+| ðŸ”’ Security review | [Open Security Review](docs/security/security-review.md) |
+| ðŸ“ Final reflection | [Open Final Reflection](docs/reflection.md) |
+| ðŸŽ¥ Demo video | Attached separately in the final submission email |
 
-## Core Technical Evidence
+---
 
-- Data verification: [`docs/data-verification-evidence.md`](docs/data-verification-evidence.md)
-- Data model: [`docs/data-model.md`](docs/data-model.md)
-- Listing browser evidence: [`docs/testing/listing-browser-evidence.md`](docs/testing/listing-browser-evidence.md)
-- Details and favorites evidence: [`docs/testing/details-favorites-browser-evidence.md`](docs/testing/details-favorites-browser-evidence.md)
-- About page evidence: [`docs/testing/about-page-browser-evidence.md`](docs/testing/about-page-browser-evidence.md)
-- Offline evidence: [`docs/testing/offline-browser-evidence.md`](docs/testing/offline-browser-evidence.md)
-- Weekly scheduled report evidence: [`docs/testing/weekly-report-evidence.md`](docs/testing/weekly-report-evidence.md)
-- Test methodology: [`docs/testing/test-methodology.md`](docs/testing/test-methodology.md)
-- Deployment documentation: [`docs/deployment.md`](docs/deployment.md)
+## Data Quality Evidence
+
+The production dataset contains **50 manually reviewed opportunity records**.
+
+Production opportunity data is not generated by AI and is not automatically scraped.
+
+| Evidence | Link |
+| --- | --- |
+| Production dataset | [Open opportunities.json](data/opportunities.json) |
+| JSON schema | [Open schema.json](data/schema.json) |
+| Data model | [Open Data Model](docs/data-model.md) |
+| Data verification | [Open Verification Evidence](docs/data-verification-evidence.md) |
+| Final human audit | [Open Human Audit](docs/data-final-human-audit.md) |
+| Validator | [Open validate-data.js](scripts/validate-data.js) |
+
+### Final Validation
+
+Validated on **2026-10-18**:
+
+- **50 production records checked**
+- **0 structural errors**
+- Official source links are required.
+- Verification dates are required.
+- Production data remains under human verification.
+
+---
+
+## Browser and Functional Testing
+
+| Test Area | Interactive Evidence |
+| --- | --- |
+| Listing, search, and filters | [Open Listing Evidence](docs/testing/listing-browser-evidence.md) |
+| Opportunity details and favorites | [Open Details & Favorites Evidence](docs/testing/details-favorites-browser-evidence.md) |
+| About page | [Open About Page Evidence](docs/testing/about-page-browser-evidence.md) |
+| Final browser verification | [Open Final Browser Verification](docs/testing/final-browser-verification.md) |
+| Offline functionality | [Open Offline Evidence](docs/testing/offline-browser-evidence.md) |
+| Statistics dashboard | [Open Statistics Evidence](docs/testing/statistics-browser-evidence.md) |
+| Suggest an Opportunity | [Open Suggestion Evidence](docs/testing/suggest-browser-evidence.md) |
+| Testing methodology | [Open Test Methodology](docs/testing/test-methodology.md) |
+
+### Final Automated Test Coverage
+
+The final test pass covered:
+
+- Search
+- Filters
+- Opportunity details
+- Favorites
+- Deadline calculations
+- Arabic / English switching
+- RTL / LTR behavior
+- 360px mobile responsiveness
+- Offline functionality
+- Statistics dashboard
+- Suggestion workflow
+- Weekly maintenance report
+
+---
+
+## Real Device and Usability Testing
+
+The deployed application was tested on a **real physical Apple iPhone using Safari**.
+
+Offline behavior was verified after the first successful online load.
+
+### Physical Device Evidence
+
+- ðŸ“± [Physical iPhone Safari Offline Test](docs/testing/physical-iphone-safari-offline-test.md)
+- ðŸ“± [Physical Phone Verification](docs/testing/physical-phone-test.md)
+- ðŸŽ [Real Device iOS Safari Evidence](docs/testing/real-device-ios-safari.md)
+- ðŸ‘¤ [Real Device and User Verification](docs/testing/real-device-and-user-verification.md)
+
+### First-Time User Test
+
+A first-time user successfully completed the required workflow without assistance:
+
+1. Search for an opportunity.
+2. Use a filter.
+3. Open opportunity details.
+4. Locate the deadline.
+5. Save the opportunity to Favorites.
+
+ðŸ‘¤ **[Open Novice User Usability Test](docs/testing/novice-user-test.md)**
+
+**Result: PASS**
+
+---
+
+## Security Evidence
+
+Security was treated as a requirement from the beginning of the project.
+
+The review covered:
+
+- exposed secrets and credentials
+- unsafe external resources
+- HTTPS links
+- client-side rendering and XSS risks
+- destructive operations
+- production-data protection
+
+### Interactive Security Evidence
+
+- ðŸ“ [Project Rules â€” AGENTS.md](AGENTS.md)
+- ðŸ›¡ [Safe Setup Evidence](docs/security/safe-setup-evidence.md)
+- ðŸ”’ [Final Security Review](docs/security/security-review.md)
+- ðŸ“‹ [Security Review Plan](docs/tasks/security-review-plan.md)
+
+---
+
+## Weekly Read-Only Maintenance Task
+
+A weekly Antigravity task was configured and verified.
+
+The task reports:
+
+- opportunities with fixed deadlines closing within the next **14 days**
+- records whose verification date is older than **90 days**
+
+The task is explicitly **read-only**.
+
+### Interactive Evidence
+
+- ðŸ“‹ [Weekly Task Plan](docs/tasks/weekly-readonly-report-plan.md)
+- âš™ï¸ [Weekly Report Script](scripts/weekly-report.js)
+- ðŸ§ª [Weekly Report Tests](tests/weekly-report-check.js)
+- ðŸ“„ [Weekly Report Evidence](docs/testing/weekly-report-evidence.md)
+
+### Configuration
+
+- **Status:** Running
+- **Frequency:** Weekly
+- **Day:** Saturday
+- **Mode:** Read-only
+
+---
 
 ## Additional Objectives Completed
 
-- Statistics dashboard
-- Manually reviewed opportunity-submission workflow
-- Full Arabic / English interface
-- Automated browser and utility tests
-- Offline Service Worker support
-- Weekly read-only maintenance report
+### ðŸ“Š Statistics Dashboard
+
+[Open Statistics Page](statistics.html)
+
+Includes opportunity insights by category.
+
+### âž• Suggest an Opportunity
+
+[Open Suggestion Page](suggest.html)
+
+Submitted opportunities remain pending until manual verification.
+
+### ðŸŒ Full Bilingual Interface
+
+[Open Main Application](index.html)
+
+Supports:
+
+- Arabic RTL
+- English LTR
+- Language switching across the application
+
+### ðŸ§ª Automated Testing
+
+[Open Tests Directory](tests/)
+
+Tests cover search, filtering, deadlines, details, favorites, offline behavior, statistics, suggestions, and weekly reporting.
+
+### ðŸ“¶ Offline Support
+
+[Open Service Worker](service-worker.js)
+
+The portal can remain available offline after the first successful online load.
+
+---
+
+## Technical Decision Highlight
+
+One important technical decision was implementing offline support using a **Service Worker**.
+
+After the first successful online load, core application resources are cached so the portal can remain available when connectivity becomes unavailable.
+
+This decision is relevant to the target users because internet connectivity may be limited or unstable.
+
+Evidence:
+
+- [Service Worker](service-worker.js)
+- [Offline Browser Evidence](docs/testing/offline-browser-evidence.md)
+- [Physical iPhone Offline Test](docs/testing/physical-iphone-safari-offline-test.md)
+
+---
+
+## Human Review and AI Responsibility
+
+The project followed this workflow:
+
+**Plan â†’ Human Review â†’ Approval â†’ Implementation â†’ Browser Test â†’ Evidence â†’ Commit**
+
+AI agents assisted with:
+
+- planning
+- implementation
+- documentation
+- automated testing
+
+Human review remained responsible for:
+
+- production opportunity verification
+- approval decisions
+- security decisions
+- testing evidence
+- deployment
+- final documentation
+
+The project does not claim evidence that was not genuinely produced.
+
+---
+
+## Final Project Documentation
+
+ðŸ“š **[Open Complete Project Documentation](PROJECT_DOCUMENTATION.md)**
+
+ðŸš€ **[Open Deployment Documentation](docs/deployment.md)**
+
+ðŸ“ **[Open Final Reflection](docs/reflection.md)**
+
+ðŸ“– **[Open README](README.md)**
+
+---
+
+## Final Submission Package
+
+1. ðŸŒ [Live Application](https://xmohamedtariq.github.io/yemen-opportunities-portal/)
+2. ðŸ’» [GitHub Repository](https://github.com/xmohamedtariq/yemen-opportunities-portal)
+3. ðŸ“‹ [Project Proposal](docs/proposal.md)
+4. ðŸ“ [Project Rules](AGENTS.md)
+5. ðŸŒ [Arabic RTL Review Skill](.agents/skills/arabic-rtl-review/SKILL.md)
+6. ðŸ¤– [Agent Plans and Evidence](docs/tasks/opportunities-listing.md)
+7. ðŸ“Š [Verified Production Dataset](data/opportunities.json)
+8. ðŸ”’ [Security Review](docs/security/security-review.md)
+9. ðŸ§ª [Final Browser Testing](docs/testing/final-browser-verification.md)
+10. ðŸ“± [Physical Device Testing](docs/testing/physical-iphone-safari-offline-test.md)
+11. ðŸ‘¤ [Novice User Test](docs/testing/novice-user-test.md)
+12. â° [Weekly Maintenance Task Evidence](docs/testing/weekly-report-evidence.md)
+13. ðŸ“ [Final Reflection](docs/reflection.md)
+14. ðŸŽ¥ Demo video attached separately in the final submission email
+
+---
 
 ## Integrity Notes
 
-- Production opportunity data is manually reviewed and is not generated automatically by an AI agent.
-- No scraping workflow automatically publishes opportunities.
-- Automated test success refers to the defined acceptance scenarios; it is not presented as proof that every possible defect has been eliminated.
-- Browser Recording is not claimed unless a genuine Antigravity recording is produced.
-- Final URLs, commit hash, tag, reflection, and video will be added only after they genuinely exist.
+- Production opportunity data was manually reviewed from official sources.
+- AI agents were not allowed to invent production opportunities.
+- User-submitted opportunities are not automatically published.
+- Automated testing does not replace human verification.
+- Browser Recording is not claimed because a native Antigravity browser recording was not available in the final environment.
+- The final demo video is supplied separately with the submission email.
