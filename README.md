@@ -4,6 +4,13 @@
 
 # Yemen Opportunities Portal
 
+<p align="center">
+  <a href="https://github.com/xmohamedtariq/yemen-opportunities-portal">💻 <strong>GitHub Repository</strong></a>
+  &nbsp;&nbsp; • &nbsp;&nbsp;
+  <a href="https://xmohamedtariq.github.io/yemen-opportunities-portal/">🌐 <strong>Live Website</strong></a>
+</p>
+
+
 ### Trusted opportunities. Clearer access. Built for Yemeni youth.
 
 A bilingual platform for discovering scholarships, internships, courses, and educational opportunities from trusted official sources.
