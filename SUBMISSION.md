@@ -1,20 +1,20 @@
-# Yemen Opportunities Portal â€” Submission Guide
+# Yemen Opportunities Portal — Submission Guide
 
 This document is the reviewer-facing index for the graduation project.
 
 ## Quick Access
 
-ðŸŒ **[Open Live Application](https://xmohamedtariq.github.io/yemen-opportunities-portal/)**
+🌐 **[Open Live Application](https://xmohamedtariq.github.io/yemen-opportunities-portal/)**
 
-ðŸ’» **[Open GitHub Repository](https://github.com/xmohamedtariq/yemen-opportunities-portal)**
+💻 **[Open GitHub Repository](https://github.com/xmohamedtariq/yemen-opportunities-portal)**
 
-ðŸ“˜ **[Read Project README](README.md)**
+📘 **[Read Project README](README.md)**
 
-ðŸ“„ **[Read Reflection](docs/reflection.md)**
+📄 **[Read Reflection](docs/reflection.md)**
 
-ðŸ”’ **[Read Security Review](docs/security/security-review.md)**
+🔒 **[Read Security Review](docs/security/security-review.md)**
 
-ðŸ§ª **[Open Testing Evidence](docs/testing/final-browser-verification.md)**
+🧪 **[Open Testing Evidence](docs/testing/final-browser-verification.md)**
 
 ---
 
@@ -22,7 +22,7 @@ This document is the reviewer-facing index for the graduation project.
 
 - **Project:** Yemen Opportunities Portal
 - **Course:** Agentic Programming with Google Antigravity
-- **Program:** LLM4Yemen â€” Cohort 1
+- **Program:** LLM4Yemen — Cohort 1
 - **Branch:** `main`
 - **Live Application:** [Yemen Opportunities Portal](https://xmohamedtariq.github.io/yemen-opportunities-portal/)
 - **GitHub Repository:** [xmohamedtariq/yemen-opportunities-portal](https://github.com/xmohamedtariq/yemen-opportunities-portal)
@@ -34,20 +34,20 @@ This document is the reviewer-facing index for the graduation project.
 
 | Requirement | Interactive Evidence |
 | --- | --- |
-| ðŸŒ Published application | [Open Live Application](https://xmohamedtariq.github.io/yemen-opportunities-portal/) |
-| ðŸ’» GitHub repository | [Open Repository](https://github.com/xmohamedtariq/yemen-opportunities-portal) |
-| ðŸ“‹ Project proposal | [Open Proposal](docs/proposal.md) |
-| ðŸ“ Project rules | [Open AGENTS.md](AGENTS.md) |
-| ðŸŒ Arabic RTL review skill | [Open Arabic RTL Skill](.agents/skills/arabic-rtl-review/SKILL.md) |
-| ðŸ¤– Agent A â€” listing/search/filter | [Open Agent A Evidence](docs/tasks/opportunities-listing.md) |
-| ðŸ¤– Agent B â€” details/favorites | [Open Agent B Evidence](docs/tasks/opportunity-details-and-favorites.md) |
-| ðŸ¤– Agent C â€” approved plan | [Open Agent C Plan](docs/tasks/about-and-documentation-plan.md) |
-| ðŸ¤– Agent C â€” execution | [Open Agent C Evidence](docs/tasks/about-and-documentation.md) |
-| ðŸŽ¨ Design unification | [Open Design Unification Evidence](docs/tasks/design-unification.md) |
-| ðŸ›¡ Safe project setup | [Open Safe Setup Evidence](docs/security/safe-setup-evidence.md) |
-| ðŸ”’ Security review | [Open Security Review](docs/security/security-review.md) |
-| ðŸ“ Reflection | [Open Reflection](docs/reflection.md) |
-| ðŸŽ¥ Demo video | Attached separately in the submission email |
+| 🌐 Published application | [Open Live Application](https://xmohamedtariq.github.io/yemen-opportunities-portal/) |
+| 💻 GitHub repository | [Open Repository](https://github.com/xmohamedtariq/yemen-opportunities-portal) |
+| 📋 Project proposal | [Open Proposal](docs/proposal.md) |
+| 📐 Project rules | [Open AGENTS.md](AGENTS.md) |
+| 🌍 Arabic RTL review skill | [Open Arabic RTL Skill](.agents/skills/arabic-rtl-review/SKILL.md) |
+| 🤖 Agent A — listing/search/filter | [Open Agent A Evidence](docs/tasks/opportunities-listing.md) |
+| 🤖 Agent B — details/favorites | [Open Agent B Evidence](docs/tasks/opportunity-details-and-favorites.md) |
+| 🤖 Agent C — approved plan | [Open Agent C Plan](docs/tasks/about-and-documentation-plan.md) |
+| 🤖 Agent C — execution | [Open Agent C Evidence](docs/tasks/about-and-documentation.md) |
+| 🎨 Design unification | [Open Design Unification Evidence](docs/tasks/design-unification.md) |
+| 🛡 Safe project setup | [Open Safe Setup Evidence](docs/security/safe-setup-evidence.md) |
+| 🔒 Security review | [Open Security Review](docs/security/security-review.md) |
+| 📝 Reflection | [Open Reflection](docs/reflection.md) |
+| 🎥 Demo video | Attached separately in the submission email |
 
 ---
 
@@ -118,10 +118,10 @@ Offline behavior was verified after the first successful online load.
 
 ### Physical Device Evidence
 
-- ðŸ“± [Physical iPhone Safari Offline Test](docs/testing/physical-iphone-safari-offline-test.md)
-- ðŸ“± [Physical Phone Verification](docs/testing/physical-phone-test.md)
-- ðŸŽ [Real Device iOS Safari Evidence](docs/testing/real-device-ios-safari.md)
-- ðŸ‘¤ [Real Device and User Verification](docs/testing/real-device-and-user-verification.md)
+- 📱 [Physical iPhone Safari Offline Test](docs/testing/physical-iphone-safari-offline-test.md)
+- 📱 [Physical Phone Verification](docs/testing/physical-phone-test.md)
+- 🍎 [Real Device iOS Safari Evidence](docs/testing/real-device-ios-safari.md)
+- 👤 [Real Device and User Verification](docs/testing/real-device-and-user-verification.md)
 
 ### First-Time User Test
 
@@ -133,7 +133,7 @@ A first-time user successfully completed the required workflow without assistanc
 4. Locate the deadline.
 5. Save the opportunity to Favorites.
 
-ðŸ‘¤ **[Open Novice User Usability Test](docs/testing/novice-user-test.md)**
+👤 **[Open Novice User Usability Test](docs/testing/novice-user-test.md)**
 
 **Result: PASS**
 
@@ -154,10 +154,10 @@ The review covered:
 
 ### Interactive Security Evidence
 
-- ðŸ“ [Project Rules â€” AGENTS.md](AGENTS.md)
-- ðŸ›¡ [Safe Setup Evidence](docs/security/safe-setup-evidence.md)
-- ðŸ”’ [Final Security Review](docs/security/security-review.md)
-- ðŸ“‹ [Security Review Plan](docs/tasks/security-review-plan.md)
+- 📐 [Project Rules — AGENTS.md](AGENTS.md)
+- 🛡 [Safe Setup Evidence](docs/security/safe-setup-evidence.md)
+- 🔒 [Final Security Review](docs/security/security-review.md)
+- 📋 [Security Review Plan](docs/tasks/security-review-plan.md)
 
 ---
 
@@ -174,10 +174,10 @@ The task is explicitly **read-only**.
 
 ### Interactive Evidence
 
-- ðŸ“‹ [Weekly Task Plan](docs/tasks/weekly-readonly-report-plan.md)
-- âš™ï¸ [Weekly Report Script](scripts/weekly-report.js)
-- ðŸ§ª [Weekly Report Tests](tests/weekly-report-check.js)
-- ðŸ“„ [Weekly Report Evidence](docs/testing/weekly-report-evidence.md)
+- 📋 [Weekly Task Plan](docs/tasks/weekly-readonly-report-plan.md)
+- ⚙️ [Weekly Report Script](scripts/weekly-report.js)
+- 🧪 [Weekly Report Tests](tests/weekly-report-check.js)
+- 📄 [Weekly Report Evidence](docs/testing/weekly-report-evidence.md)
 
 ### Configuration
 
@@ -190,19 +190,19 @@ The task is explicitly **read-only**.
 
 ## Additional Objectives Completed
 
-### ðŸ“Š Statistics Dashboard
+### 📊 Statistics Dashboard
 
 [Open Statistics Page](statistics.html)
 
 Includes opportunity insights by category.
 
-### âž• Suggest an Opportunity
+### ➕ Suggest an Opportunity
 
 [Open Suggestion Page](suggest.html)
 
 Submitted opportunities remain pending until manual verification.
 
-### ðŸŒ Full Bilingual Interface
+### 🌍 Full Bilingual Interface
 
 [Open Main Application](index.html)
 
@@ -212,13 +212,13 @@ Supports:
 - English LTR
 - Language switching across the application
 
-### ðŸ§ª Automated Testing
+### 🧪 Automated Testing
 
 [Open Tests Directory](tests/)
 
 Tests cover search, filtering, deadlines, details, favorites, offline behavior, statistics, suggestions, and weekly reporting.
 
-### ðŸ“¶ Offline Support
+### 📶 Offline Support
 
 [Open Service Worker](service-worker.js)
 
@@ -246,7 +246,7 @@ Evidence:
 
 The project followed this workflow:
 
-**Plan â†’ Human Review â†’ Approval â†’ Implementation â†’ Browser Test â†’ Evidence â†’ Commit**
+**Plan → Human Review → Approval → Implementation → Browser Test → Evidence → Commit**
 
 AI agents assisted with:
 
@@ -270,32 +270,32 @@ The project does not claim evidence that was not genuinely produced.
 
 ## Final Project Documentation
 
-ðŸ“š **[Open Complete Project Documentation](PROJECT_DOCUMENTATION.md)**
+📚 **[Open Complete Project Documentation](PROJECT_DOCUMENTATION.md)**
 
-ðŸš€ **[Open Deployment Documentation](docs/deployment.md)**
+🚀 **[Open Deployment Documentation](docs/deployment.md)**
 
-ðŸ“ **[Open Reflection](docs/reflection.md)**
+📝 **[Open Reflection](docs/reflection.md)**
 
-ðŸ“– **[Open README](README.md)**
+📖 **[Open README](README.md)**
 
 ---
 
 ## Final Submission Package
 
-1. ðŸŒ [Live Application](https://xmohamedtariq.github.io/yemen-opportunities-portal/)
-2. ðŸ’» [GitHub Repository](https://github.com/xmohamedtariq/yemen-opportunities-portal)
-3. ðŸ“‹ [Project Proposal](docs/proposal.md)
-4. ðŸ“ [Project Rules](AGENTS.md)
-5. ðŸŒ [Arabic RTL Review Skill](.agents/skills/arabic-rtl-review/SKILL.md)
-6. ðŸ¤– [Agent Plans and Evidence](docs/tasks/opportunities-listing.md)
-7. ðŸ“Š [Verified Production Dataset](data/opportunities.json)
-8. ðŸ”’ [Security Review](docs/security/security-review.md)
-9. ðŸ§ª [Final Browser Testing](docs/testing/final-browser-verification.md)
-10. ðŸ“± [Physical Device Testing](docs/testing/physical-iphone-safari-offline-test.md)
-11. ðŸ‘¤ [Novice User Test](docs/testing/novice-user-test.md)
-12. â° [Weekly Maintenance Task Evidence](docs/testing/weekly-report-evidence.md)
-13. ðŸ“ [Reflection](docs/reflection.md)
-14. ðŸŽ¥ Demo video attached separately in the submission email
+1. 🌐 [Live Application](https://xmohamedtariq.github.io/yemen-opportunities-portal/)
+2. 💻 [GitHub Repository](https://github.com/xmohamedtariq/yemen-opportunities-portal)
+3. 📋 [Project Proposal](docs/proposal.md)
+4. 📐 [Project Rules](AGENTS.md)
+5. 🌍 [Arabic RTL Review Skill](.agents/skills/arabic-rtl-review/SKILL.md)
+6. 🤖 [Agent Plans and Evidence](docs/tasks/opportunities-listing.md)
+7. 📊 [Verified Production Dataset](data/opportunities.json)
+8. 🔒 [Security Review](docs/security/security-review.md)
+9. 🧪 [Final Browser Testing](docs/testing/final-browser-verification.md)
+10. 📱 [Physical Device Testing](docs/testing/physical-iphone-safari-offline-test.md)
+11. 👤 [Novice User Test](docs/testing/novice-user-test.md)
+12. ⏰ [Weekly Maintenance Task Evidence](docs/testing/weekly-report-evidence.md)
+13. 📝 [Reflection](docs/reflection.md)
+14. 🎥 Demo video attached separately in the submission email
 
 ---
 
