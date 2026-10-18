@@ -1,4 +1,4 @@
-# Yemen Opportunities Portal â€” Final Submission Guide
+# Yemen Opportunities Portal â€” Submission Guide
 
 This document is the reviewer-facing index for the graduation project.
 
@@ -10,7 +10,7 @@ This document is the reviewer-facing index for the graduation project.
 
 ðŸ“˜ **[Read Project README](README.md)**
 
-ðŸ“„ **[Read Final Reflection](docs/reflection.md)**
+ðŸ“„ **[Read Reflection](docs/reflection.md)**
 
 ðŸ”’ **[Read Security Review](docs/security/security-review.md)**
 
@@ -26,7 +26,7 @@ This document is the reviewer-facing index for the graduation project.
 - **Branch:** `main`
 - **Live Application:** [Yemen Opportunities Portal](https://xmohamedtariq.github.io/yemen-opportunities-portal/)
 - **GitHub Repository:** [xmohamedtariq/yemen-opportunities-portal](https://github.com/xmohamedtariq/yemen-opportunities-portal)
-- **Demo Video:** Attached separately in the final submission email as `Yemen_Opportunities_Portal_Final_Demo_Mohammed_Tariq_Al-Saqaf.mp4`
+- **Demo Video:** Attached separately in the submission email.
 
 ---
 
@@ -46,8 +46,8 @@ This document is the reviewer-facing index for the graduation project.
 | ðŸŽ¨ Design unification | [Open Design Unification Evidence](docs/tasks/design-unification.md) |
 | ðŸ›¡ Safe project setup | [Open Safe Setup Evidence](docs/security/safe-setup-evidence.md) |
 | ðŸ”’ Security review | [Open Security Review](docs/security/security-review.md) |
-| ðŸ“ Final reflection | [Open Final Reflection](docs/reflection.md) |
-| ðŸŽ¥ Demo video | Attached separately in the final submission email |
+| ðŸ“ Reflection | [Open Reflection](docs/reflection.md) |
+| ðŸŽ¥ Demo video | Attached separately in the submission email |
 
 ---
 
@@ -85,7 +85,7 @@ Validated on **2026-10-18**:
 | Listing, search, and filters | [Open Listing Evidence](docs/testing/listing-browser-evidence.md) |
 | Opportunity details and favorites | [Open Details & Favorites Evidence](docs/testing/details-favorites-browser-evidence.md) |
 | About page | [Open About Page Evidence](docs/testing/about-page-browser-evidence.md) |
-| Final browser verification | [Open Final Browser Verification](docs/testing/final-browser-verification.md) |
+| Browser verification | [Open Browser Verification](docs/testing/final-browser-verification.md) |
 | Offline functionality | [Open Offline Evidence](docs/testing/offline-browser-evidence.md) |
 | Statistics dashboard | [Open Statistics Evidence](docs/testing/statistics-browser-evidence.md) |
 | Suggest an Opportunity | [Open Suggestion Evidence](docs/testing/suggest-browser-evidence.md) |
@@ -274,7 +274,7 @@ The project does not claim evidence that was not genuinely produced.
 
 ðŸš€ **[Open Deployment Documentation](docs/deployment.md)**
 
-ðŸ“ **[Open Final Reflection](docs/reflection.md)**
+ðŸ“ **[Open Reflection](docs/reflection.md)**
 
 ðŸ“– **[Open README](README.md)**
 
@@ -294,8 +294,8 @@ The project does not claim evidence that was not genuinely produced.
 10. ðŸ“± [Physical Device Testing](docs/testing/physical-iphone-safari-offline-test.md)
 11. ðŸ‘¤ [Novice User Test](docs/testing/novice-user-test.md)
 12. â° [Weekly Maintenance Task Evidence](docs/testing/weekly-report-evidence.md)
-13. ðŸ“ [Final Reflection](docs/reflection.md)
-14. ðŸŽ¥ Demo video attached separately in the final submission email
+13. ðŸ“ [Reflection](docs/reflection.md)
+14. ðŸŽ¥ Demo video attached separately in the submission email
 
 ---
 
@@ -306,4 +306,4 @@ The project does not claim evidence that was not genuinely produced.
 - User-submitted opportunities are not automatically published.
 - Automated testing does not replace human verification.
 - Browser Recording is not claimed because a native Antigravity browser recording was not available in the final environment.
-- The final demo video is supplied separately with the submission email.
+- The demo video is supplied separately with the submission email.
