@@ -1,11 +1,13 @@
 # Physical Phone Verification
 
-**Date:** 2026-10-18
+**Date:** 2026-10-18  
 **Live application:** https://xmohamedtariq.github.io/yemen-opportunities-portal/
 
 ## Test Environment
 
-- Device: iPhone 15 Pro
+- Device: Physical Apple iPhone
+- Device model: Not recorded
+- iOS version: Not recorded
 - Browser: Safari
 - Test type: Real physical-device verification
 - Hosting: GitHub Pages over HTTPS
@@ -20,7 +22,7 @@
 
 **Result: PASS**
 
-The offline verification was performed on a real iPhone 15 Pro using Safari, not through desktop device emulation.
+The offline verification was performed on a real physical iPhone using Safari, not through desktop device emulation.
 
 ## Scope
 
@@ -30,4 +32,8 @@ It does not by itself claim that every application feature was exhaustively rete
 
 ## Integrity Note
 
-This result is based on a real test performed by the project owner. No physical-device test is simulated or fabricated.
+This result is based on a real test performed by the project owner.
+
+No specific iPhone model or iOS version is claimed because those details were not recorded during the test.
+
+No physical-device test is simulated or fabricated.
