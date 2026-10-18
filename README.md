@@ -34,6 +34,11 @@ Opportunity records are manually reviewed from official sources. The portal does
 - Dedicated opportunity detail pages
 - Deadline status and days remaining
 - Favorites stored locally in the browser
+- Offline support using a Service Worker after the first successful online load
+- Statistics dashboard for opportunity insights
+- Suggest an Opportunity workflow with pending manual review
+- Automated testing and documented security review
+- Deployed publicly using GitHub Pages
 - Secure links to official sources
 - Responsive design tested at 360px
 - Keyboard-friendly navigation
