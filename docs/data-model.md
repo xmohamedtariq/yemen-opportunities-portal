@@ -7,7 +7,7 @@ The **Yemen Opportunities Portal** is a bilingual, offline-first platform design
 ### Key Architectural Principles
 - **Local JSON Storage**: All opportunity data resides in `data/opportunities.json`. No external database or backend server is required.
 - **Zero External Dependencies**: The dataset validation tool (`scripts/validate-data.js`) runs strictly with vanilla Node.js built-in modules (`node:fs`, `node:path`, `node:process`).
-- **No Data Scraping or AI Generation**: As defined in [AGENTS.md](file:///c:/Users/USER/Desktop/Yemen%20Opportunities%20Portal/AGENTS.md), every opportunity record must be manually verified from official sources. Information must never be invented or guessed.
+- **No Data Scraping or AI Generation**: As defined in [AGENTS.md](../AGENTS.md), every opportunity record must be manually verified from official sources. Information must never be invented or guessed.
 - **Offline & Mobile Readiness**: The single-file JSON catalog is cached via a Service Worker on initial load, enabling full search, filtering, and favorites functionality offline on screens as narrow as 360px without horizontal scroll.
 
 ---
@@ -61,56 +61,56 @@ The root of `data/opportunities.json` is a JSON object containing dataset metada
 ## 4. Controlled Vocabulary Dictionary
 
 ### 4.1. Opportunity Type (`type`)
-- `scholarship` — منحة دراسية / Scholarship
-- `internship` — تدريب عملي / Internship
-- `course` — دورة تعليمية / Course
-- `fellowship` — زمالة / Fellowship
-- `training` — برنامج تدريبي / Training Program
-- `competition` — مسابقة / Competition
-- `grant` — منحة مالية / Grant
-- `exchange` — برنامج تبادل ثقافي أو أكاديمي / Exchange Program
+- `scholarship` â€” Ù…Ù†Ø­Ø© Ø¯Ø±Ø§Ø³ÙŠØ© / Scholarship
+- `internship` â€” ØªØ¯Ø±ÙŠØ¨ Ø¹Ù…Ù„ÙŠ / Internship
+- `course` â€” Ø¯ÙˆØ±Ø© ØªØ¹Ù„ÙŠÙ…ÙŠØ© / Course
+- `fellowship` â€” Ø²Ù…Ø§Ù„Ø© / Fellowship
+- `training` â€” Ø¨Ø±Ù†Ø§Ù…Ø¬ ØªØ¯Ø±ÙŠØ¨ÙŠ / Training Program
+- `competition` â€” Ù…Ø³Ø§Ø¨Ù‚Ø© / Competition
+- `grant` â€” Ù…Ù†Ø­Ø© Ù…Ø§Ù„ÙŠØ© / Grant
+- `exchange` â€” Ø¨Ø±Ù†Ø§Ù…Ø¬ ØªØ¨Ø§Ø¯Ù„ Ø«Ù‚Ø§ÙÙŠ Ø£Ùˆ Ø£ÙƒØ§Ø¯ÙŠÙ…ÙŠ / Exchange Program
 
 ### 4.2. Fields / Categories (`categories`)
-- `technology` — تكنولوجيا المعلومات والبرمجة / Technology & IT
-- `engineering` — الهندسة والعلوم التطبيقية / Engineering
-- `health` — الطب والعلوم الصحية / Medicine & Health
-- `business` — إدارة الأعمال والريادة / Business & Management
-- `humanities` — العلوم الإنسانية والاجتماعية / Humanities & Social Sciences
-- `education` — التعليم والتدريس / Education & Teaching
-- `arts` — الفنون والإعلام والتصميم / Arts & Design
-- `general` — تخصصات عامة ومتعددة / General & Multidisciplinary
+- `technology` â€” ØªÙƒÙ†ÙˆÙ„ÙˆØ¬ÙŠØ§ Ø§Ù„Ù…Ø¹Ù„ÙˆÙ…Ø§Øª ÙˆØ§Ù„Ø¨Ø±Ù…Ø¬Ø© / Technology & IT
+- `engineering` â€” Ø§Ù„Ù‡Ù†Ø¯Ø³Ø© ÙˆØ§Ù„Ø¹Ù„ÙˆÙ… Ø§Ù„ØªØ·Ø¨ÙŠÙ‚ÙŠØ© / Engineering
+- `health` â€” Ø§Ù„Ø·Ø¨ ÙˆØ§Ù„Ø¹Ù„ÙˆÙ… Ø§Ù„ØµØ­ÙŠØ© / Medicine & Health
+- `business` â€” Ø¥Ø¯Ø§Ø±Ø© Ø§Ù„Ø£Ø¹Ù…Ø§Ù„ ÙˆØ§Ù„Ø±ÙŠØ§Ø¯Ø© / Business & Management
+- `humanities` â€” Ø§Ù„Ø¹Ù„ÙˆÙ… Ø§Ù„Ø¥Ù†Ø³Ø§Ù†ÙŠØ© ÙˆØ§Ù„Ø§Ø¬ØªÙ…Ø§Ø¹ÙŠØ© / Humanities & Social Sciences
+- `education` â€” Ø§Ù„ØªØ¹Ù„ÙŠÙ… ÙˆØ§Ù„ØªØ¯Ø±ÙŠØ³ / Education & Teaching
+- `arts` â€” Ø§Ù„ÙÙ†ÙˆÙ† ÙˆØ§Ù„Ø¥Ø¹Ù„Ø§Ù… ÙˆØ§Ù„ØªØµÙ…ÙŠÙ… / Arts & Design
+- `general` â€” ØªØ®ØµØµØ§Øª Ø¹Ø§Ù…Ø© ÙˆÙ…ØªØ¹Ø¯Ø¯Ø© / General & Multidisciplinary
 
 ### 4.3. Education & Career Levels (`educationLevels`)
-- `school` — طلاب المدارس / High School
-- `bachelor` — بكالوريوس / Undergraduate
-- `master` — ماجستير / Master's
-- `phd` — دكتوراه / PhD
-- `fresh-graduate` — حديثو التخرج / Fresh Graduates
-- `professional` — ممارسون ومهنيون / Professionals
-- `open-to-all` — متاح للجميع / Open to All
+- `school` â€” Ø·Ù„Ø§Ø¨ Ø§Ù„Ù…Ø¯Ø§Ø±Ø³ / High School
+- `bachelor` â€” Ø¨ÙƒØ§Ù„ÙˆØ±ÙŠÙˆØ³ / Undergraduate
+- `master` â€” Ù…Ø§Ø¬Ø³ØªÙŠØ± / Master's
+- `phd` â€” Ø¯ÙƒØªÙˆØ±Ø§Ù‡ / PhD
+- `fresh-graduate` â€” Ø­Ø¯ÙŠØ«Ùˆ Ø§Ù„ØªØ®Ø±Ø¬ / Fresh Graduates
+- `professional` â€” Ù…Ù…Ø§Ø±Ø³ÙˆÙ† ÙˆÙ…Ù‡Ù†ÙŠÙˆÙ† / Professionals
+- `open-to-all` â€” Ù…ØªØ§Ø­ Ù„Ù„Ø¬Ù…ÙŠØ¹ / Open to All
 
 ### 4.4. Funding Types (`fundingType`)
-- `fully-funded` — ممولة بالكامل / Fully Funded
-- `partially-funded` — ممولة جزئياً / Partially Funded
-- `free` — مجانية بالكامل / Free (no fees)
-- `paid-stipend` — مدفوعة الأجر / Paid (stipend provided)
-- `self-funded` — رسوم ذاتية أو مخفضة / Self-funded
+- `fully-funded` â€” Ù…Ù…ÙˆÙ„Ø© Ø¨Ø§Ù„ÙƒØ§Ù…Ù„ / Fully Funded
+- `partially-funded` â€” Ù…Ù…ÙˆÙ„Ø© Ø¬Ø²Ø¦ÙŠØ§Ù‹ / Partially Funded
+- `free` â€” Ù…Ø¬Ø§Ù†ÙŠØ© Ø¨Ø§Ù„ÙƒØ§Ù…Ù„ / Free (no fees)
+- `paid-stipend` â€” Ù…Ø¯ÙÙˆØ¹Ø© Ø§Ù„Ø£Ø¬Ø± / Paid (stipend provided)
+- `self-funded` â€” Ø±Ø³ÙˆÙ… Ø°Ø§ØªÙŠØ© Ø£Ùˆ Ù…Ø®ÙØ¶Ø© / Self-funded
 
 ### 4.5. Delivery Modes (`deliveryMode`)
-- `online` — عبر الإنترنت / Online
-- `in-person` — حضورياً / In-Person
-- `hybrid` — مدمج / Hybrid
+- `online` â€” Ø¹Ø¨Ø± Ø§Ù„Ø¥Ù†ØªØ±Ù†Øª / Online
+- `in-person` â€” Ø­Ø¶ÙˆØ±ÙŠØ§Ù‹ / In-Person
+- `hybrid` â€” Ù…Ø¯Ù…Ø¬ / Hybrid
 
 ### 4.6. Application Status (`applicationStatus`)
-- `open` — متاح للتقديم / Open
-- `upcoming` — يفتح قريباً / Upcoming
-- `closed` — مغلق / Closed
-- `suspended` — معلق مؤقتاً / Suspended
+- `open` â€” Ù…ØªØ§Ø­ Ù„Ù„ØªÙ‚Ø¯ÙŠÙ… / Open
+- `upcoming` â€” ÙŠÙØªØ­ Ù‚Ø±ÙŠØ¨Ø§Ù‹ / Upcoming
+- `closed` â€” Ù…ØºÙ„Ù‚ / Closed
+- `suspended` â€” Ù…Ø¹Ù„Ù‚ Ù…Ø¤Ù‚ØªØ§Ù‹ / Suspended
 
 ### 4.7. Deadline Types (`deadline.type`)
-- `fixed` — موعد محدد بتقويم زمني / Fixed Calendar Date
-- `rolling` — تقديم مستمر على مدار العام / Rolling Deadline
-- `unspecified` — غير محدد في المصدر الرسمي / Unspecified in Official Source
+- `fixed` â€” Ù…ÙˆØ¹Ø¯ Ù…Ø­Ø¯Ø¯ Ø¨ØªÙ‚ÙˆÙŠÙ… Ø²Ù…Ù†ÙŠ / Fixed Calendar Date
+- `rolling` â€” ØªÙ‚Ø¯ÙŠÙ… Ù…Ø³ØªÙ…Ø± Ø¹Ù„Ù‰ Ù…Ø¯Ø§Ø± Ø§Ù„Ø¹Ø§Ù… / Rolling Deadline
+- `unspecified` â€” ØºÙŠØ± Ù…Ø­Ø¯Ø¯ ÙÙŠ Ø§Ù„Ù…ØµØ¯Ø± Ø§Ù„Ø±Ø³Ù…ÙŠ / Unspecified in Official Source
 
 ---
 
@@ -122,7 +122,7 @@ The root of `data/opportunities.json` is a JSON object containing dataset metada
    "country": {
      "code": "YE",
      "name": {
-       "ar": "اليمن",
+       "ar": "Ø§Ù„ÙŠÙ…Ù†",
        "en": "Yemen"
      }
    }
@@ -138,7 +138,7 @@ The root of `data/opportunities.json` is a JSON object containing dataset metada
    Online participation is captured via `deliveryMode: "online"`, completely independent of geographic nationality.
 4. **UI Behavior**:
    - `country !== null`: Renders the localized country name and ISO badge.
-   - `country === null`: Renders "فرصة دولية / عامة" (Arabic) / "International / Global" (English).
+   - `country === null`: Renders "ÙØ±ØµØ© Ø¯ÙˆÙ„ÙŠØ© / Ø¹Ø§Ù…Ø©" (Arabic) / "International / Global" (English).
 
 ---
 
@@ -149,9 +149,9 @@ The root of `data/opportunities.json` is a JSON object containing dataset metada
   - `date`: Valid calendar date string `YYYY-MM-DD`.
   - Computes exact days remaining: $\text{daysRemaining} = \lceil (\text{date} - \text{today}) / (24 \times 3600 \times 1000) \rceil$.
 - **Rolling Deadline (`type: "rolling"`)**:
-  - `date`: Strictly `null`. Displays "تقديم مستمر" (Arabic) / "Rolling Deadline" (English).
+  - `date`: Strictly `null`. Displays "ØªÙ‚Ø¯ÙŠÙ… Ù…Ø³ØªÙ…Ø±" (Arabic) / "Rolling Deadline" (English).
 - **Unspecified Deadline (`type: "unspecified"`)**:
-  - `date`: Strictly `null`. Displays "غير محدد في المصدر الرسمي" (Arabic) / "Not specified in official source" (English).
+  - `date`: Strictly `null`. Displays "ØºÙŠØ± Ù…Ø­Ø¯Ø¯ ÙÙŠ Ø§Ù„Ù…ØµØ¯Ø± Ø§Ù„Ø±Ø³Ù…ÙŠ" (Arabic) / "Not specified in official source" (English).
 
 ### 6.2. Standard 14-Day "Closing Soon" Rule
 - **Threshold**: Exactly **14 days**.
@@ -179,18 +179,18 @@ Official sources often omit an explicit "open" status while providing a deadline
 
 | Recorded `applicationStatus` | `deadline.type` | Condition | Effective Status (`effectiveStatus`) | Localized UI Display (AR / EN) |
 | :--- | :--- | :--- | :--- | :--- |
-| Any | `fixed` | $\text{deadline.date} < \text{today}$ | `expired` | منتهية / Expired |
-| `"closed"` | Any | Any | `closed` | مغلق رسمياً / Closed |
-| `"suspended"` | Any | Any | `suspended` | معلق مؤقتاً / Suspended |
-| `"upcoming"` | Any | Any | `upcoming` | يفتح قريباً / Upcoming |
-| `"open"` | `fixed` | $0 \le \text{daysRemaining} \le 14$ | `closing-soon` | ينتهي قريباً / Closing Soon |
-| `"open"` | `fixed` | $\text{daysRemaining} > 14$ | `open` | متاح للتقديم / Open |
-| `"open"` | `rolling` | `date === null` | `open` | تقديم مستمر / Rolling (Open) |
-| `"open"` | `unspecified` | `date === null` | `open` | متاح للتقديم / Open |
-| `null` | `fixed` | $0 \le \text{daysRemaining} \le 14$ | `closing-soon` | ينتهي قريباً / Closing Soon |
-| `null` | `fixed` | $\text{daysRemaining} > 14$ | `active` | متاح حتى الموعد / Active until deadline |
-| `null` | `rolling` | `date === null` | `rolling` | تقديم مستمر / Rolling Application |
-| `null` | `unspecified` | `date === null` | `check-source` | مراجعة المصدر الرسمي / Check Official Source |
+| Any | `fixed` | $\text{deadline.date} < \text{today}$ | `expired` | Ù…Ù†ØªÙ‡ÙŠØ© / Expired |
+| `"closed"` | Any | Any | `closed` | Ù…ØºÙ„Ù‚ Ø±Ø³Ù…ÙŠØ§Ù‹ / Closed |
+| `"suspended"` | Any | Any | `suspended` | Ù…Ø¹Ù„Ù‚ Ù…Ø¤Ù‚ØªØ§Ù‹ / Suspended |
+| `"upcoming"` | Any | Any | `upcoming` | ÙŠÙØªØ­ Ù‚Ø±ÙŠØ¨Ø§Ù‹ / Upcoming |
+| `"open"` | `fixed` | $0 \le \text{daysRemaining} \le 14$ | `closing-soon` | ÙŠÙ†ØªÙ‡ÙŠ Ù‚Ø±ÙŠØ¨Ø§Ù‹ / Closing Soon |
+| `"open"` | `fixed` | $\text{daysRemaining} > 14$ | `open` | Ù…ØªØ§Ø­ Ù„Ù„ØªÙ‚Ø¯ÙŠÙ… / Open |
+| `"open"` | `rolling` | `date === null` | `open` | ØªÙ‚Ø¯ÙŠÙ… Ù…Ø³ØªÙ…Ø± / Rolling (Open) |
+| `"open"` | `unspecified` | `date === null` | `open` | Ù…ØªØ§Ø­ Ù„Ù„ØªÙ‚Ø¯ÙŠÙ… / Open |
+| `null` | `fixed` | $0 \le \text{daysRemaining} \le 14$ | `closing-soon` | ÙŠÙ†ØªÙ‡ÙŠ Ù‚Ø±ÙŠØ¨Ø§Ù‹ / Closing Soon |
+| `null` | `fixed` | $\text{daysRemaining} > 14$ | `active` | Ù…ØªØ§Ø­ Ø­ØªÙ‰ Ø§Ù„Ù…ÙˆØ¹Ø¯ / Active until deadline |
+| `null` | `rolling` | `date === null` | `rolling` | ØªÙ‚Ø¯ÙŠÙ… Ù…Ø³ØªÙ…Ø± / Rolling Application |
+| `null` | `unspecified` | `date === null` | `check-source` | Ù…Ø±Ø§Ø¬Ø¹Ø© Ø§Ù„Ù…ØµØ¯Ø± Ø§Ù„Ø±Ø³Ù…ÙŠ / Check Official Source |
 
 ---
 

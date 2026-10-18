@@ -1,7 +1,7 @@
 # Physical iPhone Safari Offline Test
 
-**Date:** 2026-10-18  
-**Application:** Yemen Opportunities Portal  
+**Date:** 2026-10-18
+**Application:** Yemen Opportunities Portal
 **Live URL:** https://xmohamedtariq.github.io/yemen-opportunities-portal/
 
 ## Test Environment
@@ -27,5 +27,6 @@ This result is based on a real physical-device test performed by the project own
 No specific iPhone model, iOS version, network type, or additional mobile test scenario is claimed because those details were not recorded during this test.
 
 Automated 360px browser testing is documented separately in [Final Browser Verification](./final-browser-verification.md).
+
 
 **Physical iPhone + Safari offline verification: PASS**

@@ -64,4 +64,4 @@ The final submission records the exact commit and Git tag used for publication s
 
 The Service Worker uses same-origin relative application resources so the portal can operate under the GitHub Pages repository path after the first successful online visit.
 
-Offline behavior must be tested again against the final deployed URL before submission.
+Offline behavior was verified successfully against the final deployed GitHub Pages URL on a real physical Apple iPhone using Safari after the first successful online load.

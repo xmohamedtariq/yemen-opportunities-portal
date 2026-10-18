@@ -1,4 +1,4 @@
-# Yemen Opportunities Portal — Project Documentation
+# Yemen Opportunities Portal â€” Project Documentation
 
 > Comprehensive technical and product documentation for the Yemen Opportunities Portal.
 
@@ -69,31 +69,31 @@ The project aims to:
 
 ## 5. User Stories
 
-### US-01 — Search
+### US-01 â€” Search
 
 As a user, I can search opportunities using Arabic or English keywords so that I can quickly find relevant opportunities.
 
-### US-02 — Filters
+### US-02 â€” Filters
 
 As a user, I can filter opportunities by relevant criteria such as type, country, field/category, and education level.
 
-### US-03 — Deadline Awareness
+### US-03 â€” Deadline Awareness
 
 As a user, I can understand whether an opportunity has a fixed deadline, an approaching deadline, a rolling deadline, or no clearly stated deadline.
 
-### US-04 — Opportunity Details
+### US-04 â€” Opportunity Details
 
 As a user, I can open a detailed opportunity view containing title, organization, deadline, official source, verification information, eligibility notes, description, and related metadata.
 
-### US-05 — Favorites
+### US-05 â€” Favorites
 
 As a user, I can save opportunities to favorites and keep those selections across page reloads using local browser storage.
 
-### US-06 — Mobile Experience
+### US-06 â€” Mobile Experience
 
 As a user, I can use the portal comfortably on a 360px-wide mobile viewport without unintended horizontal scrolling.
 
-### US-07 — Offline After First Load
+### US-07 â€” Offline After First Load
 
 As a user, I can continue accessing the cached core portal experience after the application has successfully loaded online at least once.
 
@@ -730,7 +730,7 @@ This provides a traceable development history rather than one final bulk upload.
 
 ## 26. Deployment
 
-### Production Deployment — GitHub Pages
+### Production Deployment â€” GitHub Pages
 
 GitHub Pages is the official and canonical deployment platform for the Yemen Opportunities Portal.
 
@@ -865,8 +865,9 @@ The current version has intentional limitations:
 - The portal does not guarantee eligibility.
 - The portal does not submit applications.
 - A native final Browser Recording was not available.
-- Live-hosting behavior must be verified after deployment.
-- Physical-device testing and novice-user feedback are separate human validation steps.
+- The deployed GitHub Pages version was verified successfully after publication.
+- Physical-device testing was completed on a real Apple iPhone using Safari, including offline verification after the first successful online load.
+- Structured novice-user usability testing is documented separately when performed.
 
 These limitations are documented rather than hidden.
 
@@ -918,44 +919,44 @@ The project is designed as a complete portfolio-quality static application rathe
 
 ```text
 yemen-opportunities-portal/
-│
-├── .agents/
-│   └── skills/
-│       └── arabic-rtl-review/
-│
-├── .github/
-│   └── workflows/
-│       └── pages.yml
-│
-├── assets/
-├── css/
-├── data/
-│   ├── opportunities.json
-│   └── schema.json
-│
-├── docs/
-│   ├── evidence/
-│   ├── security/
-│   ├── tasks/
-│   ├── testing/
-│   ├── deployment.md
-│   └── data-final-human-audit.md
-│
-├── js/
-├── scripts/
-├── tests/
-│
-├── about.html
-├── detail.html
-├── index.html
-├── statistics.html
-├── suggest.html
-├── service-worker.js
-│
-├── AGENTS.md
-├── README.md
-├── SUBMISSION.md
-└── PROJECT_DOCUMENTATION.md
+â”‚
+â”œâ”€â”€ .agents/
+â”‚   â””â”€â”€ skills/
+â”‚       â””â”€â”€ arabic-rtl-review/
+â”‚
+â”œâ”€â”€ .github/
+â”‚   â””â”€â”€ workflows/
+â”‚       â””â”€â”€ pages.yml
+â”‚
+â”œâ”€â”€ assets/
+â”œâ”€â”€ css/
+â”œâ”€â”€ data/
+â”‚   â”œâ”€â”€ opportunities.json
+â”‚   â””â”€â”€ schema.json
+â”‚
+â”œâ”€â”€ docs/
+â”‚   â”œâ”€â”€ evidence/
+â”‚   â”œâ”€â”€ security/
+â”‚   â”œâ”€â”€ tasks/
+â”‚   â”œâ”€â”€ testing/
+â”‚   â”œâ”€â”€ deployment.md
+â”‚   â””â”€â”€ data-final-human-audit.md
+â”‚
+â”œâ”€â”€ js/
+â”œâ”€â”€ scripts/
+â”œâ”€â”€ tests/
+â”‚
+â”œâ”€â”€ about.html
+â”œâ”€â”€ detail.html
+â”œâ”€â”€ index.html
+â”œâ”€â”€ statistics.html
+â”œâ”€â”€ suggest.html
+â”œâ”€â”€ service-worker.js
+â”‚
+â”œâ”€â”€ AGENTS.md
+â”œâ”€â”€ README.md
+â”œâ”€â”€ SUBMISSION.md
+â””â”€â”€ PROJECT_DOCUMENTATION.md
 ```
 
 ---
